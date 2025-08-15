@@ -1,0 +1,11 @@
+20|orthodo |     at async Promise.all (index 1)
+20|orthodo |     at async ComponentsController.getAllComponents (/var/www/orthodox-church-mgmt/orthodoxmetrics/prod/server/controllers/admin/componentsController.js:190:40)
+20|orthodo |     at async /var/www/orthodox-church-mgmt/orthodoxmetrics/prod/server/routes/admin/components.js:62:9
+20|orthodo | Error fetching components: SyntaxError: Unexpected non-whitespace character after JSON at position 10574 (line
+426 column 1)
+20|orthodo |     at JSON.parse (<anonymous>)
+20|orthodo |     at ComponentUsageTracker.loadUsageData (/var/www/orthodox-church-mgmt/orthodoxmetrics/prod/server/utils/componentUsageTracker.js:225:30)
+20|orthodo |     at async ComponentUsageTracker.getUsageStatistics (/var/www/orthodox-church-mgmt/orthodoxmetrics/prod/server/utils/componentUsageTracker.js:128:19)
+20|orthodo |     at async Promise.all (index 1)
+20|orthodo |     at async ComponentsController.getAllComponents (/var/www/orthodox-church-mgmt/orthodoxmetrics/prod/server/controllers/admin/componentsController.js:190:40)
+20|orthodo |     at async /var/www/orthodox-church-mgmt/orthodoxmetrics/prod/server/routes/admin/components.js:62:9
