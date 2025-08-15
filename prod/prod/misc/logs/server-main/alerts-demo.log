@@ -1,3 +1,0 @@
-{"level":"info","message":"🧪 Sending test alert (Mock Mode)...","timestamp":"2025-07-14T07:11:54.253Z"}
-{"level":"warn","message":"🚨 Alert Generated (Mock Mode) This is a test alert to verify the notification system is working","severity":"medium","timestamp":"2025-07-14T07:11:54.253Z","title":"Monitoring System Test Alert","type":"test_alert"}
-{"level":"info","message":"✅ Test alert sent successfully (Mock Mode)","timestamp":"2025-07-14T07:11:54.253Z"}
