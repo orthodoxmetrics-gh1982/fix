@@ -1,0 +1,11 @@
+2025-07-25T15:27:30: 🚀 Starting OMAI Background Service...
+2025-07-25T15:27:30: [OMAI Background] Initializing orchestrator...
+2025-07-25T15:27:30: [OMAI Background] Registered agent: omai-doc-bot
+2025-07-25T15:27:30: [OMAI Background] Registered agent: omai-api-guardian
+2025-07-25T15:27:30: [OMAI Background] Registered agent: schema-sentinel
+2025-07-25T15:27:30: [OMAI Background] Registered agent: omai-mediator
+2025-07-25T15:27:30: [OMAI Background] Registered agent: omai-refactor
+2025-07-25T15:27:31: ✅ OMAI Background Service started successfully
+2025-07-25T15:27:31: 📊 Service will run scheduled tasks every 30 minutes
+2025-07-25T15:53:10: 
+2025-07-25T15:53:10: 🛑 Shutting down OMAI Background Service...
