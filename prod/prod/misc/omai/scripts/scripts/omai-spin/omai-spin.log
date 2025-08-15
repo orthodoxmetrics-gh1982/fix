@@ -1,0 +1,30 @@
+[2025-07-30 16:41:13] [INFO] Cleaning up temporary files...
+[2025-07-30 16:41:13] [INFO] Cleanup completed
+[2025-07-30 16:42:41] [INFO] Cleaning up temporary files...
+[2025-07-30 16:42:41] [INFO] Cleanup completed
+[2025-07-30 16:43:04] [ERROR] Unknown option: --dev-path=/tmp/test-dev-env
+[2025-07-30 16:43:04] [INFO] Cleaning up temporary files...
+[2025-07-30 16:43:04] [INFO] Cleanup completed
+[2025-07-30 16:43:18] [ERROR] Unknown option: --dev-path=/tmp/test-dev-env
+[2025-07-30 16:43:18] [INFO] Cleaning up temporary files...
+[2025-07-30 16:43:18] [INFO] Cleanup completed
+[2025-07-30 16:44:18] [INFO] OMAI-Spin operation started
+[2025-07-30 16:44:18] [INFO] Script: /var/www/orthodox-church-mgmt/orthodoxmetrics/prod/scripts/omai-spin/omai-spin.sh
+[2025-07-30 16:44:18] [INFO] Version: 1.0.0
+[2025-07-30 16:44:18] [INFO] User: root
+[2025-07-30 16:44:18] [INFO] Triggered by: root
+[2025-07-30 16:44:18] [INFO] Arguments: --dry-run --skip-files --skip-database
+[2025-07-30 16:44:18] [INFO] Validating configuration...
+[2025-07-30 16:44:19] [WARN] Insufficient disk space (available: 0KB, required: 3046528KB)
+[2025-07-30 16:47:41] [INFO] Cleaning up temporary files...
+[2025-07-30 16:47:41] [INFO] Cleanup completed
+[2025-07-30 23:12:29] [INFO] OMAI-Spin operation started
+[2025-07-30 23:12:29] [INFO] Script: /var/www/orthodox-church-mgmt/orthodoxmetrics/prod/scripts/omai-spin/omai-spin.sh
+[2025-07-30 23:12:29] [INFO] Version: 1.0.0
+[2025-07-30 23:12:29] [INFO] User: root
+[2025-07-30 23:12:29] [INFO] Triggered by: web-admin
+[2025-07-30 23:12:29] [INFO] Arguments: --dry-run --skip-database --verbose --prod-path=/var/www/orthodox-church-mgmt/orthodoxmetrics/prod --dev-path=/var/www/orthodmetrics/dev --triggered-by=web-admin
+[2025-07-30 23:12:29] [INFO] Validating configuration...
+[2025-07-30 23:12:30] [WARN] Insufficient disk space (available: 0KB, required: 3047096KB)
+[2025-07-30 23:21:11] [INFO] Cleaning up temporary files...
+[2025-07-30 23:21:11] [INFO] Cleanup completed

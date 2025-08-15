@@ -1,0 +1,7 @@
+{"level":"info","message":"🤖 Mock AI Monitor initialized successfully (Standalone Mode)","timestamp":"2025-07-14T07:11:54.246Z"}
+{"level":"info","message":"🔬 Running intelligent anomaly analysis (Mock Mode)...","timestamp":"2025-07-14T07:11:54.249Z"}
+{"anomaliesDetected":1,"level":"info","message":"✅ Analysis completed (Mock Mode)","metricsCollected":2,"recommendationsGenerated":3,"timestamp":"2025-07-14T07:11:54.250Z"}
+{"level":"info","message":"🔍 Starting AI monitoring (Mock Mode) with 1 minute intervals","timestamp":"2025-07-14T07:11:54.251Z"}
+{"level":"info","message":"🔬 Running intelligent anomaly analysis (Mock Mode)...","timestamp":"2025-07-14T07:11:54.252Z"}
+{"anomaliesDetected":1,"level":"info","message":"✅ Analysis completed (Mock Mode)","metricsCollected":2,"recommendationsGenerated":3,"timestamp":"2025-07-14T07:11:54.252Z"}
+{"level":"info","message":"🛑 AI monitoring stopped (Mock Mode)","timestamp":"2025-07-14T07:11:54.254Z"}
