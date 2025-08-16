@@ -66,3 +66,6 @@ yarn-error.log
 
 # Custom dirs seen in list
 prod/misc/omai/logs/
+
+# removed to keep repo light
+prod/misc/
