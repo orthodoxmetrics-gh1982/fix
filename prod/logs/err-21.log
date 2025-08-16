@@ -25,7 +25,7 @@
 2025-08-06T13:41:06: ❌ Error updating user: Error: Data truncated for column 'role' at row 1
 2025-08-06T13:41:06:     at PromisePool.execute (/var/www/orthodoxmetrics/prod/server/node_modules/mysql2/lib/promise/pool.js:54:22)
 2025-08-06T13:41:06:     at promisePool.execute (/var/www/orthodoxmetrics/prod/server/config/db.js:55:10)
-2025-08-06T13:41:06:     at Object.queryPlatform (/var/www/orthodoxmetrics/prod/server/services/databaseService.js:151:24)
+2025-08-06T13:41:06:     at Object.queryPlatform (/var/www/orthodoxmetrics/prod/server/src/services/databaseService.js:151:24)
 2025-08-06T13:41:06:     at /var/www/orthodoxmetrics/prod/server/routes/admin/users.js:613:48
 2025-08-06T13:41:06:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
 2025-08-06T13:41:06:   code: 'WARN_DATA_TRUNCATED',
