@@ -1,4 +1,4 @@
-// server/middleware/churchSecurity.js
+// server/src/middleware/churchSecurity.js
 // Church Security Middleware - Enforces church_id verification for multi-tenant isolation
 
 const { promisePool } = require('../../config/db');

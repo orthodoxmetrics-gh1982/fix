@@ -180,7 +180,7 @@ const allowedRoles = ['super_admin', 'admin', 'priest', 'deacon'];
 ## Maintenance & Special Access
 
 ### Maintenance Mode Exempt Roles
-**Source:** `server/middleware/maintenanceMiddleware.js`
+**Source:** `server/src/middleware/maintenanceMiddleware.js`
 ```javascript
 exemptRoles: ['super_admin', 'dev_admin']
 ```
@@ -223,7 +223,7 @@ const legacyRoleMap: Record<string, UserRole> = {
 - **Primary Types:** `front-end/src/types/orthodox-metrics.types.ts`
 - **Role Utilities:** `front-end/src/utils/roles.ts`
 - **Auth Types:** `front-end/src/types/auth/auth.ts`
-- **Backend Middleware:** `server/middleware/auth.js`
+- **Backend Middleware:** `server/src/middleware/auth.js`
 - **Database Schemas:** `server/database/*.sql`
 
 ---

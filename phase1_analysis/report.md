@@ -7750,10 +7750,10 @@
 - server/database/update_church_database_name.sql
 - server/database/update_email_settings_to_godaddy.sql
 - server/manage-users.sh
-- server/middleware/churchSecurity.js
-- server/middleware/databaseRouter.js
-- server/middleware/maintenanceMiddleware.js
-- server/middleware/requestLogger.js
+- server/src/middleware/churchSecurity.js
+- server/src/middleware/databaseRouter.js
+- server/src/middleware/maintenanceMiddleware.js
+- server/src/middleware/requestLogger.js
 - server/package-lock.json
 - server/routes/admin/activity-logs.js
 - server/routes/admin/backups.js
@@ -8190,7 +8190,7 @@
 - server/logs/error.log
 - server/logs/ocr.log
 - server/logs/upload.log
-- server/middleware/old_auth.js
+- server/src/middleware/old_auth.js
 - server/migrations/add-church-info-fields.sql
 - server/migrations/church-setup-wizard-schema.sql
 - server/migrations/create-ai-training-tables.sql

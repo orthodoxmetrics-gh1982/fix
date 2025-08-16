@@ -314,11 +314,11 @@ export const getRoleInfo = (role: UserRole) => {
 4. `server/routes/menuPermissions.js`
 5. `server/routes/importRecords.js`
 6. `server/routes/records.js`
-7. `server/middleware/maintenanceMiddleware.js`
+7. `server/src/middleware/maintenanceMiddleware.js`
 8. `server/services/omaiCommandService.js`
 
 ### 3.2 Backend Middleware Update
-**File:** `server/middleware/auth.js`
+**File:** `server/src/middleware/auth.js`
 
 ```javascript
 // Simplified canonical roles
@@ -481,7 +481,7 @@ module.exports = testRoleMigration;
 - All role-dependent UI components
 
 ### Backend Files
-- `server/middleware/auth.js`
+- `server/src/middleware/auth.js`
 - `server/routes/admin.js`
 - `server/routes/menuPermissions.js`
 - `server/routes/importRecords.js`

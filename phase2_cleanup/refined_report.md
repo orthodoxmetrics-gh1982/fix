@@ -23,7 +23,7 @@ Total files analyzed: 9421
 - **scripts/setup**: 47 files
 - **server/scrapers**: 41 files
 - **database/schemas**: 37 files
-- **server/middleware**: 28 files
+- **server/src/middleware**: 28 files
 - **frontend/api**: 28 files
 - **frontend/contexts**: 23 files
 - **frontend/utils**: 21 files
@@ -289,16 +289,16 @@ Total files analyzed: 9421
 - server/database/churches_and_users_schema.sql
 ... and 27 more
 
-### server/middleware (28 files)
-- server/middleware/auditLogger.js
-- server/middleware/auth.js
-- server/middleware/churchSecurity.js
-- server/middleware/clientContext.js
-- server/middleware/logger.js
-- server/middleware/maintenanceMiddleware.js
-- server/middleware/requestLogger.js
-- server/middleware/sessionValidation.js
-- server/middleware/userAuthorization.js
+### server/src/middleware (28 files)
+- server/src/middleware/auditLogger.js
+- server/src/middleware/auth.js
+- server/src/middleware/churchSecurity.js
+- server/src/middleware/clientContext.js
+- server/src/middleware/logger.js
+- server/src/middleware/maintenanceMiddleware.js
+- server/src/middleware/requestLogger.js
+- server/src/middleware/sessionValidation.js
+- server/src/middleware/userAuthorization.js
 - server/src/middleware/auditLogger.js
 ... and 18 more
 

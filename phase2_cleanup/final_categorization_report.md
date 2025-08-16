@@ -24,7 +24,7 @@
 - **docs/guides**: 57 files
 - **remove**: 45 files
 - **server/scrapers**: 41 files
-- **server/middleware**: 28 files
+- **server/src/middleware**: 28 files
 - **frontend/src/api**: 27 files
 - **frontend/src/contexts**: 24 files
 - **frontend/src/utils**: 21 files
@@ -52,7 +52,7 @@
 ### Server (914 files total)
   - server/controllers: 7 files
   - server/routes: 107 files
-  - server/middleware: 28 files
+  - server/src/middleware: 28 files
   - server/models: 2 files
   - server/services: 617 files
   - server/utils: 108 files

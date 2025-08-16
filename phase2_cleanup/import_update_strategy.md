@@ -22,7 +22,7 @@ Many server files are currently in:
 ### Example Transformations
 ```javascript
 // Before (in misc/server-archive/routes/admin.js)
-const auth = require('../../../server/middleware/auth');
+const auth = require('../../../server/src/middleware/auth');
 const db = require('../../../config/db');
 
 // After (in server/routes/admin.js)

@@ -11,7 +11,7 @@ const finalStructure = {
     // Server-side code
     'server/controllers': [],
     'server/routes': [],
-    'server/middleware': [],
+    'server/src/middleware': [],
     'server/models': [],
     'server/services': [],
     'server/utils': [],
@@ -103,7 +103,7 @@ function categorizeFinal(filePath) {
     if (filePath.startsWith('server/') || filePath.includes('server-')) {
         if (lowerPath.includes('controller')) return 'server/controllers';
         if (lowerPath.includes('route')) return 'server/routes';
-        if (lowerPath.includes('middleware')) return 'server/middleware';
+        if (lowerPath.includes('middleware')) return 'server/src/middleware';
         if (lowerPath.includes('model')) return 'server/models';
         if (lowerPath.includes('service')) return 'server/services';
         if (lowerPath.includes('websocket') || lowerPath.includes('socket')) return 'server/websockets';
@@ -242,7 +242,7 @@ sortedCategories.forEach(([category, files]) => {
 
 report += '\n## Clean Structure Overview\n\n';
 const mainCategories = {
-    'Server': ['server/controllers', 'server/routes', 'server/middleware', 'server/models', 'server/services', 'server/utils', 'server/websockets', 'server/jobs', 'server/scrapers'],
+    'Server': ['server/controllers', 'server/routes', 'server/src/middleware', 'server/models', 'server/services', 'server/utils', 'server/websockets', 'server/jobs', 'server/scrapers'],
     'Frontend': ['frontend/src/components', 'frontend/src/pages', 'frontend/src/views', 'frontend/src/api', 'frontend/src/contexts', 'frontend/src/hooks', 'frontend/src/utils', 'frontend/src/styles', 'frontend/src/assets', 'frontend/src/core', 'frontend/public'],
     'OMAI Module': ['omai/services', 'omai/components', 'omai/database', 'omai/bigbook', 'omai/core'],
     'Database': ['database/schemas', 'database/migrations', 'database/scripts'],

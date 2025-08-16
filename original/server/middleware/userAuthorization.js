@@ -1,4 +1,4 @@
-// server/middleware/userAuthorization.js - User Management Authorization
+// server/src/middleware/userAuthorization.js - User Management Authorization
 
 // Root super admin email - can be overridden via environment variable
 const ROOT_SUPERADMIN_EMAIL = process.env.ROOT_SUPERADMIN_EMAIL || 'superadmin@orthodoxmetrics.com';

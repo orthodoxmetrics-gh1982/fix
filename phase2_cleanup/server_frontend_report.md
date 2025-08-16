@@ -23,15 +23,15 @@ Focusing on core application files only, excluding OMAI module and other auxilia
 - misc/server-archive/scripts/add-activity-logs-route.js
 - misc/server-archive/testing/test-api-routes.js
 - misc/server-archive/testing/test-ocr-router.js
-- server/middleware/databaseRouter.js
+- server/src/middleware/databaseRouter.js
 ... and 102 more
 
-### server/middleware (28 files)
-- server/middleware/auditLogger.js
-- server/middleware/auth.js
-- server/middleware/churchSecurity.js
-- server/middleware/clientContext.js
-- server/middleware/logger.js
+### server/src/middleware (28 files)
+- server/src/middleware/auditLogger.js
+- server/src/middleware/auth.js
+- server/src/middleware/churchSecurity.js
+- server/src/middleware/clientContext.js
+- server/src/middleware/logger.js
 ... and 23 more
 
 ### server/models (2 files)

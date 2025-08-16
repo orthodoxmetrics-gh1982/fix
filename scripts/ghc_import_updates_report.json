@@ -6672,7 +6672,7 @@
         ]
       },
       {
-        "file": "server/middleware/auth.js",
+        "file": "server/src/middleware/auth.js",
         "updates": [
           {
             "line": 89,
@@ -6682,7 +6682,7 @@
         ]
       },
       {
-        "file": "server/middleware/databaseRouter.js",
+        "file": "server/src/middleware/databaseRouter.js",
         "updates": [
           {
             "line": 8,
@@ -6692,7 +6692,7 @@
         ]
       },
       {
-        "file": "server/middleware/logger.js",
+        "file": "server/src/middleware/logger.js",
         "updates": [
           {
             "line": 1,
@@ -6702,7 +6702,7 @@
         ]
       },
       {
-        "file": "server/middleware/maintenanceMiddleware.js",
+        "file": "server/src/middleware/maintenanceMiddleware.js",
         "updates": [
           {
             "line": 3,
@@ -6712,7 +6712,7 @@
         ]
       },
       {
-        "file": "server/middleware/requestLogger.js",
+        "file": "server/src/middleware/requestLogger.js",
         "updates": [
           {
             "line": 4,
@@ -6732,7 +6732,7 @@
         ]
       },
       {
-        "file": "server/middleware/userAuthorization.js",
+        "file": "server/src/middleware/userAuthorization.js",
         "updates": [
           {
             "line": 4,

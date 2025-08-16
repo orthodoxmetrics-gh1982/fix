@@ -9,7 +9,7 @@ const filesToReview = JSON.parse(fs.readFileSync('files_to_review.json', 'utf8')
 const categories = {
     'server/controllers': [],
     'server/routes': [],
-    'server/middleware': [],
+    'server/src/middleware': [],
     'server/models': [],
     'server/services': [],
     'server/utils': [],
@@ -60,7 +60,7 @@ function categorizeFile(filePath) {
         return 'server/routes';
     }
     if (lowerPath.includes('middleware')) {
-        return 'server/middleware';
+        return 'server/src/middleware';
     }
     if (lowerPath.includes('model') && !lowerPath.includes('frontend')) {
         return 'server/models';

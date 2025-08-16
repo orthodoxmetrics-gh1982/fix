@@ -38,7 +38,7 @@ Successfully updated **11 files** with **25 legacy pattern replacements**:
 
 | File | Changes | Pattern Types |
 |------|---------|---------------|
-| `server/middleware/databaseRouter.js` | 1 | Legacy DB reference |
+| `server/src/middleware/databaseRouter.js` | 1 | Legacy DB reference |
 | `server/scripts/migrate-logs-to-database.js` | 1 | Direct system_logs INSERT |
 | `server/scripts/populate-error-logs.js` | 3 | Direct errors INSERT + DB references |
 | `server/scripts/test-logging-system.js` | 2 | Direct errors INSERT |

@@ -1,4 +1,4 @@
-// server/middleware/userAuthorization.js - User Management Authorization
+// server/src/middleware/userAuthorization.js - User Management Authorization
 // 🔄 Refactored to use unified role system (see utils/roles.js)
 
 const { canManageUser: checkCanManageUser, getUserLevel } = require('@/src/utils/roles');

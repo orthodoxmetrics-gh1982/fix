@@ -8,7 +8,7 @@ const finalStructure = JSON.parse(fs.readFileSync('final_structure.json', 'utf8'
 const serverCategories = [
     'server/controllers',
     'server/routes', 
-    'server/middleware',
+    'server/src/middleware',
     'server/models',
     'server/services',
     'server/utils',
@@ -143,7 +143,7 @@ mkdir -p orthodoxmetrics_clean
 # Create server directories
 mkdir -p orthodoxmetrics_clean/server/controllers
 mkdir -p orthodoxmetrics_clean/server/routes
-mkdir -p orthodoxmetrics_clean/server/middleware
+mkdir -p orthodoxmetrics_clean/server/src/middleware
 mkdir -p orthodoxmetrics_clean/server/models
 mkdir -p orthodoxmetrics_clean/server/services
 mkdir -p orthodoxmetrics_clean/server/utils

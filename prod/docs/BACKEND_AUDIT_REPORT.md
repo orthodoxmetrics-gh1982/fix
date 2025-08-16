@@ -123,7 +123,7 @@ const sessionConfig = {
 ```
 
 #### 3.2 **Auth Middleware Race Condition**
-**Location**: `server/middleware/auth.js`
+**Location**: `server/src/middleware/auth.js`
 - **Issue**: Session regeneration override (lines 130-142) prevents proper session handling
 - **Problem**: Can cause "phantom user" issues where session exists but no user data
 

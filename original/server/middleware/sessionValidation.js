@@ -1,4 +1,4 @@
-// server/middleware/sessionValidation.js
+// server/src/middleware/sessionValidation.js
 const { promisePool } = require('../config/db');
 
 /**

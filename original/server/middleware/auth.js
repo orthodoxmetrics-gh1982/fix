@@ -1,4 +1,4 @@
-// server/middleware/auth.js - NEW FILE
+// server/src/middleware/auth.js - NEW FILE
 const authMiddleware = (req, res, next) => {
   // console.log('🔐 Auth middleware - Session ID:', req.sessionID);
   // console.log('🔐 Auth middleware - User:', req.session?.user?.email);

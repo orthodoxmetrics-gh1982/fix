@@ -29,7 +29,7 @@
 3|orthodox |     at /var/www/orthodoxmetrics/prod/server/routes/admin/menu-permissions.js:19:47
 3|orthodox |     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 3|orthodox |     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-3|orthodox |     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+3|orthodox |     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 3|orthodox |     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 3|orthodox |     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 3|orthodox |     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)

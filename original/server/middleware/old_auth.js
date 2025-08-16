@@ -1,4 +1,4 @@
-// server/middleware/auth.js
+// server/src/middleware/auth.js
 const { promisePool } = require('../config/db');
 
 // Basic authentication middleware

@@ -1,4 +1,4 @@
-// server/middleware/auth.js - Enhanced Session Authentication Middleware
+// server/src/middleware/auth.js - Enhanced Session Authentication Middleware
 
 const authMiddleware = (req, res, next) => {
 const hasOMSession = req.headers.cookie?.includes('orthodmetrics.sid=');
