@@ -21117,7 +21117,7 @@
 2025-08-06T18:07:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:07:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21154,7 +21154,7 @@
 2025-08-06T18:07:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:07:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21188,7 +21188,7 @@
 2025-08-06T18:07:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:07:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21205,7 +21205,7 @@
 2025-08-06T18:07:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:07:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21236,7 +21236,7 @@
 2025-08-06T18:07:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:07:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21278,7 +21278,7 @@
 2025-08-06T18:07:38:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:07:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:38:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21310,7 +21310,7 @@
 2025-08-06T18:07:38:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:07:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:38:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21347,7 +21347,7 @@
 2025-08-06T18:07:38:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:07:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:38:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21378,7 +21378,7 @@
 2025-08-06T18:07:38:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:07:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:38:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21412,7 +21412,7 @@
 2025-08-06T18:07:38:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:07:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:38:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21439,7 +21439,7 @@
 2025-08-06T18:07:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:07:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21473,7 +21473,7 @@
 2025-08-06T18:07:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:07:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21510,7 +21510,7 @@
 2025-08-06T18:07:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:07:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21541,7 +21541,7 @@
 2025-08-06T18:07:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:07:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21573,7 +21573,7 @@
 2025-08-06T18:07:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:07:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:07:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:07:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:07:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:07:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:07:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21600,7 +21600,7 @@
 2025-08-06T18:08:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:08:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:08:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:08:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:08:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:08:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21634,7 +21634,7 @@
 2025-08-06T18:08:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:08:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:08:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:08:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:08:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:08:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21671,7 +21671,7 @@
 2025-08-06T18:08:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:08:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:08:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:08:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:08:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:08:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21702,7 +21702,7 @@
 2025-08-06T18:08:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:08:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:08:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:08:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:08:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:08:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21734,7 +21734,7 @@
 2025-08-06T18:08:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:08:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:08:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:08:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:08:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:08:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21761,7 +21761,7 @@
 2025-08-06T18:08:38:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:08:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:08:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:08:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:08:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:08:38:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21798,7 +21798,7 @@
 2025-08-06T18:08:38:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:08:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:08:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:08:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:08:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:08:38:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21832,7 +21832,7 @@
 2025-08-06T18:08:38:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:08:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:08:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:08:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:08:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:08:38:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21863,7 +21863,7 @@
 2025-08-06T18:08:38:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:08:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:08:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:08:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:08:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:08:38:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21895,7 +21895,7 @@
 2025-08-06T18:08:38:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:08:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:08:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:08:38:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:08:38:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:08:38:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:08:38:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21922,7 +21922,7 @@
 2025-08-06T18:09:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:09:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:09:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:09:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:09:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:09:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21959,7 +21959,7 @@
 2025-08-06T18:09:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:09:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:09:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:09:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:09:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:09:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -21990,7 +21990,7 @@
 2025-08-06T18:09:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:09:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:09:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:09:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:09:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:09:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22024,7 +22024,7 @@
 2025-08-06T18:09:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:09:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:09:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:09:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:09:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:09:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22056,7 +22056,7 @@
 2025-08-06T18:09:08:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:09:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:09:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:09:08:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:09:08:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:08:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:09:08:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22083,7 +22083,7 @@
 2025-08-06T18:09:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:09:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:09:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:09:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:09:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:09:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22120,7 +22120,7 @@
 2025-08-06T18:09:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:09:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:09:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:09:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:09:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:09:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22154,7 +22154,7 @@
 2025-08-06T18:09:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:09:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:09:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:09:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:09:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:09:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22185,7 +22185,7 @@
 2025-08-06T18:09:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:09:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:09:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:09:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:09:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:09:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22217,7 +22217,7 @@
 2025-08-06T18:09:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:09:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:09:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:09:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:09:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:09:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:09:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22244,7 +22244,7 @@
 2025-08-06T18:10:09:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:10:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:10:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:10:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:10:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:10:09:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22281,7 +22281,7 @@
 2025-08-06T18:10:09:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:10:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:10:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:10:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:10:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:10:09:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22315,7 +22315,7 @@
 2025-08-06T18:10:09:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:10:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:10:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:10:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:10:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:10:09:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22346,7 +22346,7 @@
 2025-08-06T18:10:09:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:10:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:10:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:10:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:10:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:10:09:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22363,7 +22363,7 @@
 2025-08-06T18:10:09:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:10:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:10:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:10:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:10:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:10:09:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22405,7 +22405,7 @@
 2025-08-06T18:10:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:10:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:10:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:10:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:10:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:10:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22442,7 +22442,7 @@
 2025-08-06T18:10:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:10:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:10:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:10:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:10:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:10:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22473,7 +22473,7 @@
 2025-08-06T18:10:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:10:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:10:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:10:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:10:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:10:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22505,7 +22505,7 @@
 2025-08-06T18:10:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:10:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:10:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:10:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:10:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:10:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22522,7 +22522,7 @@
 2025-08-06T18:10:39:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:10:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:10:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:10:39:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:10:39:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:10:39:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:10:39:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22566,7 +22566,7 @@
 2025-08-06T18:11:09:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:11:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:11:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:11:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:11:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:11:09:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22603,7 +22603,7 @@
 2025-08-06T18:11:09:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:11:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:11:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:11:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:11:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:11:09:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22637,7 +22637,7 @@
 2025-08-06T18:11:09:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:11:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:11:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:11:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:11:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:11:09:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22669,7 +22669,7 @@
 2025-08-06T18:11:09:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:11:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:11:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:11:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:11:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:11:09:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22686,7 +22686,7 @@
 2025-08-06T18:11:09:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:11:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:11:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:11:09:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:11:09:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:09:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:11:09:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22727,7 +22727,7 @@
 2025-08-06T18:11:40:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:11:40:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:40:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:11:40:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:11:40:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:11:40:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:40:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:11:40:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22764,7 +22764,7 @@
 2025-08-06T18:11:40:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:11:40:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:40:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:11:40:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:11:40:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:11:40:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:40:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:11:40:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22798,7 +22798,7 @@
 2025-08-06T18:11:40:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:11:40:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:40:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:11:40:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:11:40:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:11:40:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:40:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:11:40:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22829,7 +22829,7 @@
 2025-08-06T18:11:40:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:11:40:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:40:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:11:40:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:11:40:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:11:40:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:40:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:11:40:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22846,7 +22846,7 @@
 2025-08-06T18:11:40:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:11:40:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:40:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:11:40:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:11:40:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:11:40:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:11:40:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:11:40:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22888,7 +22888,7 @@
 2025-08-06T18:12:10:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:12:10:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:10:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:12:10:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:12:10:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:12:10:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:10:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:12:10:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22925,7 +22925,7 @@
 2025-08-06T18:12:10:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:12:10:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:10:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:12:10:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:12:10:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:12:10:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:10:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:12:10:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22942,7 +22942,7 @@
 2025-08-06T18:12:10:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:12:10:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:10:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:12:10:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:12:10:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:12:10:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:10:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:12:10:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -22974,7 +22974,7 @@
 2025-08-06T18:12:10:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:12:10:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:10:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:12:10:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:12:10:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:12:10:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:10:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:12:10:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23005,7 +23005,7 @@
 2025-08-06T18:12:10:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:12:10:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:10:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:12:10:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:12:10:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:12:10:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:10:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:12:10:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23049,7 +23049,7 @@
 2025-08-06T18:12:41:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:12:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:12:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:12:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:12:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:12:41:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23086,7 +23086,7 @@
 2025-08-06T18:12:41:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:12:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:12:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:12:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:12:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:12:41:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23120,7 +23120,7 @@
 2025-08-06T18:12:41:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:12:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:12:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:12:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:12:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:12:41:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23152,7 +23152,7 @@
 2025-08-06T18:12:41:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:12:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:12:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:12:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:12:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:12:41:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23183,7 +23183,7 @@
 2025-08-06T18:12:41:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:12:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:12:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:12:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:12:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:12:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:12:41:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23210,7 +23210,7 @@
 2025-08-06T18:13:11:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:13:11:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:11:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:13:11:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:13:11:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:13:11:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:11:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:13:11:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23247,7 +23247,7 @@
 2025-08-06T18:13:11:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:13:11:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:11:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:13:11:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:13:11:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:13:11:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:11:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:13:11:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23281,7 +23281,7 @@
 2025-08-06T18:13:11:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:13:11:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:11:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:13:11:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:13:11:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:13:11:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:11:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:13:11:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23313,7 +23313,7 @@
 2025-08-06T18:13:11:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:13:11:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:11:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:13:11:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:13:11:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:13:11:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:11:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:13:11:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23346,7 +23346,7 @@
 2025-08-06T18:13:11:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:13:11:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:11:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:13:11:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:13:11:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:13:11:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:11:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:13:11:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23371,7 +23371,7 @@
 2025-08-06T18:13:41:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:13:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:13:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:13:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:13:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:13:41:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23408,7 +23408,7 @@
 2025-08-06T18:13:41:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:13:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:13:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:13:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:13:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:13:41:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23442,7 +23442,7 @@
 2025-08-06T18:13:41:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:13:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:13:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:13:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:13:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:13:41:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23474,7 +23474,7 @@
 2025-08-06T18:13:41:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:13:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:13:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:13:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:13:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:13:41:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23505,7 +23505,7 @@
 2025-08-06T18:13:41:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:13:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:13:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:13:41:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:13:41:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:13:41:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:13:41:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23532,7 +23532,7 @@
 2025-08-06T18:14:12:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:14:12:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:12:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:14:12:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:14:12:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:14:12:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:12:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:14:12:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23569,7 +23569,7 @@
 2025-08-06T18:14:12:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:14:12:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:12:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:14:12:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:14:12:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:14:12:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:12:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:14:12:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23603,7 +23603,7 @@
 2025-08-06T18:14:12:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:14:12:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:12:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:14:12:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:14:12:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:14:12:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:12:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:14:12:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23634,7 +23634,7 @@
 2025-08-06T18:14:12:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:14:12:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:12:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:14:12:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:14:12:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:14:12:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:12:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:14:12:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23666,7 +23666,7 @@
 2025-08-06T18:14:12:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:14:12:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:12:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:14:12:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:14:12:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:14:12:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:12:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:14:12:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23693,7 +23693,7 @@
 2025-08-06T18:14:42:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:14:42:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:42:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:14:42:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:14:42:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:14:42:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:42:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:14:42:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23730,7 +23730,7 @@
 2025-08-06T18:14:42:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:14:42:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:42:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:14:42:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:14:42:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:14:42:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:42:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:14:42:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23764,7 +23764,7 @@
 2025-08-06T18:14:42:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:14:42:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:42:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:14:42:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:14:42:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:14:42:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:42:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:14:42:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23795,7 +23795,7 @@
 2025-08-06T18:14:42:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:14:42:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:42:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:14:42:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:14:42:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:14:42:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:42:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:14:42:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23827,7 +23827,7 @@
 2025-08-06T18:14:42:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:14:42:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:42:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:14:42:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:14:42:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:14:42:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:14:42:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:14:42:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23854,7 +23854,7 @@
 2025-08-06T18:15:13:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:92:44
 2025-08-06T18:15:13:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:15:13:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:15:13:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:15:13:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:15:13:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:15:13:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:15:13:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23891,7 +23891,7 @@
 2025-08-06T18:15:13:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:152:48
 2025-08-06T18:15:13:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:15:13:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:15:13:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:15:13:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:15:13:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:15:13:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:15:13:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23922,7 +23922,7 @@
 2025-08-06T18:15:13:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:190:44
 2025-08-06T18:15:13:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:15:13:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:15:13:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:15:13:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:15:13:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:15:13:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:15:13:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23954,7 +23954,7 @@
 2025-08-06T18:15:13:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:114:46
 2025-08-06T18:15:13:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:15:13:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:15:13:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:15:13:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:15:13:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:15:13:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:15:13:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)
@@ -23988,7 +23988,7 @@
 2025-08-06T18:15:13:     at /var/www/orthodoxmetrics/prod/server/routes/omaiLogger.js:239:51
 2025-08-06T18:15:13:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:15:13:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
-2025-08-06T18:15:13:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/middleware/auth.js:75:3)
+2025-08-06T18:15:13:     at authMiddleware (/var/www/orthodoxmetrics/prod/server/src/middleware/auth.js:75:3)
 2025-08-06T18:15:13:     at Layer.handle [as handle_request] (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/layer.js:95:5)
 2025-08-06T18:15:13:     at next (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:149:13)
 2025-08-06T18:15:13:     at Route.dispatch (/var/www/orthodoxmetrics/prod/server/node_modules/express/lib/router/route.js:119:3)

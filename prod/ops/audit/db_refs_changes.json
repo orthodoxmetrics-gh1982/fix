@@ -110,12 +110,12 @@
     "status": "updated"
   },
   {
-    "file": "server/src/middlewares/churchSecurity.js",
+    "file": "server/src/middleware/churchSecurity.js",
     "matches": 1,
     "status": "updated"
   },
   {
-    "file": "server/src/middlewares/auditLogger.js",
+    "file": "server/src/middleware/auditLogger.js",
     "matches": 1,
     "status": "updated"
   },
