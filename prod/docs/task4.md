@@ -54,7 +54,7 @@ Create `db/sql/04_multitenant_churches.sql` (idempotent). Contents:
 Then run:
 
 ```bash
-mysql -u root -p < server/database/04_multitenant_churches.sql
+mysql -u root -p < server/src/database/04_multitenant_churches.sql
 ```
 
 ---

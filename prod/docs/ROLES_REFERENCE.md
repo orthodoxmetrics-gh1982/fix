@@ -224,7 +224,7 @@ const legacyRoleMap: Record<string, UserRole> = {
 - **Role Utilities:** `front-end/src/utils/roles.ts`
 - **Auth Types:** `front-end/src/types/auth/auth.ts`
 - **Backend Middleware:** `server/src/middleware/auth.js`
-- **Database Schemas:** `server/database/*.sql`
+- **Database Schemas:** `server/src/database/*.sql`
 
 ---
 

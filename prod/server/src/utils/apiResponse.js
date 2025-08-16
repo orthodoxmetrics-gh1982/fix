@@ -1,4 +1,4 @@
-// server/utils/apiResponse.js - Standardized API Response Utility
+// server/src/utils/apiResponse.js - Standardized API Response Utility
 
 class ApiResponse {
   /**

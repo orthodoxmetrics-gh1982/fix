@@ -1,6 +1,6 @@
 [
   {
-    "file": "server/utils/dbConnections.ts",
+    "file": "server/src/utils/dbConnections.ts",
     "matches": 1,
     "status": "updated"
   },
@@ -10,47 +10,47 @@
     "status": "updated"
   },
   {
-    "file": "server/database/repoint_user_fks_master_2025-08-09_1919.sql",
+    "file": "server/src/database/repoint_user_fks_master_2025-08-09_1919.sql",
     "matches": 45,
     "status": "updated"
   },
   {
-    "file": "server/database/repair_orphan_user_refs_fallback1_2025-08-09_1923.sql",
+    "file": "server/src/database/repair_orphan_user_refs_fallback1_2025-08-09_1923.sql",
     "matches": 86,
     "status": "updated"
   },
   {
-    "file": "server/database/repair_auth_session_orphans_2025-08-09_1940.sql",
+    "file": "server/src/database/repair_auth_session_orphans_2025-08-09_1940.sql",
     "matches": 23,
     "status": "updated"
   },
   {
-    "file": "server/database/rename_users_table.sql",
+    "file": "server/src/database/rename_users_table.sql",
     "matches": 1,
     "status": "updated"
   },
   {
-    "file": "server/database/phase_c_add_auth_user_fks_2025-08-09_1926.sql",
+    "file": "server/src/database/phase_c_add_auth_user_fks_2025-08-09_1926.sql",
     "matches": 2,
     "status": "updated"
   },
   {
-    "file": "server/database/phase_b_repair_orphans_fallback1_2025-08-09_1926.sql",
+    "file": "server/src/database/phase_b_repair_orphans_fallback1_2025-08-09_1926.sql",
     "matches": 10,
     "status": "updated"
   },
   {
-    "file": "server/database/finalize_auth_consolidation_2025-08-09_1937.sql",
+    "file": "server/src/database/finalize_auth_consolidation_2025-08-09_1937.sql",
     "matches": 20,
     "status": "updated"
   },
   {
-    "file": "server/database/db_schema_diff_2025-08-09_1936.sql",
+    "file": "server/src/database/db_schema_diff_2025-08-09_1936.sql",
     "matches": 8,
     "status": "updated"
   },
   {
-    "file": "server/database/audit_auth_references_2025-08-09_1916.sql",
+    "file": "server/src/database/audit_auth_references_2025-08-09_1916.sql",
     "matches": 1,
     "status": "updated"
   },

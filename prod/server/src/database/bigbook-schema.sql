@@ -326,7 +326,7 @@ INSERT IGNORE INTO bigbook_config (config_key, config_value, config_type, descri
 -- Insert default watchers
 INSERT IGNORE INTO bigbook_watchers (watch_path, file_patterns, exclude_patterns) VALUES
 ('/var/www/orthodox-church-mgmt/orthodoxmetrics/prod', '["**/*.md", "**/*.sql", "**/*.js", "**/*.ts", "**/*.sh", "**/*.ps1"]', '["**/node_modules/**", "**/.git/**", "**/logs/**", "**/temp/**"]'),
-('/var/www/orthodox-church-mgmt/orthodoxmetrics/prod/server/scripts', '["**/*.js", "**/*.sh", "**/*.sql"]', '["**/backups/**", "**/temp/**"]'),
+('/var/www/orthodox-church-mgmt/orthodoxmetrics/prod/server/src/scripts', '["**/*.js", "**/*.sh", "**/*.sql"]', '["**/backups/**", "**/temp/**"]'),
 ('/var/www/orthodox-church-mgmt/orthodoxmetrics/prod/docs', '["**/*.md", "**/*.sql"]', '["**/archive/**"]');
 
 -- =====================================================

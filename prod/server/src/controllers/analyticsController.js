@@ -1,4 +1,4 @@
-// server/controllers/analyticsController.js
+// server/src/controllers/analyticsController.js
 
 const { promisePool } = require('../../config/db');
 const { getChurchDbConnection } = require('@/src/utils/dbSwitcher');

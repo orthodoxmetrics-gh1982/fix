@@ -89,7 +89,7 @@ Inconsistent response formats causing frontend parsing issues.
 
 ### Solution - Create new utility file:
 ```javascript
-// server/utils/apiResponse.js - NEW FILE
+// server/src/utils/apiResponse.js - NEW FILE
 
 class ApiResponse {
   /**
@@ -214,7 +214,7 @@ Hardcoded production domain breaks development environment.
 
 ### Solution:
 ```javascript
-// server/config/session.js - LINES 63-89
+// server/src/config/session.js - LINES 63-89
 
 // REPLACE LINES 63-89 WITH:
 const isProduction = process.env.NODE_ENV === 'production';
@@ -270,7 +270,7 @@ Creating new connections per request instead of using pool.
 
 ### Solution:
 ```javascript
-// server/controllers/records.js - REPLACE connection logic
+// server/src/controllers/records.js - REPLACE connection logic
 
 // DELETE LINES 10-17 (getDbConnection function)
 

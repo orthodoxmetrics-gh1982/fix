@@ -38,10 +38,10 @@
 ### **Evidence from Codebase Analysis**
 
 **Problematic Code Found:**
-- `server/database/database-manager.js` line 181: Wrong FK reference to `church_info(id)`
-- `server/database/church_records_schema.sql`: Wrong FK reference to local `churches(id)`
+- `server/src/database/database-manager.js` line 181: Wrong FK reference to `church_info(id)`
+- `server/src/database/church_records_schema.sql`: Wrong FK reference to local `churches(id)`
 - `server/routes/admin.js` line 348: Creates local `church_info` table in church databases
-- `server/utils/add-church.js`: Inconsistent church_id handling
+- `server/src/utils/add-church.js`: Inconsistent church_id handling
 
 ---
 
@@ -125,7 +125,7 @@ ssppoc_records_db (Church-Specific)
 
 1. **Run Audit Script**:
    ```sql
-   source server/database/fix-church-linkage.sql;
+   source server/src/database/fix-church-linkage.sql;
    ```
 
 2. **Review Audit Results**:
@@ -205,9 +205,9 @@ If issues occur during migration:
 5. Update application code to use corrected relationships
 
 ### **Files Created:**
-- `server/database/fix-church-linkage.sql` - Main migration script
-- `server/database/fixed-church-database-template.sql` - Corrected template
-- `server/database/diagnosis-report.md` - This report
+- `server/src/database/fix-church-linkage.sql` - Main migration script
+- `server/src/database/fixed-church-database-template.sql` - Corrected template
+- `server/src/database/diagnosis-report.md` - This report
 
 ### **Success Criteria:**
 - ✅ All church record tables have proper `church_id` columns

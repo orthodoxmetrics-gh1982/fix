@@ -412,7 +412,7 @@ LOG_COMBINED_FILE=./logs/combined.log
 
 ## 🎯 Quick Start Checklist
 
-- [ ] Backend logger utility installed (`server/utils/omaiLogger.js`)
+- [ ] Backend logger utility installed (`server/src/utils/omaiLogger.js`)
 - [ ] Middleware registered in `server/index.js`
 - [ ] Logger routes mounted at `/api/logger`
 - [ ] Frontend logger utility imported (`front-end/src/utils/omaiLogger.ts`)

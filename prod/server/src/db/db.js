@@ -1,4 +1,4 @@
-// server/config/db.js
+// server/src/config/db.js
 const mysql = require('mysql2/promise');
 const debug = require('debug')('app:db');
 const path = require('path');

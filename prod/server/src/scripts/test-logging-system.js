@@ -282,7 +282,7 @@ async function generateTestReport() {
   } else {
     console.log('⚠️  SOME TESTS FAILED - Please fix the issues above');
     console.log('\n🔧 Common fixes:');
-    console.log('   1. Run database migration: node server/database/migrations/add_success_debug_log_support.sql');
+    console.log('   1. Run database migration: node server/src/database/migrations/add_success_debug_log_support.sql');
     console.log('   2. Check database connection settings');
     console.log('   3. Verify table permissions');
   }

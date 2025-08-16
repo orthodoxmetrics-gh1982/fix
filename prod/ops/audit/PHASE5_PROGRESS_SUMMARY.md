@@ -32,8 +32,8 @@
   - Church-scoped operations
 
 ### SQL Schema
-- `server/database/05_sacrament_tables.sql` - Original table definitions
-- `server/database/06_records_imports.sql` - Import tracking infrastructure
+- `server/src/database/05_sacrament_tables.sql` - Original table definitions
+- `server/src/database/06_records_imports.sql` - Import tracking infrastructure
 
 ## Next Steps Required
 

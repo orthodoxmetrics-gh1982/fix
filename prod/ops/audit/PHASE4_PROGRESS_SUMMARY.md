@@ -75,8 +75,8 @@ All 38 tables now have:
 ## Files Created/Modified
 
 ### SQL Scripts
-- `server/database/04_multitenant_churches.sql` - Main schema and procedures
-- `server/database/05_fix_church_fk_datatype.sql` - Data type fix
+- `server/src/database/04_multitenant_churches.sql` - Main schema and procedures
+- `server/src/database/05_fix_church_fk_datatype.sql` - Data type fix
 
 ### Node.js Scripts
 - `ops/scripts/generate_tenant_inventory.js` - Inventory generator

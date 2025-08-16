@@ -31,7 +31,7 @@ This document outlines the step-by-step implementation of the simplified role sy
 ```
 
 ### 1.2 Migration Script
-**File:** `server/database/migrations/role_simplification_migration.sql`
+**File:** `server/src/database/migrations/role_simplification_migration.sql`
 
 ```sql
 -- Role Simplification Migration
@@ -378,7 +378,7 @@ const requireRole = (allowedRoles) => {
 ## Phase 4: Testing & Validation
 
 ### 4.1 Migration Testing Script
-**File:** `server/scripts/test_role_migration.js`
+**File:** `server/src/scripts/test_role_migration.js`
 
 ```javascript
 // Test script to validate role migration
@@ -490,7 +490,7 @@ module.exports = testRoleMigration;
 - All route files with role checking
 
 ### Database Files
-- `server/database/migrations/role_simplification_migration.sql`
+- `server/src/database/migrations/role_simplification_migration.sql`
 - Update all table schemas with role references
 
 ## Benefits Post-Implementation

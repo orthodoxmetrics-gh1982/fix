@@ -1,4 +1,4 @@
-// server/utils/preprocessImage.js
+// server/src/utils/preprocessImage.js
 const sharp = require('sharp');
 const path = require('path');
 const fs = require('fs');

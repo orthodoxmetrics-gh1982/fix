@@ -176,7 +176,7 @@ PUT /api/errors/github-issues/:id/close // Mark issue closed
 - `front-end/src/services/debugLogger.ts` - Comprehensive debug capture
 - `front-end/src/components/logs/GitHubIssueModal.tsx` - Issue creation modal
 - `server/routes/github-issues.js` - GitHub API integration
-- `server/database/migrations/add_github_issue_support.sql` - Schema updates
+- `server/src/database/migrations/add_github_issue_support.sql` - Schema updates
 - `front-end/docs/OMAI_LOGGER_COMPLETE_IMPLEMENTATION.md` - This documentation
 
 ### **Enhanced Files:**
@@ -205,7 +205,7 @@ GITHUB_REPO_NAME=error-tracking   # GitHub repo name
 ### **Database Migration:**
 ```bash
 # Run the schema updates
-mysql -u root -p orthodoxmetrics_db < server/database/migrations/add_github_issue_support.sql
+mysql -u root -p orthodoxmetrics_db < server/src/database/migrations/add_github_issue_support.sql
 ```
 
 ### **Filesystem Setup:**

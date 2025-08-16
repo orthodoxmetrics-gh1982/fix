@@ -7,7 +7,7 @@
  * It includes comprehensive backup, validation, and rollback capabilities.
  * 
  * Usage:
- *   node server/scripts/run_role_migration.js [--dry-run] [--force] [--rollback]
+ *   node server/src/scripts/run_role_migration.js [--dry-run] [--force] [--rollback]
  * 
  * Options:
  *   --dry-run    Show what would be changed without making changes

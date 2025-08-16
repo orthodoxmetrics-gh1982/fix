@@ -1,4 +1,4 @@
-// server/utils/dateFormatter.js
+// server/src/utils/dateFormatter.js
 // Utility functions for cleaning up MySQL date/datetime formatting
 
 /**

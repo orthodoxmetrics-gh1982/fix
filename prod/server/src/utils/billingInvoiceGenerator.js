@@ -1,4 +1,4 @@
-// server/utils/billingInvoiceGenerator.js
+// server/src/utils/billingInvoiceGenerator.js
 const fs = require('fs');
 const path = require('path');
 

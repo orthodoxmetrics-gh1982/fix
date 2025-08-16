@@ -132,7 +132,7 @@ The import functionality is fully operational. Users can now:
 - `server/routes/records-import.js` (new)
 - `server/src/routes/records/import.ts` (updated with status endpoint)
 - `server/index.js` (updated route mounting)
-- `server/database/06_records_imports.sql` (schema)
+- `server/src/database/06_records_imports.sql` (schema)
 - `docs/IMPORT_RECORDS_GUIDE.md` (user guide)
 
 ## Success Metrics

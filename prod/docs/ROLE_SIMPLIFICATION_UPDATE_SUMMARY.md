@@ -40,7 +40,7 @@ export type UserRole =
   - Added debugging and validation utilities
 
 ### ✅ Backend Role Utilities
-- **`server/utils/roles.js`** (Complete rewrite)
+- **`server/src/utils/roles.js`** (Complete rewrite)
   - Implemented server-side canonical role system
   - Added comprehensive legacy role mapping
   - Enhanced Express middleware for role checking
@@ -74,7 +74,7 @@ export type UserRole =
 ## 🗄️ Database Migration
 
 ### ✅ Migration Script Created
-- **`server/database/migrations/role_simplification_migration.sql`**
+- **`server/src/database/migrations/role_simplification_migration.sql`**
   - Comprehensive migration from legacy to canonical roles
   - Backup system for rollback capability
   - Profile attributes setup for contextual titles
@@ -91,7 +91,7 @@ export type UserRole =
 ## 🧪 Testing & Validation
 
 ### ✅ Validation Script Created
-- **`server/scripts/validate_role_migration.js`**
+- **`server/src/scripts/validate_role_migration.js`**
   - Comprehensive role migration validation
   - Database integrity checks
   - Permission hierarchy testing

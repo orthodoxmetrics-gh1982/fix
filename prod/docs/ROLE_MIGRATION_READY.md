@@ -39,26 +39,26 @@ The Orthodox Metrics role system simplification is now **completely implemented*
 ### 1. **Migration Execution Script**
 ```bash
 # Dry run to test migration
-node server/scripts/run_role_migration.js --dry-run
+node server/src/scripts/run_role_migration.js --dry-run
 
 # Execute migration with confirmation
-node server/scripts/run_role_migration.js
+node server/src/scripts/run_role_migration.js
 
 # Force execution (no prompts)
-node server/scripts/run_role_migration.js --force
+node server/src/scripts/run_role_migration.js --force
 
 # Emergency rollback
-node server/scripts/run_role_migration.js --rollback
+node server/src/scripts/run_role_migration.js --rollback
 ```
 
 ### 2. **Validation Script**
 ```bash
 # Validate current system
-node server/scripts/validate_role_migration.js
+node server/src/scripts/validate_role_migration.js
 ```
 
 ### 3. **Database Migration**
-- **File**: `server/database/migrations/role_simplification_migration.sql`
+- **File**: `server/src/database/migrations/role_simplification_migration.sql`
 - **Features**: Backup, mapping, validation, rollback procedures
 - **Safety**: Transaction-based with comprehensive error handling
 

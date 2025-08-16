@@ -88,7 +88,7 @@ MODIFY COLUMN log_level ENUM('INFO','SUCCESS','WARN','DEBUG','ERROR','CRITICAL')
 ```
 
 ### **Files Modified:**
-- `server/database/migrations/add_github_issue_support.sql` - Schema update
+- `server/src/database/migrations/add_github_issue_support.sql` - Schema update
 - `front-end/src/components/logs/CriticalConsole.tsx` - CRITICAL support
 - `front-end/src/components/logs/CriticalAlert.tsx` - CRITICAL styling
 
@@ -125,7 +125,7 @@ PUT /api/errors/github-issues/:id/close  // Mark issue closed
 ### **Files Created:**
 - `server/routes/github-issues.js` - GitHub API integration
 - `front-end/src/components/logs/GitHubIssueModal.tsx` - Modal UI
-- `server/database/migrations/add_github_issue_support.sql` - Database schema
+- `server/src/database/migrations/add_github_issue_support.sql` - Database schema
 
 ### **Files Modified:**
 - `front-end/src/components/logs/CriticalConsole.tsx` - GitHub integration
@@ -267,7 +267,7 @@ GITHUB_REPO_NAME=error-tracking
 ### **Database Migration:**
 ```bash
 # Run the database migrations
-mysql -u root -p orthodoxmetrics_db < server/database/migrations/add_github_issue_support.sql
+mysql -u root -p orthodoxmetrics_db < server/src/database/migrations/add_github_issue_support.sql
 ```
 
 ### **Testing Checklist:**

@@ -10,47 +10,47 @@
     "status": "updated"
   },
   {
-    "file": "server/utils/test-db.js",
+    "file": "server/src/utils/test-db.js",
     "matches": 2,
     "status": "updated"
   },
   {
-    "file": "server/utils/test-auth.js",
+    "file": "server/src/utils/test-auth.js",
     "matches": 1,
     "status": "updated"
   },
   {
-    "file": "server/utils/generateCredentials.js",
+    "file": "server/src/utils/generateCredentials.js",
     "matches": 3,
     "status": "updated"
   },
   {
-    "file": "server/utils/fix-schema.js",
+    "file": "server/src/utils/fix-schema.js",
     "matches": 3,
     "status": "updated"
   },
   {
-    "file": "server/utils/debug-auth.js",
+    "file": "server/src/utils/debug-auth.js",
     "matches": 3,
     "status": "updated"
   },
   {
-    "file": "server/utils/create-test-user.js",
+    "file": "server/src/utils/create-test-user.js",
     "matches": 2,
     "status": "updated"
   },
   {
-    "file": "server/utils/create-superadmin-prod.js",
+    "file": "server/src/utils/create-superadmin-prod.js",
     "matches": 3,
     "status": "updated"
   },
   {
-    "file": "server/utils/check-test-user.js",
+    "file": "server/src/utils/check-test-user.js",
     "matches": 2,
     "status": "updated"
   },
   {
-    "file": "server/utils/add-test-dev-user.js",
+    "file": "server/src/utils/add-test-dev-user.js",
     "matches": 1,
     "status": "updated"
   },
@@ -190,27 +190,27 @@
     "status": "updated"
   },
   {
-    "file": "server/scripts/validate_role_migration.js",
+    "file": "server/src/scripts/validate_role_migration.js",
     "matches": 4,
     "status": "updated"
   },
   {
-    "file": "server/scripts/user-management-direct.js",
+    "file": "server/src/scripts/user-management-direct.js",
     "matches": 2,
     "status": "updated"
   },
   {
-    "file": "server/scripts/test-auth.js",
+    "file": "server/src/scripts/test-auth.js",
     "matches": 1,
     "status": "updated"
   },
   {
-    "file": "server/scripts/run_role_migration.js",
+    "file": "server/src/scripts/run_role_migration.js",
     "matches": 4,
     "status": "updated"
   },
   {
-    "file": "server/scripts/reset-user-password.js",
+    "file": "server/src/scripts/reset-user-password.js",
     "matches": 3,
     "status": "updated"
   },
@@ -280,27 +280,27 @@
     "status": "updated"
   },
   {
-    "file": "server/models/kanbanTask.js",
+    "file": "server/src/models/kanbanTask.js",
     "matches": 8,
     "status": "updated"
   },
   {
-    "file": "server/models/kanbanBoard.js",
+    "file": "server/src/models/kanbanBoard.js",
     "matches": 4,
     "status": "updated"
   },
   {
-    "file": "server/database/update-password.js",
+    "file": "server/src/database/update-password.js",
     "matches": 1,
     "status": "updated"
   },
   {
-    "file": "server/controllers/records.js",
+    "file": "server/src/controllers/records.js",
     "matches": 1,
     "status": "updated"
   },
   {
-    "file": "server/controllers/churchAdminController.js",
+    "file": "server/src/controllers/churchAdminController.js",
     "matches": 4,
     "status": "updated"
   }

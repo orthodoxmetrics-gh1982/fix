@@ -31,7 +31,7 @@ app.use('/api/omai/global', globalOmaiRouter); // Change line 254 to avoid confl
 ```
 
 #### 1.2 **Database Connection Handling**
-**Location**: `server/controllers/records.js`
+**Location**: `server/src/controllers/records.js`
 - **Issue**: Creating new MySQL connections per request instead of using connection pool
 - **Lines**: 10-17, connection closed in finally blocks
 
@@ -98,7 +98,7 @@ function apiResponse(success, data = null, error = null, meta = null) {
 ### 🧱 Category 3: Middleware & Session Issues
 
 #### 3.1 **Session Cookie Configuration**
-**Location**: `server/config/session.js`
+**Location**: `server/src/config/session.js`
 - **Issue**: Forced HTTPS cookies (line 64) but domain hardcoded to `.orthodoxmetrics.com`
 - **Problem**: Won't work in development or different domains
 

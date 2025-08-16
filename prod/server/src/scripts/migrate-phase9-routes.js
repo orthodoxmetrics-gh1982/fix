@@ -185,7 +185,7 @@ function main() {
       console.log('4. Update any hardcoded route references in documentation');
       
       console.log('\n🔄 Rollback Instructions:');
-      console.log('If issues occur, run: node server/scripts/phase9-rollback.js');
+      console.log('If issues occur, run: node server/src/scripts/phase9-rollback.js');
     } else {
       console.log('\n❌ Migration failed verification, rolling back...');
       rollback();

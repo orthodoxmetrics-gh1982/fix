@@ -15,7 +15,7 @@
 3|orthodox |     at ComponentUsageTrackerDB.updateSummaryTables (/var/www/orthodoxmetrics/prod/server/src/utils/componentUsageTrackerDB.js:61:42)
 3|orthodox |     at ComponentUsageTrackerDB.logComponentUsage (/var/www/orthodoxmetrics/prod/server/src/utils/componentUsageTrackerDB.js:44:18)
 3|orthodox |     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-3|orthodox |     at async ComponentsController.getAllComponents (/var/www/orthodoxmetrics/prod/server/controllers/admin/componentsController.js:207:9)
+3|orthodox |     at async ComponentsController.getAllComponents (/var/www/orthodoxmetrics/prod/server/src/controllers/admin/componentsController.js:207:9)
 3|orthodox |     at async /var/www/orthodoxmetrics/prod/server/routes/admin/components.js:62:9
 3|orthodox | [33m[2025-08-13T00:01:38.863Z] WARN[0m [API Response] POST /api/logs/admin-errors - 404 (0ms)
 3|orthodox | [33m[2025-08-13T00:01:38.864Z] WARN[0m [API Response] POST /api/logs/admin-errors - 404 (0ms)
@@ -46,7 +46,7 @@
 3|orthodox |     at ComponentUsageTrackerDB.updateSummaryTables (/var/www/orthodoxmetrics/prod/server/src/utils/componentUsageTrackerDB.js:61:42)
 3|orthodox |     at ComponentUsageTrackerDB.logComponentUsage (/var/www/orthodoxmetrics/prod/server/src/utils/componentUsageTrackerDB.js:44:18)
 3|orthodox |     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-3|orthodox |     at async ComponentsController.getAllComponents (/var/www/orthodoxmetrics/prod/server/controllers/admin/componentsController.js:207:9)
+3|orthodox |     at async ComponentsController.getAllComponents (/var/www/orthodoxmetrics/prod/server/src/controllers/admin/componentsController.js:207:9)
 3|orthodox |     at async /var/www/orthodoxmetrics/prod/server/routes/admin/components.js:62:9
 3|orthodox | [33m[2025-08-13T00:01:42.017Z] WARN[0m [API Response] POST /api/logs/admin-errors - 404 (0ms)
 3|orthodox | [33m[2025-08-13T00:01:42.017Z] WARN[0m [API Response] POST /api/logs/admin-errors - 404 (0ms)

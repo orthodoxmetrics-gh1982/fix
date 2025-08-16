@@ -1,5 +1,5 @@
 -- Migration: Add setup_status to churches table
--- File: server/database/migrations/add_church_setup_status.sql
+-- File: server/src/database/migrations/add_church_setup_status.sql
 
 -- Add setup_status column to track church setup progress
 ALTER TABLE churches ADD COLUMN setup_status JSON DEFAULT NULL;

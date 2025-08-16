@@ -30,7 +30,7 @@
 
 ## ✅ Fix 3: Standardized API Response Format
 **Files Created/Modified:**
-- **Created:** `server/utils/apiResponse.js` - New standardized response utility
+- **Created:** `server/src/utils/apiResponse.js` - New standardized response utility
 - **Modified:** `server/routes/churches.js` - Updated to use ApiResponse utility
   
 **ApiResponse Methods:**
@@ -45,7 +45,7 @@
 ---
 
 ## ✅ Fix 4: Session Cookie Configuration
-**File Modified:** `server/config/session.js`
+**File Modified:** `server/src/config/session.js`
 - Made cookie configuration dynamic based on environment
 - Production: secure cookies with domain restriction
 - Development: non-secure cookies without domain restriction
@@ -54,7 +54,7 @@
 ---
 
 ## ✅ Fix 5: Database Connection Pooling
-**File Modified:** `server/controllers/records.js`
+**File Modified:** `server/src/controllers/records.js`
 - Removed `getDbConnection()` function
 - Imported `promisePool` from config
 - Replaced all `connection.execute()` with `promisePool.execute()`
@@ -71,7 +71,7 @@
   - Implemented real activity log queries
   - Updated all responses to use ApiResponse utility
   
-- **Created:** `server/database/migrations/add_dashboard_tables.sql`
+- **Created:** `server/src/database/migrations/add_dashboard_tables.sql`
   - Added `record_reviews` table
   - Added `upload_logs` table
   - Added `activity_logs` table
@@ -92,7 +92,7 @@
 
 Run the following migration to create required tables:
 ```bash
-mysql -u root -p orthodoxmetrics_db < server/database/migrations/add_dashboard_tables.sql
+mysql -u root -p orthodoxmetrics_db < server/src/database/migrations/add_dashboard_tables.sql
 ```
 
 ---
@@ -132,7 +132,7 @@ mysql -u root -p orthodoxmetrics_db < server/database/migrations/add_dashboard_t
 
 2. **Run Migrations**
    ```bash
-   mysql -u root -p orthodoxmetrics_db < server/database/migrations/add_dashboard_tables.sql
+   mysql -u root -p orthodoxmetrics_db < server/src/database/migrations/add_dashboard_tables.sql
    ```
 
 3. **Deploy Code**

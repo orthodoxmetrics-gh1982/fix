@@ -1,4 +1,4 @@
-// server/utils/emailService.js
+// server/src/utils/emailService.js
 const nodemailer = require('nodemailer');
 const path = require('path');
 const { getActiveEmailConfig } = require('@/src/api/settings');

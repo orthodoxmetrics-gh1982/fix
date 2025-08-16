@@ -18,7 +18,7 @@
 - [x] **Critical Console**: Maintains ERROR/WARN filtering (unaffected by global filter)
 
 #### Backend Implementation
-- [x] **Database Migration**: `server/database/migrations/add_success_debug_log_support.sql`
+- [x] **Database Migration**: `server/src/database/migrations/add_success_debug_log_support.sql`
   - Adds `log_level`, `origin`, `source_component` columns
   - Includes sample SUCCESS/DEBUG entries
   - Performance indexes on new columns

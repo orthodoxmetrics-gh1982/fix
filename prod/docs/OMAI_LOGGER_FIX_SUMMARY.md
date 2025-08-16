@@ -56,7 +56,7 @@ SELECT COUNT(*) as total FROM errors
 ```
 
 ### 4. **Test Data Population**
-- Created SQL script to populate test data: `server/scripts/populate-test-errors.sql`
+- Created SQL script to populate test data: `server/src/scripts/populate-test-errors.sql`
 - Successfully inserted 24 test errors with various severity levels
 - Added error events for realistic data display
 
@@ -68,7 +68,7 @@ SELECT COUNT(*) as total FROM errors
    - Fixed column name mappings (e.g., `log_level` instead of `level`)
    - Updated POST endpoint to properly insert into `errors` and `error_events` tables
 
-2. **`server/scripts/populate-test-errors.sql`**
+2. **`server/src/scripts/populate-test-errors.sql`**
    - Created comprehensive test data script
    - Includes various error types, severities, and sources
    - Adds realistic error events with session and user context

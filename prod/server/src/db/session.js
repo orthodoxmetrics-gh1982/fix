@@ -1,4 +1,4 @@
-// server/config/session.js - FIXED VERSION FOR HTTPS PRODUCTION
+// server/src/config/session.js - FIXED VERSION FOR HTTPS PRODUCTION
 const session = require('express-session');
 const MySQLStore = require('express-mysql-session')(session);
 

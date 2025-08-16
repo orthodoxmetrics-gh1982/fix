@@ -1,4 +1,4 @@
-// server/config/db-root.js
+// server/src/config/db-root.js
 // Root-level database connection for administrative operations
 const mysql = require('mysql2/promise');
 const debug = require('debug')('app:db-root');

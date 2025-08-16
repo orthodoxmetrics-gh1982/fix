@@ -1,4 +1,4 @@
-// File: server/utils/pageRegistrar.js
+// File: server/src/utils/pageRegistrar.js
 const fs = require('fs');
 const path = require('path');
 

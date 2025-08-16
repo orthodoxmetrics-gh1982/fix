@@ -17,7 +17,7 @@ const TARGET_DIRECTORIES = [
     'server/src',
     'server/routes', 
     'server/api',
-    'server/utils',
+    'server/src/utils',
     '../front-end/src'
 ];
 
