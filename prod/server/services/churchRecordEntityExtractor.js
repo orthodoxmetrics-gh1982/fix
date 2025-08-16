@@ -1,6 +1,6 @@
 // services/churchRecordEntityExtractor.js
 const { promisePool } = require('../../config/db');
-const { getChurchDbConnection } = require('../utils/dbSwitcher');
+const { getChurchDbConnection } = require('@/utils/dbSwitcher');
 
 /**
  * AI-Powered Entity Extraction Service for Orthodox Church Records

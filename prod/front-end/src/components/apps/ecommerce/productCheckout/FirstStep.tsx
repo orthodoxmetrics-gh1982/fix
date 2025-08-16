@@ -2,7 +2,7 @@ import { Box, Typography, Stack } from '@mui/material';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import React from 'react';
-import ChildCard from '../../../shared/ChildCard';
+import ChildCard from '@/src/components/shared/ChildCard';
 
 interface Props {
   total: number;

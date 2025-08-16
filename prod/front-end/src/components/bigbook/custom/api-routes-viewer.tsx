@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useCallback, useEffect } from 'react';
 import { Search, Filter, Eye, Code, Database, Users, Globe, Download, Play, Brain, TestTube, BarChart3, Settings, FileText, ExternalLink, Terminal, Zap, Send, Copy, AlertTriangle, CheckCircle } from 'lucide-react';
-import { initializeOrthodoxRoutesData, generateRoutesData } from '../../../data/orthodoxRoutesData';
+import { initializeOrthodoxRoutesData, generateRoutesData } from '@/src/data/orthodoxRoutesData';
 
 // Initialize routes data once when the module loads
 if (typeof window !== 'undefined' && !window.ORTHODOX_ROUTES_DATA) {

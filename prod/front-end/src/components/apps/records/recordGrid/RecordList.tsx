@@ -20,10 +20,10 @@ import {
   ViewModule as GridViewIcon,
   ViewList as ListViewIcon
 } from '@mui/icons-material';
-import { useRecords } from '../../../../context/RecordsContext';
+import { useRecords } from '@/src/context/RecordsContext';
 import RecordCard from './RecordCard';
 import RecordSearch from './RecordSearch';
-import emptyRecords from '../../../../assets/images/products/empty-shopping-cart.svg';
+import emptyRecords from '@/src/assets/images/products/empty-shopping-cart.svg';
 
 interface Props {
   onClick: (event: React.SyntheticEvent | Event) => void;

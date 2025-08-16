@@ -53,7 +53,7 @@ import {
   LocationOn as LocationIcon,
 } from '@mui/icons-material';
 import { formatDistanceToNow } from 'date-fns';
-import Scrollbar from '../../custom-scroll/Scrollbar';
+import Scrollbar from '@/src/components/custom-scroll/Scrollbar';
 
 interface Friend {
   id: number;

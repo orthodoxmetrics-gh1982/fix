@@ -17,12 +17,12 @@ import DefaultCheckbox from "src/components/forms/form-elements/checkbox/Default
 import ColorsCheckbox from "src/components/forms/form-elements/checkbox/Colors";
 
 // codeModel
-import CustomEleCheckboxCode from 'src/components/forms/form-elements/checkbox/code/CustomEleCheckboxCode';
-import ColorsCheckboxCode from 'src/components/forms/form-elements/checkbox/code/ColorsCheckboxCode';
-import DefaultCheckboxCode from 'src/components/forms/form-elements/checkbox/code/DefaultCheckboxCode';
-import DefaultcolorsCheckboxCode from 'src/components/forms/form-elements/checkbox/code/DefaultcolorsCheckboxCode';
-import SizesCheckboxCode from 'src/components/forms/form-elements/checkbox/code/SizesCheckboxCode';
-import PositionCheckboxCode from 'src/components/forms/form-elements/checkbox/code/PositionCheckboxCode';
+import CustomEleCheckboxCode from '@/dev/examples/components/forms/form-elements/checkbox/code/CustomEleCheckboxCode';
+import ColorsCheckboxCode from '@/dev/examples/components/forms/form-elements/checkbox/code/ColorsCheckboxCode';
+import DefaultCheckboxCode from '@/dev/examples/components/forms/form-elements/checkbox/code/DefaultCheckboxCode';
+import DefaultcolorsCheckboxCode from '@/dev/examples/components/forms/form-elements/checkbox/code/DefaultcolorsCheckboxCode';
+import SizesCheckboxCode from '@/dev/examples/components/forms/form-elements/checkbox/code/SizesCheckboxCode';
+import PositionCheckboxCode from '@/dev/examples/components/forms/form-elements/checkbox/code/PositionCheckboxCode';
 const BCrumb = [
   {
     to: '/',

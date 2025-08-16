@@ -13,8 +13,8 @@ import {
   Stack
 } from '@mui/material';
 import * as dropdownData from './data';
-import { useAuth } from '../../../../context/AuthContext';
-import { useProfileSync } from '../../../../hooks/useProfileSync';
+import { useAuth } from '@/src/context/AuthContext';
+import { useProfileSync } from '@/src/hooks/useProfileSync';
 
 import { IconMail } from '@tabler/icons-react';
 

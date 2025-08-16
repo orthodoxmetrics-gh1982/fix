@@ -30,7 +30,7 @@ export const loggingPool = mysql.createPool({
   host: process.env.DB_HOST || 'localhost',
   user: process.env.DB_USER || 'root',
   password: process.env.DB_PASSWORD || '',
-  database: 'omai_logging_db',
+  database: 'om_logging_db',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0

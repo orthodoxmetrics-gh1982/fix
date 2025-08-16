@@ -3,12 +3,12 @@
 import React from 'react';
 import Chart from 'react-apexcharts';
 import { useTheme } from '@mui/material/styles';
-import PageContainer from '../../components/container/PageContainer';
-import Breadcrumb from '../../layouts/full/shared/breadcrumb/Breadcrumb';
-import ParentCard from '../../components/shared/ParentCard';
+import PageContainer from '@/src/components/container/PageContainer';
+import Breadcrumb from '@/src/layouts/full/shared/breadcrumb/Breadcrumb';
+import ParentCard from '@/src/components/shared/ParentCard';
 import { Props } from 'react-apexcharts';
 
-import AreaChartCode from 'src/components/charts/Area Chart/code/AreaChartCode';
+import AreaChartCode from '@/dev/examples/components/charts/Area Chart/code/AreaChartCode';
 
 const BCrumb = [
   {

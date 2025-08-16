@@ -1,7 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import React from 'react';
-import DashboardCard from '../../shared/DashboardCard';
+import DashboardCard from '@/src/components/shared/DashboardCard';
 import {
   TimelineItem,
   TimelineOppositeContent,

@@ -9,7 +9,7 @@ import {
   ListSubheader,
   Collapse,
 } from '@mui/material';
-import BlankCard from '../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 
 import {
   IconInbox,

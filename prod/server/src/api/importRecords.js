@@ -1,11 +1,11 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // server/routes/importRecords.js
 // Full-stack JSON import solution for baptism, marriage, and funeral records
 
 const express = require('express');
-const { promisePool } = require('../../config/db-compat');
-const { requireAuth } = require('../middleware/auth');
-const { getChurchDbConnection } = require('../utils/dbSwitcher');
+const { promisePool } = require('@/config/db-compat');
+const { requireAuth } = require('@/src/middleware/auth');
+const { getChurchDbConnection } = require('@/src/utils/dbSwitcher');
 
 const router = express.Router();
 

@@ -22,7 +22,7 @@ import {
   Place as PlaceIcon,
 } from '@mui/icons-material';
 
-import { ChurchRecord, RecordField } from '../../types/church-records-advanced.types';
+import { ChurchRecord, RecordField } from '@/src/types/church-records-advanced.types';
 
 interface RecordPreviewPaneProps {
   record: ChurchRecord;

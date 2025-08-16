@@ -1,9 +1,9 @@
-import { TodoCategory } from '../../types/apps/kanban';
+import { TodoCategory } from '@/src/types/apps/kanban';
 
-import img1 from '../../assets/images/kanban/kanban-img-1.jpg';
-import img2 from '../../assets/images/kanban/kanban-img-2.jpg';
-import img3 from '../../assets/images/kanban/kanban-img-3.jpg';
-import img4 from '../../assets/images/kanban/kanban-img-4.jpg';
+import img1 from '@/src/assets/images/kanban/kanban-img-1.jpg';
+import img2 from '@/src/assets/images/kanban/kanban-img-2.jpg';
+import img3 from '@/src/assets/images/kanban/kanban-img-3.jpg';
+import img4 from '@/src/assets/images/kanban/kanban-img-4.jpg';
 import { http, HttpResponse } from 'msw';
 
 const KanbanData: TodoCategory[] = [

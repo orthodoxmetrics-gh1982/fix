@@ -39,13 +39,13 @@ import {
   LocalDining as FeastIcon,
   SelfImprovement as FastIcon,
 } from '@mui/icons-material';
-import { useLiturgicalCalendar } from '../../../hooks/useLiturgicalCalendar';
-import { CalendarType, Language } from '../../../types/liturgical.types';
+import { useLiturgicalCalendar } from '@/src/hooks/useLiturgicalCalendar';
+import { CalendarType, Language } from '@/src/types/liturgical.types';
 import * as XLSX from 'xlsx';
 import { jsPDF } from 'jspdf';
-import PageContainer from '../../../components/container/PageContainer';
-import BlankCard from '../../../components/shared/BlankCard';
-import Breadcrumb from '../../../layouts/full/shared/breadcrumb/Breadcrumb';
+import PageContainer from '@/src/components/container/PageContainer';
+import BlankCard from '@/src/components/shared/BlankCard';
+import Breadcrumb from '@/src/layouts/full/shared/breadcrumb/Breadcrumb';
 
 moment.locale('en-GB');
 const localizer = momentLocalizer(moment);

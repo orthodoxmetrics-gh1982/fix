@@ -20,7 +20,7 @@ import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import PageContainer from 'src/components/container/PageContainer';
 
 import { IconCheck, IconX } from '@tabler/icons-react';
-import BlankCard from '../../../components/shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 
 import pck1 from 'src/assets/images/backgrounds/silver.png';
 import pck2 from 'src/assets/images/backgrounds/bronze.png';

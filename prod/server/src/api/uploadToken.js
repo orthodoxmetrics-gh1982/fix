@@ -1,7 +1,7 @@
 // server/routes/uploadToken.js
 const express = require('express');
 const jwt = require('jsonwebtoken');
-const { requireAuth } = require('../middleware/auth');
+const { requireAuth } = require('@/src/middleware/auth');
 
 const router = express.Router();
 

@@ -7,7 +7,7 @@
 
 const express = require('express');
 const router = express.Router();
-const componentsController = require('../../controllers/admin/componentsController');
+const componentsController = require('@/controllers/admin/componentsController');
 
 // Middleware to check if user is admin or super admin
 const requireAdminRole = (req, res, next) => {

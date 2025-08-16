@@ -13,12 +13,12 @@ import SelectedList from 'src/components/material-ui/lists/SelectedList';
 import ControlsList from 'src/components/material-ui/lists/ControlsList';
 import SwitchList from 'src/components/material-ui/lists/SwitchList';
 
-import SimpleListCode from 'src/components/material-ui/lists/code/SimpleListCode';
-import NestedListCode from 'src/components/material-ui/lists/code/NestedListCode';
-import FolderListCode from 'src/components/material-ui/lists/code/FolderListCode';
-import SelectedListCode from 'src/components/material-ui/lists/code/SelectedListCode';
-import ControlsListCode from 'src/components/material-ui/lists/code/ControlsListCode';
-import SwitchListCode from 'src/components/material-ui/lists/code/SwitchListCode';
+import SimpleListCode from '@/dev/examples/components/material-ui/lists/code/SimpleListCode';
+import NestedListCode from '@/dev/examples/components/material-ui/lists/code/NestedListCode';
+import FolderListCode from '@/dev/examples/components/material-ui/lists/code/FolderListCode';
+import SelectedListCode from '@/dev/examples/components/material-ui/lists/code/SelectedListCode';
+import ControlsListCode from '@/dev/examples/components/material-ui/lists/code/ControlsListCode';
+import SwitchListCode from '@/dev/examples/components/material-ui/lists/code/SwitchListCode';
 
 const BCrumb = [
   {

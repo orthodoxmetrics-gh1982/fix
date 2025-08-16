@@ -2,8 +2,8 @@
 
 import Autocomplete from '@mui/material/Autocomplete';
 import top100Films from './data';
-import CustomCheckbox from '../../theme-elements/CustomCheckbox';
-import CustomTextField from '../../theme-elements/CustomTextField';
+import CustomCheckbox from '@/src/components/forms/theme-elements/CustomCheckbox';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
 
 
 

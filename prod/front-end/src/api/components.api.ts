@@ -3,7 +3,7 @@
  * Handles system component management endpoints
  */
 
-import type { ApiResponse } from '../types/orthodox-metrics.types';
+import type { ApiResponse } from '@/src/types/orthodox-metrics.types';
 import { apiClient } from './utils/axiosInstance';
 
 // Component types

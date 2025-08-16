@@ -13,14 +13,14 @@ import User4 from 'src/assets/images/profile/user-4.jpg';
 import User5 from 'src/assets/images/profile/user-5.jpg';
 import { IconMoodSmile } from '@tabler/icons-react';
 
-import VariantCode from "src/components/material-ui/avatar/code/VariantCode";
-import GroupedCode from "src/components/material-ui/avatar/code/GroupedCode";
-import GroupedSizeCode from "src/components/material-ui/avatar/code/GroupedSizeCode";
-import WithBadgeCode from "src/components/material-ui/avatar/code/WithBadgeCode";
-import SizesCode from "src/components/material-ui/avatar/code/SizesCode";
-import ImageAvatarsCode from "src/components/material-ui/avatar/code/ImageAvatarsCode";
-import LetterAvatarsCode from "src/components/material-ui/avatar/code/LetterAvatarsCode";
-import IconAvatarsCode from "src/components/material-ui/avatar/code/IconAvatarsCode";
+import VariantCode from '@/dev/examples/components/material-ui/avatar/code/VariantCode';
+import GroupedCode from '@/dev/examples/components/material-ui/avatar/code/GroupedCode';
+import GroupedSizeCode from '@/dev/examples/components/material-ui/avatar/code/GroupedSizeCode';
+import WithBadgeCode from '@/dev/examples/components/material-ui/avatar/code/WithBadgeCode';
+import SizesCode from '@/dev/examples/components/material-ui/avatar/code/SizesCode';
+import ImageAvatarsCode from '@/dev/examples/components/material-ui/avatar/code/ImageAvatarsCode';
+import LetterAvatarsCode from '@/dev/examples/components/material-ui/avatar/code/LetterAvatarsCode';
+import IconAvatarsCode from '@/dev/examples/components/material-ui/avatar/code/IconAvatarsCode';
 
 const BCrumb = [
   {

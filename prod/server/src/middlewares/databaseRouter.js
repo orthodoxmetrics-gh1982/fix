@@ -6,7 +6,7 @@
  * - Record operations → church-specific DB
  */
 
-const { isRecordPath, getChurchRecordDatabase } = require('../services/databaseService');
+const { isRecordPath, getChurchRecordDatabase } = require('@/src/services/databaseService');
 
 /**
  * Middleware to set the correct database connection for the request

@@ -1,5 +1,5 @@
 // AI Services API Integration for Orthodox Metrics Admin
-import { APIConfig } from '../api/config';
+import { APIConfig } from '@/src/api/config';
 
 export interface AIContentRequest {
     content_type: 'documentation' | 'report' | 'newsletter' | 'announcement' | 'admin_guide';

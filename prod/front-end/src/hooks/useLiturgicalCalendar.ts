@@ -1,7 +1,7 @@
 // Liturgical Calendar Hook for OrthodoxMetrics
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import useSWR from 'swr';
-import { liturgicalService } from '../services/liturgicalService';
+import { liturgicalService } from '@/src/services/liturgicalService';
 import type {
   LiturgicalDay,
   LiturgicalCalendarFilters,

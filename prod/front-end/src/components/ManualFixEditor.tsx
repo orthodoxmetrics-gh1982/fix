@@ -36,7 +36,7 @@ import {
   Fullscreen as FullscreenIcon,
   FullscreenExit as FullscreenExitIcon
 } from '@mui/icons-material';
-import { ComponentInfo } from '../hooks/useComponentRegistry';
+import { ComponentInfo } from '@/src/hooks/useComponentRegistry';
 
 // Temporarily disabled for build - Monaco Editor not available
 // const MonacoEditor = React.lazy(() => 

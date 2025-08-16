@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navigate } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext';
-import { UserRole } from '../../types/orthodox-metrics.types';
+import { useAuth } from '@/src/context/AuthContext';
+import { UserRole } from '@/src/types/orthodox-metrics.types';
 import { Box, CircularProgress } from '@mui/material';
 
 interface ProtectedRouteProps {

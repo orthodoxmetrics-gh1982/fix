@@ -1,11 +1,11 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // server/routes/churches.js - REFACTORED for API v2 consistency
 const express = require('express');
-const { promisePool } = require('../../config/db-compat');
-const { requireAuth, requireRole } = require('../middleware/auth');
-const { cleanRecords, cleanRecord } = require('../utils/dateFormatter');
-const { validateChurchData, sanitizeChurchData, generateChurchId } = require('../utils/churchValidation');
-const ApiResponse = require('../utils/apiResponse');
+const { promisePool } = require('@/config/db-compat');
+const { requireAuth, requireRole } = require('@/src/middleware/auth');
+const { cleanRecords, cleanRecord } = require('@/src/utils/dateFormatter');
+const { validateChurchData, sanitizeChurchData, generateChurchId } = require('@/src/utils/churchValidation');
+const ApiResponse = require('@/src/utils/apiResponse');
 
 const router = express.Router();
 

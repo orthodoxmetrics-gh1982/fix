@@ -1,7 +1,7 @@
 // controllers/entityExtractionController.js
-const { getChurchDbConnection } = require('../src/utils/dbSwitcher');
+const { getChurchDbConnection } = require('@/src/utils/dbSwitcher');
 const { promisePool } = require('../../config/db');
-const ChurchRecordEntityExtractor = require('../services/churchRecordEntityExtractor');
+const ChurchRecordEntityExtractor = require('@/services/churchRecordEntityExtractor');
 
 const entityExtractor = new ChurchRecordEntityExtractor();
 

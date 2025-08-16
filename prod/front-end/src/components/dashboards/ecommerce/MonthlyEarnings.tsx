@@ -6,7 +6,7 @@ import { useTheme } from '@mui/material/styles';
 import { Stack, Typography, Avatar } from '@mui/material';
 import { IconArrowUpLeft } from '@tabler/icons-react';
 
-import DashboardCard from '../../shared/DashboardCard';
+import DashboardCard from '@/src/components/shared/DashboardCard';
 import icon1Img from 'src/assets/images/svgs/icon-master-card-2.svg';
 import { Props } from 'react-apexcharts';
 

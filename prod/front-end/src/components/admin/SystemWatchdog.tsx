@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { formatTimestamp } from '../../utils/formatTimestamp';
+import { formatTimestamp } from '@/src/utils/formatTimestamp';
 import {
   Box,
   Card,

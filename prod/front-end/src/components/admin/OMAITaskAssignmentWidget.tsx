@@ -47,8 +47,8 @@ import {
   Download as DownloadIcon,
   RemoveRedEye as ViewIcon
 } from '@mui/icons-material';
-import { omaiAPI } from '../../api/omai.api';
-import { useAuth } from '../../context/AuthContext';
+import { omaiAPI } from '@/src/api/omai.api';
+import { useAuth } from '@/src/context/AuthContext';
 import EmailSettingsForm from './EmailSettingsForm';
 
 interface TaskAssignmentData {

@@ -17,12 +17,12 @@ import {
 import { IconChevronDown, IconHelp } from '@tabler/icons-react';
 
 // components
-import CustomFormLabel from '../theme-elements/CustomFormLabel';
-import CustomTextField from '../theme-elements/CustomTextField';
-import CustomRadio from '../theme-elements/CustomRadio';
-import CustomOutlinedInput from '../theme-elements/CustomOutlinedInput';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
+import CustomRadio from '@/src/components/forms/theme-elements/CustomRadio';
+import CustomOutlinedInput from '@/src/components/forms/theme-elements/CustomOutlinedInput';
 import { Box } from '@mui/system';
-import CustomSelect from '../theme-elements/CustomSelect';
+import CustomSelect from '@/src/components/forms/theme-elements/CustomSelect';
 import React from 'react';
 
 const states = [

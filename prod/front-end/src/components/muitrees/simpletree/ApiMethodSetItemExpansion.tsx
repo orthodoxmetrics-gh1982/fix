@@ -6,7 +6,7 @@ import Button from '@mui/material/Button'
 import { SimpleTreeView } from '@mui/x-tree-view/SimpleTreeView'
 import { TreeItem } from '@mui/x-tree-view/TreeItem'
 import { useTreeViewApiRef } from '@mui/x-tree-view/hooks'
-import ApiMethodSetItemExpansionCode from '../code/simpletreecode/ApiMethodSetItemExpansionCode'
+import ApiMethodSetItemExpansionCode from '@/src/components/muitrees/code/simpletreecode/ApiMethodSetItemExpansionCode'
 import ParentCard from 'src/components/shared/ParentCard';
 
 export default function ApiMethodSetItemExpansion() {

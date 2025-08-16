@@ -1,1 +1,1 @@
-module.exports = require('../src/api/globalTemplates');
+module.exports = require('@/src/api/globalTemplates');

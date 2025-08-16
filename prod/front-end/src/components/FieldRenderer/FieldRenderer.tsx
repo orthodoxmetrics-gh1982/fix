@@ -29,8 +29,8 @@ import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 
-import { RecordField, FieldType } from '../../types/church-records-advanced.types';
-import ColorPickerPopover from '../ColorPickerPopover';
+import { RecordField, FieldType } from '@/src/types/church-records-advanced.types';
+import ColorPickerPopover from '@/src/components/ColorPickerPopover';
 
 interface FieldRendererProps {
   field: RecordField;

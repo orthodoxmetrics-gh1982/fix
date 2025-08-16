@@ -36,14 +36,14 @@ import {
   createRecordWithFields,
   getRecordSchema,
 } from '../schemas/record-schemas';
-import { devLogStateChange } from '../utils/devLogger';
-import FieldRenderer from '../components/FieldRenderer';
-import RecordPreviewPane from '../components/RecordPreviewPane';
-import ColorPickerPopover from '../components/ColorPickerPopover';
-import recordService from '../services/recordService';
-import { useAuth } from '../context/AuthContext';
-import { ThemedLayout } from '../components/Theme/ThemedLayout';
-import { useTheme } from '../context/ThemeContext';
+import { devLogStateChange } from '@/src/utils/devLogger';
+import FieldRenderer from '@/src/components/FieldRenderer';
+import RecordPreviewPane from '@/src/components/RecordPreviewPane';
+import ColorPickerPopover from '@/src/components/ColorPickerPopover';
+import recordService from '@/src/services/recordService';
+import { useAuth } from '@/src/context/AuthContext';
+import { ThemedLayout } from '@/src/components/Theme/ThemedLayout';
+import { useTheme } from '@/src/context/ThemeContext';
 
 interface EditableRecordPageProps {
   recordType?: RecordType;

@@ -4,8 +4,8 @@ import React from 'react';
 import Chart from 'react-apexcharts';
 import { useTheme } from '@mui/material/styles';
 import { CardContent, Typography, MenuItem, Stack, Box } from '@mui/material';
-import BlankCard from '../../shared/BlankCard';
-import CustomSelect from '../../forms/theme-elements/CustomSelect';
+import BlankCard from '@/src/components/shared/BlankCard';
+import CustomSelect from '@/src/components/forms/theme-elements/CustomSelect';
 import { Props } from 'react-apexcharts';
 
 const MostVisited = () => {

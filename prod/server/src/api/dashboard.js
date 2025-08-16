@@ -1,9 +1,9 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 const express = require('express');
 const router = express.Router();
-const { promisePool } = require('../../config/db-compat');
-const { requireAuth } = require('../middleware/auth');
-const ApiResponse = require('../utils/apiResponse');
+const { promisePool } = require('@/config/db-compat');
+const { requireAuth } = require('@/src/middleware/auth');
+const ApiResponse = require('@/src/utils/apiResponse');
 
 // Get dashboard summary for a church
 router.get('/summary/:churchId', requireAuth, async (req, res) => {

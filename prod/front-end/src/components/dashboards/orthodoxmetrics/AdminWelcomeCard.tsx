@@ -3,7 +3,7 @@
 import React from 'react';
 import { Box, Avatar, Typography, Card, CardContent, Grid, Divider, Stack } from '@mui/material';
 import { IconShield, IconTrendingUp } from '@tabler/icons-react';
-import { useAuth } from '../../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 import welcomeImg from 'src/assets/images/backgrounds/welcome-bg2.png';
 

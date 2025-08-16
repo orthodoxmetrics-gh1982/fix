@@ -1,7 +1,7 @@
 'use client'
 
 import { FormGroup, FormControlLabel, FormControl } from '@mui/material';
-import CustomCheckbox from '../../theme-elements/CustomCheckbox';
+import CustomCheckbox from '@/src/components/forms/theme-elements/CustomCheckbox';
 
 const PositionCheckbox = () => (
   <FormControl

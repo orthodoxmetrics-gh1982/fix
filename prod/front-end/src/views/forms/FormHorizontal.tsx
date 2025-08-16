@@ -7,16 +7,16 @@ import { Grid, Typography } from '@mui/material';
 import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import PageContainer from 'src/components/container/PageContainer';
 import ParentCard from 'src/components/shared/ParentCard';
-import BasicLayout from '../../components/forms/form-horizontal/BasicLayout';
-import BasicIcons from '../../components/forms/form-horizontal/BasicIcons';
-import FormSeparator from '../../components/forms/form-horizontal/FormSeparator';
-import FormLabelAlignment from '../../components/forms/form-horizontal/FormLabelAlignment';
-import CollapsibleForm from '../../components/forms/form-horizontal/CollapsibleForm';
-import FormTabs from '../../components/forms/form-horizontal/FormTabs';
+import BasicLayout from '@/src/components/forms/form-horizontal/BasicLayout';
+import BasicIcons from '@/src/components/forms/form-horizontal/BasicIcons';
+import FormSeparator from '@/src/components/forms/form-horizontal/FormSeparator';
+import FormLabelAlignment from '@/src/components/forms/form-horizontal/FormLabelAlignment';
+import CollapsibleForm from '@/src/components/forms/form-horizontal/CollapsibleForm';
+import FormTabs from '@/src/components/forms/form-horizontal/FormTabs';
 
-import BasicLayoutCode from 'src/components/forms/form-horizontal/code/BasicIconsCode';
-import BasicIconsCode from 'src/components/forms/form-horizontal/code/BasicIconsCode';
-import FormSeparatorCode from 'src/components/forms/form-horizontal/code/FormSeparatorCode';
+import BasicLayoutCode from '@/dev/examples/components/forms/form-horizontal/code/BasicIconsCode';
+import BasicIconsCode from '@/dev/examples/components/forms/form-horizontal/code/BasicIconsCode';
+import FormSeparatorCode from '@/dev/examples/components/forms/form-horizontal/code/FormSeparatorCode';
 
 const BCrumb = [
   {

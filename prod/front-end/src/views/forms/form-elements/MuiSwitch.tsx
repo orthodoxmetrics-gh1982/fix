@@ -13,12 +13,12 @@ import SizesSwitch from 'src/components/forms/form-elements/switch/Sizes';
 import ColorsSwitch from 'src/components/forms/form-elements/switch/Colors';
 import PositionSwitch from 'src/components/forms/form-elements/switch/Position';
 
-import CustomSwitchCode from 'src/components/forms/form-elements/switch/code/ColorsSwitchCode';
-import DefaultSwitchCode from 'src/components/forms/form-elements/switch/code/DefaultSwitchCode';
-import DefaultLabelSwitchCode from 'src/components/forms/form-elements/switch/code/DefaultLabelSwitchCode';
-import SizesSwitchCode from 'src/components/forms/form-elements/switch/code/SizesSwitchCode';
-import ColorsSwitchCode from 'src/components/forms/form-elements/switch/code/ColorsSwitchCode';
-import PositionSwitchCode from 'src/components/forms/form-elements/switch/code/PositionSwitchCode';
+import CustomSwitchCode from '@/dev/examples/components/forms/form-elements/switch/code/ColorsSwitchCode';
+import DefaultSwitchCode from '@/dev/examples/components/forms/form-elements/switch/code/DefaultSwitchCode';
+import DefaultLabelSwitchCode from '@/dev/examples/components/forms/form-elements/switch/code/DefaultLabelSwitchCode';
+import SizesSwitchCode from '@/dev/examples/components/forms/form-elements/switch/code/SizesSwitchCode';
+import ColorsSwitchCode from '@/dev/examples/components/forms/form-elements/switch/code/ColorsSwitchCode';
+import PositionSwitchCode from '@/dev/examples/components/forms/form-elements/switch/code/PositionSwitchCode';
 
 const BCrumb = [
   {

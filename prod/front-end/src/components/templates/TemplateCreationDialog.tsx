@@ -32,7 +32,7 @@ import {
   Code as CodeIcon,
   Visibility as VisibilityIcon
 } from '@mui/icons-material';
-import { templateService } from '../../services/templateService';
+import { templateService } from '@/src/services/templateService';
 
 interface Field {
   field: string;

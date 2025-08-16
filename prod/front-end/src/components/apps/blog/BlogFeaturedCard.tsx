@@ -17,7 +17,7 @@ import {
 import { IconEye, IconMessage2, IconPoint } from '@tabler/icons-react';
 import { format } from 'date-fns';
 
-import BlankCard from '../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 import { BlogPostType } from 'src/types/apps/blog';
 import { useContext, useEffect } from 'react';
 import { BlogContext, BlogContextProps } from 'src/context/BlogContext/index';

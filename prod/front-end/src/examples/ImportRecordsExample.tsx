@@ -2,7 +2,7 @@
 // Example usage of ImportRecordsButton component
 
 import React from 'react';
-import ImportRecordsButton from '../components/ImportRecordsButton';
+import ImportRecordsButton from '@/src/components/ImportRecordsButton';
 
 const ImportRecordsExample: React.FC = () => {
   return (

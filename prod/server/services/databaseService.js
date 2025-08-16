@@ -124,7 +124,7 @@ async function getChurchRecordConnection(churchId) {
  * OCR data is stored in orthodoxmetrics_ocr_db (separate from platform DB)
  */
 function getOcrDb() {
-    const { getOcrDbPool } = require('../utils/dbConnections');
+    const { getOcrDbPool } = require('@/utils/dbConnections');
     return getOcrDbPool();
 }
 

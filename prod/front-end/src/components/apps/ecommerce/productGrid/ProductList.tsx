@@ -21,9 +21,9 @@ import { Link } from 'react-router-dom';
 import { ProductContext } from "src/context/EcommerceContext";
 import ProductSearch from './ProductSearch';
 import { IconBasket, IconMenu2 } from '@tabler/icons-react';
-import AlertCart from '../productCart/AlertCart';
+import AlertCart from '@/src/components/apps/ecommerce/productCart/AlertCart';
 import emptyCart from 'src/assets/images/products/empty-shopping-cart.svg';
-import BlankCard from '../../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 
 
 interface Props {

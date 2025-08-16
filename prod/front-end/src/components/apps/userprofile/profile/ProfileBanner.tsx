@@ -33,17 +33,17 @@ import {
   IconX,
 } from '@tabler/icons-react';
 import ProfileTab from './ProfileTab';
-import BlankCard from '../../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 import OrthodoxAvatarSelector from './OrthodoxAvatarSelector';
 import { useAuth } from 'src/context/AuthContext';
-import { useProfileSync } from '../../../../hooks/useProfileSync';
+import { useProfileSync } from '@/src/hooks/useProfileSync';
 
 // Default images
 import profilecover from 'src/assets/images/backgrounds/profilebg.jpg';
 import userimg from 'src/assets/images/profile/user-1.jpg';
 
 // Import Orthodox avatars
-import { orthodoxAvatars, YoungPriest1 } from '../../../avatars/OrthodoxAvatars';
+import { orthodoxAvatars, YoungPriest1 } from '@/src/components/avatars/OrthodoxAvatars';
 
 // Simple test avatar component
 const TestAvatar: React.FC<{ size?: number }> = ({ size = 60 }) => (

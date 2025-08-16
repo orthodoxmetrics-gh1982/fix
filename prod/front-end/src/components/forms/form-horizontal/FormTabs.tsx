@@ -6,11 +6,11 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 
 // components
-import BlankCard from '../../shared/BlankCard';
-import CustomFormLabel from '../theme-elements/CustomFormLabel';
-import CustomSelect from '../theme-elements/CustomSelect';
-import CustomTextField from '../theme-elements/CustomTextField';
-import CustomOutlinedInput from '../theme-elements/CustomOutlinedInput';
+import BlankCard from '@/src/components/shared/BlankCard';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
+import CustomSelect from '@/src/components/forms/theme-elements/CustomSelect';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
+import CustomOutlinedInput from '@/src/components/forms/theme-elements/CustomOutlinedInput';
 import { IconEye, IconEyeOff } from '@tabler/icons-react';
 import React from 'react';
 

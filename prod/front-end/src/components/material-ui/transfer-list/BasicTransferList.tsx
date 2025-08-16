@@ -11,7 +11,7 @@ import {
   IconChevronsRight,
 } from '@tabler/icons-react';
 
-import CustomCheckbox from '../../forms/theme-elements/CustomCheckbox';
+import CustomCheckbox from '@/src/components/forms/theme-elements/CustomCheckbox';
 
 function not(a: readonly number[], b: readonly number[]) {
   return a.filter((value) => b.indexOf(value) === -1);

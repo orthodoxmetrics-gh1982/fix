@@ -19,8 +19,8 @@ import {
     FileCopy as FilesIcon, Security as SecurityIcon, CheckCircle as SuccessIcon,
     Error as ErrorIcon, Warning as WarningIcon, Info as InfoIcon
 } from '@mui/icons-material';
-import { useAuth } from '../../context/AuthContext';
-import { apiClient } from '../../api/utils/axiosInstance';
+import { useAuth } from '@/src/context/AuthContext';
+import { apiClient } from '@/src/api/utils/axiosInstance';
 
 interface OmaiSpinStats {
     total_sessions: number;

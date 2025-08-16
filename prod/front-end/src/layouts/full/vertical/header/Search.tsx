@@ -13,7 +13,7 @@ import {
   ListItemButton,
 } from '@mui/material';
 import { IconSearch, IconX } from '@tabler/icons-react';
-import Menuitems from '../sidebar/MenuItems';
+import Menuitems from '@/src/layouts/full/vertical/sidebar/MenuItems';
 import { Link } from 'react-router-dom';
 
 interface menuType {

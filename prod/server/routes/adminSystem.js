@@ -1,1 +1,1 @@
-module.exports = require('../src/api/adminSystem');
+module.exports = require('@/src/api/adminSystem');

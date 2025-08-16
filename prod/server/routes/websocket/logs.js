@@ -1,6 +1,6 @@
 // WebSocket route for real-time log streaming
-const { logStreamManager } = require('../../websockets/logStream');
-const { info, error } = require('../../src/utils/dbLogger');
+const { logStreamManager } = require('@/websockets/logStream');
+const { info, error } = require('@/src/utils/dbLogger');
 
 /**
  * Setup WebSocket routes for log streaming

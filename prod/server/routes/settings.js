@@ -1,1 +1,1 @@
-module.exports = require('../src/api/settings');
+module.exports = require('@/src/api/settings');

@@ -1,7 +1,7 @@
 // Express Middleware for API Request Logging
 // Replaces manual route logging with automatic database logging
 
-const { info, error } = require('../src/utils/dbLogger');
+const { info, error } = require('@/src/utils/dbLogger');
 const { v4: uuidv4 } = require('uuid');
 
 function createRequestLogger(options = {}) {
@@ -99,7 +99,7 @@ function createRequestLogger(options = {}) {
         const logLevel = res.statusCode >= 400 ? 'warn' : 'info';
         const logMessage = `${req.method} ${req.originalUrl} - ${res.statusCode} (${duration}ms)`;
 
-        const logFunc = logLevel === 'warn' ? require('../utils/dbLogger').warn : info;
+        const logFunc = logLevel === 'warn' ? require('@/utils/dbLogger').warn : info;
         logFunc(
           'API Response',
           logMessage,
@@ -132,7 +132,7 @@ function createRequestLogger(options = {}) {
         const logLevel = res.statusCode >= 400 ? 'warn' : 'info';
         const logMessage = `${req.method} ${req.originalUrl} - ${res.statusCode} (${duration}ms)`;
 
-        const logFunc = logLevel === 'warn' ? require('../utils/dbLogger').warn : info;
+        const logFunc = logLevel === 'warn' ? require('@/utils/dbLogger').warn : info;
         logFunc(
           'API Response',
           logMessage,

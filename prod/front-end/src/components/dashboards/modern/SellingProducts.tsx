@@ -3,7 +3,7 @@
 import React from 'react';
 import { Box, CardContent, Chip, Paper, Stack, Typography, LinearProgress } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import SavingsImg from '../../../assets/images/backgrounds/piggy.png';
+import SavingsImg from '@/src/assets/images/backgrounds/piggy.png';
 
 interface sellsData {
   product: string;

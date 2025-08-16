@@ -86,7 +86,7 @@ const optionalAuth = (req, res, next) => {
 };
 
 // 🔄 Role checking refactored to use unified role system (see utils/roles.js)
-const { requireRole: unifiedRequireRole } = require('../src/utils/roles');
+const { requireRole: unifiedRequireRole } = require('@/src/utils/roles');
 
 const requireRole = (allowedRoles) => {
   return unifiedRequireRole(allowedRoles);

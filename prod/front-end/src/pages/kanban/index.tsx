@@ -36,7 +36,7 @@ import {
   Download as DownloadIcon,
 } from '@mui/icons-material';
 import { DragDropContext } from '@hello-pangea/dnd';
-import KanbanBoard from '../../components/KanbanBoard';
+import KanbanBoard from '@/src/components/KanbanBoard';
 
 // Types
 interface Board {

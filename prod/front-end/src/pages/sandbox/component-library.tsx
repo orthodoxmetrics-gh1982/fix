@@ -24,8 +24,8 @@ import {
   MenuItem,
 } from '@mui/material';
 import { IconComponents, IconForms, IconPalette, IconUsers, IconCode, IconCloudUpload } from '@tabler/icons-react';
-import PageContainer from '../../components/container/PageContainer';
-import Breadcrumb from '../../layouts/full/shared/breadcrumb/Breadcrumb';
+import PageContainer from '@/components/container/PageContainer';
+import Breadcrumb from '@/layouts/full/shared/breadcrumb/Breadcrumb';
 // Import our component library
 import {
   TextFormInput,
@@ -33,9 +33,9 @@ import {
   PasswordFormInput,
   TextAreaFormInput,
   DropzoneFormInput,
-} from '../../@om/components/ui/forms';
-import { ThemeCustomizer } from '../../@om/components/ui/theme';
-import { UserFormModal } from '../../@om/components/features/auth';
+} from '@/@om/components/ui/forms';
+import { ThemeCustomizer } from '@/@om/components/ui/theme';
+import { UserFormModal } from '@/@om/components/features/auth';
 
 interface TabPanelProps {
   children?: React.ReactNode;

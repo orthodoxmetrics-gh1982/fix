@@ -2,7 +2,7 @@
 // @ts-ignore
 import React from 'react';
 import { Grid, Typography, AvatarGroup, Avatar, Stack } from '@mui/material';
-import AnimationFadeIn from '../animation/Animation';
+import AnimationFadeIn from '@/src/components/landingpage/animation/Animation';
 
 // images
 import img1 from 'src/assets/images/profile/user-1.jpg';

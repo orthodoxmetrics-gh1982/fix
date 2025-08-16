@@ -42,7 +42,7 @@ import {
   CloudDownload as DownloadIcon,
   Refresh as RefreshIcon
 } from '@mui/icons-material';
-import { templateService } from '../../services/templateService';
+import { templateService } from '@/src/services/templateService';
 
 interface Field {
   field: string;

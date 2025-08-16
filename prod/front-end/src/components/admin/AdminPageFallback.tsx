@@ -27,8 +27,8 @@ import {
   Home as HomeIcon
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext';
-import OrthodoxBanner from '../shared/OrthodoxBanner';
+import { useAuth } from '@/src/context/AuthContext';
+import OrthodoxBanner from '@/src/components/shared/OrthodoxBanner';
 
 const AdminPageFallback: React.FC = () => {
   const navigate = useNavigate();

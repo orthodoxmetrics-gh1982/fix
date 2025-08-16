@@ -1,0 +1,163 @@
+# Phase 2 Cleanup Report
+
+## Summary
+- Total files: 9466
+- Files to remove: 45
+- Files to keep: 6139
+- Files to review: 3282
+
+## Files to Remove (45)
+- autosnap.log
+- build.log
+- dump-omai_db-202508031556.sql
+- dump-omai_db-202508031557.sql
+- dump-omai_error_tracking_db-202508031556.sql
+- dump-omai_error_tracking_db-202508031557.sql
+- dump-orthodoxmetrics_db-202508031556.sql
+- dump-orthodoxmetrics_db-202508031557.sql
+- front-end/fixthatshit.txt
+- front-end/fixthisshit.txt
+- front-end/src/api/orthodox-metrics.api.ts.backup
+- front-end/src/components/ImportRecordsButton.tsx.backup
+- front-end/src/components/KanbanTaskModal.tsx.backup
+- front-end/src/components/admin/OMBigBook.tsx.backup
+- front-end/src/components/admin/RegistryManagementPanel.tsx.backup
+- front-end/src/context/InvoiceContext/index.tsx.backup
+- front-end/src/layouts/full/vertical/sidebar/MenuItems.ts.backup
+- front-end/src/pages/ChurchManagement/ChurchManagement.jsx.backup
+- front-end/src/tools/start-setup-tool.bat
+- front-end/src/views/admin/ActivityLogs.tsx.backup
+- front-end/src/views/admin/SessionManagement.tsx.backup
+- front-end/src/views/apps/church-management/ChurchForm.tsx.backup
+- front-end/src/views/apps/church-management/ChurchList.tsx.backup
+- logs/combined-0.log
+- logs/combined-21.log
+- logs/err-0.log
+- logs/err-21.log
+- logs/omai-combined-22.log
+- logs/omai-err-22.log
+- logs/omai-out-22.log
+- logs/out-0.log
+- logs/out-21.log
+- misc/daily/start-server.bat
+- misc/server-archive/backups/20250722_034855/auth.js.backup
+- misc/server-archive/backups/20250722_034855/churches.js.backup
+- misc/server-archive/backups/20250722_034855/ecosystem.config.cjs.backup
+- misc/server-archive/backups/admin-cleanup-20250722_052104/admin.js.backup
+- misc/server-archive/backups/admin-cleanup-20250722_052104/index.js.backup
+- misc/server-archive/backups/admin-cleanup-20250722_052418/admin.js.backup
+- misc/server-archive/legacy/index.js.backup
+- misc/server-archive/scrapers/check-nodejs.bat
+- misc/server-archive/scripts/fetch-headlines.bat
+- server/database/dump-orthodoxmetrics_db-202507311409.sql
+- server/database/run_verification.bat
+- server/utils/setup-enhanced-invoices.ps1
+
+
+## Files to Keep (6139)
+- audit/church_id_application_results.json
+- audit/tenant_inventory.json
+- audit/tenant_plan.md
+- config/db-root.js
+- config/db.js
+- config/session.js
+- cursor_task_site_survey.md
+- db/sql/03_auth_tables.sql
+- docs/BACKEND_AUDIT_REPORT.md
+- docs/BROWSER_ERRORS_FIXED.md
+- docs/CRITICAL_FIXES.md
+- docs/CRITICAL_FIXES_IMPLEMENTATION_SUMMARY.md
+- docs/DUPLICATE_ROUTES_ANALYSIS.md
+- docs/IMPORT_RECORDS_GUIDE.md
+- docs/MENU_CONFIGURATION_GUIDE.md
+- docs/MENU_CONFIGURATION_IMPLEMENTATION_SUMMARY.md
+- docs/NGINX_UPDATE_SUMMARY.md
+- docs/OMAI_LOGGER_FIX_SUMMARY.md
+- docs/OMAI_LOGGER_IMPLEMENTATION_SUMMARY.md
+- docs/OMAI_LOGGER_INTEGRATION.md
+- docs/ORTHODOX_CALENDAR_REDESIGN.md
+- docs/ROLES_REFERENCE.md
+- docs/ROLE_MIGRATION_READY.md
+- docs/ROLE_SIMPLIFICATION_IMPLEMENTATION.md
+- docs/ROLE_SIMPLIFICATION_UPDATE_SUMMARY.md
+- docs/component-analysis-report.md
+- ecosystem.config.js
+- front-end/.gitignore
+- front-end/DEV-SETUP.md
+- front-end/MOBILE_AUDIT_LOG.md
+- front-end/README.md
+- front-end/TASK_144_COMPLETION_SUMMARY.md
+- front-end/build.meta.json
+- front-end/docs/OMAI_LOGGER_ADVANCED_FEATURES.md
+- front-end/docs/OMAI_LOGGER_COMPLETE_IMPLEMENTATION.md
+- front-end/docs/OMAI_LOGGER_REDESIGN_COMPLETE.md
+- front-end/docs/OMAI_LOGGER_SUCCESS_DEBUG_QA.md
+- front-end/docs/ORTHODOX_STYLING_GUIDE.md
+- front-end/docs/PHASE_13_SITE_EDITOR_IMPLEMENTATION.md
+- front-end/docs/PHASE_14_AUTONOMOUS_FIXES_IMPLEMENTATION.md
+- front-end/docs/PHASE_15_GITOPS_IMPLEMENTATION.md
+- front-end/docs/PHASE_15_SUMMARY.md
+- front-end/docs/SITE_EDITOR_GUIDE.md
+- front-end/docs/ai-errors/logger-dashboard-failure.md
+- front-end/docs/all_databases_2025-07-19T06-00-00-106Z.sql
+- front-end/docs/orthodox_ssppoc2_only.sql
+- front-end/error-handling-test.md
+- front-end/index.html
+- front-end/package-lock.json
+- front-end/package.json
+
+... and 6089 more
+
+## Files Needing Review (3282)
+- EXTERNAL_NGINX_CONFIG_REQUIRED.conf
+- bin/run-detached.sh
+- bin/run-once.sh
+- bootstrap-cursor-autonomy.sh
+- cleanup_structure.sh
+- convert_jsx_to_tsx.sh
+- front-end/auto-fix-all-imports.cjs
+- front-end/auto-install-missing-deps.sh
+- front-end/check-imports.cjs
+- front-end/fix-all-imports-comprehensive.cjs
+- front-end/fix-remaining-imports.sh
+- front-end/fix_all_imports.sh
+- front-end/fix_module_imports.sh
+- front-end/frontend-manager.sh
+- front-end/public/workspace.zip
+- front-end/public/workspace/extract_avatars.py
+- front-end/rebuild-frontend.sh
+- front-end/remove_modernize_menu.sh
+- front-end/src/assets/images/svgs/no-data.webp
+- front-end/src/components/frontend-pages/homepage/banner.zip
+- front-end/src/components/frontend-pages/homepage/home_page.txt
+- front-end/src/layouts/full/vertical/sidebar/MenuItems.ts.backup-2025-07-12-2055
+- front-end/src/tools/start-setup-tool.sh
+- lintstaged.config.mjs
+- logs/combined-21__2025-08-04.log.gz
+- logs/combined-21__2025-08-05.log.gz
+- logs/combined-21__2025-08-06.log.gz
+- logs/err-21__2025-08-04.log.gz
+- logs/err-21__2025-08-05.log.gz
+- logs/err-21__2025-08-06.log.gz
+- logs/omai-combined-22__2025-08-04.log.gz
+- logs/omai-combined-22__2025-08-05.log.gz
+- logs/omai-combined-22__2025-08-06.log.gz
+- logs/omai-err-22__2025-08-04.log.gz
+- logs/omai-err-22__2025-08-05.log.gz
+- logs/omai-out-22__2025-08-04.log.gz
+- logs/omai-out-22__2025-08-05.log.gz
+- logs/omai-out-22__2025-08-06.log.gz
+- logs/out-21__2025-08-04.log.gz
+- logs/out-21__2025-08-05.log.gz
+- logs/out-21__2025-08-06.log.gz
+- misc/AI-agent-workspace.txt
+- misc/cleanup-dev.sh
+- misc/daily/restart-server.sh
+- misc/daily/start-production.sh
+- misc/daily/test-backup-system.sh
+- misc/daily/test-original-backup-system.sh
+- misc/docs/archive/07-09-25/nginx-configuration-7-8-25
+- misc/docs/archive/07-09-25/nginx-configuration-proxy-server
+- misc/docs/archive/TEST_CHURCH_FEATURE_COMPLETE.zip
+
+... and 3232 more

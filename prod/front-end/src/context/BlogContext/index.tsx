@@ -1,6 +1,6 @@
 
 import { createContext, useState, useEffect, ReactNode, Dispatch, SetStateAction } from 'react';
-import { BlogPostType, BlogType } from '../../types/apps/blog';
+import { BlogPostType, BlogType } from '@/src/types/apps/blog';
 import React from "react";
 import useSWR from 'swr';
 import { getFetcher } from 'src/api/globalFetcher';

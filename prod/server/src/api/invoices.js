@@ -1,9 +1,9 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // server/routes/invoices.js
 const express = require('express');
-const { promisePool } = require('../../config/db-compat');
-const { requireAuth } = require('../middleware/auth');
-const { requireChurchBilling } = require('../middleware/churchSecurity');
+const { promisePool } = require('@/config/db-compat');
+const { requireAuth } = require('@/src/middleware/auth');
+const { requireChurchBilling } = require('@/src/middleware/churchSecurity');
 const router = express.Router();
 
 // Import the invoice generator utilities (assuming Node.js compatible version)

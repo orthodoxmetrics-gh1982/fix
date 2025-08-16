@@ -6,7 +6,7 @@ import { useTheme } from '@mui/material/styles';
 import { Grid, Stack, Typography, Avatar } from '@mui/material';
 import { IconArrowUpLeft } from '@tabler/icons-react';
 
-import DashboardCard from '../../shared/DashboardCard';
+import DashboardCard from '@/src/components/shared/DashboardCard';
 import { Props } from 'react-apexcharts';
 
 const YearlyBreakup = () => {

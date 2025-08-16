@@ -1,6 +1,6 @@
 // React hook for fetching log statistics
 import { useState, useEffect, useCallback } from 'react';
-import { LogStats, UseLogStatsReturn, LOG_API_ENDPOINTS } from '../types/logging';
+import { LogStats, UseLogStatsReturn, LOG_API_ENDPOINTS } from '@/src/types/logging';
 
 interface UseLogStatsOptions {
   autoRefresh?: boolean;

@@ -8,20 +8,20 @@ import ParentCard from 'src/components/shared/ParentCard';
 import ChildCard from 'src/components/shared/ChildCard';
 
 // CodeModels
-import Heading1Code from 'src/components/material-ui/typography/code/Heading1Code';
-import Heading2Code from 'src/components/material-ui/typography/code/Heading2Code';
-import Heading3Code from 'src/components/material-ui/typography/code/Heading3Code';
-import Heading4Code from 'src/components/material-ui/typography/code/Heading4Code';
-import Heading5Code from 'src/components/material-ui/typography/code/Heading5Code';
-import Heading6Code from 'src/components/material-ui/typography/code/Heading6Code';
-import Subtitle1Code from 'src/components/material-ui/typography/code/Subtitle1Code';
-import Subtitle2Code from 'src/components/material-ui/typography/code/Subtitle2Code';
-import TextPrimaryCode from 'src/components/material-ui/typography/code/TextPrimaryCode';
-import TextSecondaryCode from 'src/components/material-ui/typography/code/TextSecondaryCode';
-import TextInfoCode from 'src/components/material-ui/typography/code/TextInfoCode';
-import TextWarningCode from 'src/components/material-ui/typography/code/TextWarningCode';
-import TextErrorCode from 'src/components/material-ui/typography/code/TextErrorCode';
-import TextSuccessCode from 'src/components/material-ui/typography/code/TextSuccessCode';
+import Heading1Code from '@/dev/examples/components/material-ui/typography/code/Heading1Code';
+import Heading2Code from '@/dev/examples/components/material-ui/typography/code/Heading2Code';
+import Heading3Code from '@/dev/examples/components/material-ui/typography/code/Heading3Code';
+import Heading4Code from '@/dev/examples/components/material-ui/typography/code/Heading4Code';
+import Heading5Code from '@/dev/examples/components/material-ui/typography/code/Heading5Code';
+import Heading6Code from '@/dev/examples/components/material-ui/typography/code/Heading6Code';
+import Subtitle1Code from '@/dev/examples/components/material-ui/typography/code/Subtitle1Code';
+import Subtitle2Code from '@/dev/examples/components/material-ui/typography/code/Subtitle2Code';
+import TextPrimaryCode from '@/dev/examples/components/material-ui/typography/code/TextPrimaryCode';
+import TextSecondaryCode from '@/dev/examples/components/material-ui/typography/code/TextSecondaryCode';
+import TextInfoCode from '@/dev/examples/components/material-ui/typography/code/TextInfoCode';
+import TextWarningCode from '@/dev/examples/components/material-ui/typography/code/TextWarningCode';
+import TextErrorCode from '@/dev/examples/components/material-ui/typography/code/TextErrorCode';
+import TextSuccessCode from '@/dev/examples/components/material-ui/typography/code/TextSuccessCode';
 
 const BCrumb = [
   {

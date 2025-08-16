@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect, ReactNode } from 'react';
-import { ContactType } from '../../types/apps/contact';
+import { ContactType } from '@/src/types/apps/contact';
 import React from "react";
 
 import useSWR from 'swr';

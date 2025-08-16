@@ -1,1 +1,1 @@
-module.exports = require('../src/api/jit-terminal');
+module.exports = require('@/src/api/jit-terminal');

@@ -2,7 +2,7 @@
 // @ts-ignore
 import React, { useContext, useEffect, useState } from 'react';
 import { IconButton, Box, Stack, Typography, TextField, Tooltip, Alert } from '@mui/material';
-import Scrollbar from '../../custom-scroll/Scrollbar';
+import Scrollbar from '@/src/components/custom-scroll/Scrollbar';
 import { IconTrash } from '@tabler/icons-react';
 import { NotesType } from 'src/types/apps/notes';
 import { NotesContext } from "src/context/NotesContext";

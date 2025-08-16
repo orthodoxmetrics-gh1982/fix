@@ -9,7 +9,7 @@ import { Grid, Box, Card, Stack, Typography } from '@mui/material';
 // components
 import PageContainer from 'src/components/container/PageContainer';
 import Logo from 'src/layouts/full/shared/logo/Logo';
-import AuthLogin from '../authForms/AuthLogin';
+import AuthLogin from '@/src/views/authentication/authForms/AuthLogin';
 
 const Login2 = () => {
 

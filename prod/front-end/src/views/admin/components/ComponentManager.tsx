@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
-import { formatTimestamp, formatRelativeTime } from '../../../utils/formatTimestamp';
+import { formatTimestamp, formatRelativeTime } from '@/utils/formatTimestamp';
 import {
     Box,
     Typography,
@@ -69,8 +69,8 @@ import {
     type ComponentLog, 
     type ComponentsResponse,
     type ComponentFilters 
-} from '../../../api/components.api';
-import { useAuth } from '../../../context/AuthContext';
+} from '@/api/components.api';
+import { useAuth } from '@/context/AuthContext';
 
 // Health detection utility
 type HealthStatus = 'healthy' | 'degraded' | 'failed';

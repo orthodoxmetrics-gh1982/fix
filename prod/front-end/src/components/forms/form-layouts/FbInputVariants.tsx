@@ -1,11 +1,11 @@
 "use client";
 
 import { FormControl } from "@mui/material";
-import CustomTextField from "../theme-elements/CustomTextField";
-import CustomFormLabel from "../theme-elements/CustomFormLabel";
-import ParentCard from "../../shared/ParentCard";
+import CustomTextField from "@/src/components/forms/theme-elements/CustomTextField";
+import CustomFormLabel from "@/src/components/forms/theme-elements/CustomFormLabel";
+import ParentCard from "@/src/components/shared/ParentCard";
 
-import InputVariantsCode from "src/components/forms/form-layouts/code/InputVariantsCode";
+import InputVariantsCode from '@/dev/examples/components/forms/form-layouts/code/InputVariantsCode';
 
 const FbInputVariants = () => {
   return (

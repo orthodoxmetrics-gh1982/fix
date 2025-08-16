@@ -17,7 +17,7 @@ import {
   ListItemIcon,
   Box, Stack
 } from '@mui/material';
-import BlankCard from '../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 import img1 from 'src/assets/images/profile/user-1.jpg';
 import img2 from 'src/assets/images/profile/user-2.jpg';
 import img3 from 'src/assets/images/profile/user-3.jpg';

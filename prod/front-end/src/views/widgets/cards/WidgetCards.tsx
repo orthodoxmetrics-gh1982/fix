@@ -5,19 +5,19 @@ import { Grid } from '@mui/material';
 import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import PageContainer from 'src/components/container/PageContainer';
 
-import PaymentGateways from '../../../components/dashboards/ecommerce/PaymentGateways';
-import RecentTransactions from '../../../components/dashboards/ecommerce/RecentTransactions';
-import TopCards from '../../..//components/dashboards/modern/TopCards';
-import UpcomingAcitivity from '../../../components/widgets/cards/UpcomingActivity';
-import ComplexCard from '../../../components/widgets/cards/ComplexCard';
-import MusicCard from '../../../components/widgets/cards/MusicCard';
-import EcommerceCard from '../../../components/widgets/cards/EcommerceCard';
-import FollowerCard from '../../../components/widgets/cards/FollowerCard';
-import FriendCard from '../../../components/widgets/cards/FriendCard';
-import ProfileCard from '../../../components/widgets/cards/ProfileCard';
+import PaymentGateways from '@/src/components/dashboards/ecommerce/PaymentGateways';
+import RecentTransactions from '@/src/components/dashboards/ecommerce/RecentTransactions';
+import TopCards from '@/src/components/dashboards/modern/TopCards';
+import UpcomingAcitivity from '@/src/components/widgets/cards/UpcomingActivity';
+import ComplexCard from '@/src/components/widgets/cards/ComplexCard';
+import MusicCard from '@/src/components/widgets/cards/MusicCard';
+import EcommerceCard from '@/src/components/widgets/cards/EcommerceCard';
+import FollowerCard from '@/src/components/widgets/cards/FollowerCard';
+import FriendCard from '@/src/components/widgets/cards/FriendCard';
+import ProfileCard from '@/src/components/widgets/cards/ProfileCard';
 
-import Settings from '../../../components/widgets/cards/Settings';
-import GiftCard from '../../../components/widgets/cards/GiftCard';
+import Settings from '@/src/components/widgets/cards/Settings';
+import GiftCard from '@/src/components/widgets/cards/GiftCard';
 
 
 const BCrumb = [

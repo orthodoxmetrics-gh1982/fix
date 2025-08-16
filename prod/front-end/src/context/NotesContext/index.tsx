@@ -1,8 +1,8 @@
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import type { NotesType } from '../../types/apps/note';
-import { useAuth } from '../AuthContext';
-import { ensureArray } from '../../utils/arrayUtils';
+import type { NotesType } from '@/src/types/apps/note';
+import { useAuth } from '@/src/context/AuthContext';
+import { ensureArray } from '@/src/utils/arrayUtils';
 
 interface NotesFilters {
     category: string;

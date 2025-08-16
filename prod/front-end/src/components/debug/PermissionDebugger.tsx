@@ -1,5 +1,5 @@
 import React from 'react';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 import { Box, Typography, Paper, List, ListItem, ListItemText } from '@mui/material';
 
 const PermissionDebugger: React.FC = () => {

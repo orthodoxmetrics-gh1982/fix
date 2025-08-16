@@ -34,17 +34,17 @@ import {
     IconMail,
     IconCopy
 } from '@tabler/icons-react';
-import { useAuth } from '../../context/AuthContext';
-import BackupSettings from '../settings/BackupSettings';
-import ContentSettings from '../settings/ContentSettings';
-import ServiceManagement from '../settings/ServiceManagement';
-import NotificationManagement from '../../components/admin/NotificationManagement';
-import OMBigBook from '../../components/admin/OMBigBook';
+import { useAuth } from '@/context/AuthContext';
+import BackupSettings from '@/views/settings/BackupSettings';
+import ContentSettings from '@/views/settings/ContentSettings';
+import ServiceManagement from '@/views/settings/ServiceManagement';
+import NotificationManagement from '@/components/admin/NotificationManagement';
+import OMBigBook from '@/components/admin/OMBigBook';
 import ComponentManager from './components/ComponentManager';
-import OMAITaskAssignmentWidget from '../../components/admin/OMAITaskAssignmentWidget';
+import OMAITaskAssignmentWidget from '@/components/admin/OMAITaskAssignmentWidget';
 import OmaiSpinSettings from './OmaiSpinSettings';
-import PageContainer from 'src/components/container/PageContainer';
-import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
+import PageContainer from '@/components/container/PageContainer';
+import Breadcrumb from '@/layouts/full/shared/breadcrumb/Breadcrumb';
 import { 
     getSystemInfo, 
     formatMemory, 
@@ -53,7 +53,7 @@ import {
     formatArchitecture, 
     getEnvironmentDisplayName,
     SystemInfo 
-} from '../../services/adminService';
+} from '@/services/adminService';
 
 interface TabPanelProps {
     children?: React.ReactNode;

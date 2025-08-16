@@ -6,7 +6,7 @@ import { Grid, Box, Stack, Typography } from '@mui/material';
 import PageContainer from 'src/components/container/PageContainer';
 import img1 from 'src/assets/images/backgrounds/login-bg.svg';
 import Logo from 'src/layouts/full/shared/logo/Logo';
-import AuthLogin from '../authForms/AuthLogin';
+import AuthLogin from '@/src/views/authentication/authForms/AuthLogin';
 
 const Login = () => (
   <PageContainer title="Login" description="this is Login page">

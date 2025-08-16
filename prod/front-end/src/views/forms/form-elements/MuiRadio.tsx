@@ -14,12 +14,12 @@ import CustomExRadio from "src/components/forms/form-elements/radio/Custom";
 import PositionRadio from "src/components/forms/form-elements/radio/Position";
 
 // codeModel
-import CustomExRadioCode from 'src/components/forms/form-elements/radio/code/CustomExRadioCode';
-import ColorLabelRadioCode from 'src/components/forms/form-elements/radio/code/ColorLabelRadioCode';
-import DefaultRadioCode from 'src/components/forms/form-elements/radio/code/DefaultRadioCode';
-import ColorsRadioCode from 'src/components/forms/form-elements/radio/code/ColorsRadioCode';
-import SizesRadioCode from 'src/components/forms/form-elements/radio/code/SizesRadioCode';
-import PositionRadioCode from 'src/components/forms/form-elements/radio/code/PositionRadioCode';
+import CustomExRadioCode from '@/dev/examples/components/forms/form-elements/radio/code/CustomExRadioCode';
+import ColorLabelRadioCode from '@/dev/examples/components/forms/form-elements/radio/code/ColorLabelRadioCode';
+import DefaultRadioCode from '@/dev/examples/components/forms/form-elements/radio/code/DefaultRadioCode';
+import ColorsRadioCode from '@/dev/examples/components/forms/form-elements/radio/code/ColorsRadioCode';
+import SizesRadioCode from '@/dev/examples/components/forms/form-elements/radio/code/SizesRadioCode';
+import PositionRadioCode from '@/dev/examples/components/forms/form-elements/radio/code/PositionRadioCode';
 
 const BCrumb = [
   {

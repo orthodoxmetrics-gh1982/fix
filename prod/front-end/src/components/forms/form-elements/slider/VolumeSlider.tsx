@@ -6,7 +6,7 @@ import ChildCard from 'src/components/shared/ChildCard'
 import { IconVolume, IconVolume2 } from "@tabler/icons-react";
 import { Stack } from "@mui/system";
 
-import VolumesliderCode from "src/components/forms/form-elements/slider/code/VolumesliderCode";
+import VolumesliderCode from '@/dev/examples/components/forms/form-elements/slider/code/VolumesliderCode';
 
 const VolumeSlider = () => {
   const [value, setValue] = React.useState(30);

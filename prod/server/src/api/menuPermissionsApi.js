@@ -1,10 +1,10 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // Menu Permissions API - Enhanced for Super Admin Configuration
 const express = require('express');
 const router = express.Router();
-const { promisePool } = require('../../config/db-compat');
-const { requireAuth, requireRole } = require('../middleware/auth');
-const ApiResponse = require('../utils/apiResponse');
+const { promisePool } = require('@/config/db-compat');
+const { requireAuth, requireRole } = require('@/src/middleware/auth');
+const ApiResponse = require('@/src/utils/apiResponse');
 
 // Middleware to ensure only super admins can manage menu permissions
 const requireSuperAdmin = requireRole(['super_admin']);

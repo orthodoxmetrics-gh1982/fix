@@ -34,17 +34,17 @@ import {
   AutoAwesome,
 } from '@mui/icons-material';
 import dayjs, { Dayjs } from 'dayjs';
-import PageContainer from '../../../components/container/PageContainer';
-import Breadcrumb from '../../../layouts/full/shared/breadcrumb/Breadcrumb';
-import { orthodoxCalendarService } from '../../../services/orthodoxCalendarService';
+import PageContainer from '@/components/container/PageContainer';
+import Breadcrumb from '@/layouts/full/shared/breadcrumb/Breadcrumb';
+import { orthodoxCalendarService } from '@/services/orthodoxCalendarService';
 import { 
   OrthodoxCalendarDay, 
   FASTING_TYPES, 
   CalendarLanguage,
   CalendarType 
-} from '../../../types/orthodox-calendar.types';
-import ModernizeLiturgicalCalendar from '../../../@om/components/features/liturgical-calendar-modern';
-import RaydarLiturgicalCalendar from '../../../@om/components/features/liturgical-calendar-raydar';
+} from '@/types/orthodox-calendar.types';
+import ModernizeLiturgicalCalendar from '@/@om/components/features/liturgical-calendar-modern';
+import RaydarLiturgicalCalendar from '@/@om/components/features/liturgical-calendar-raydar';
 
 // Enhanced interface for view state
 interface CalendarViewState {

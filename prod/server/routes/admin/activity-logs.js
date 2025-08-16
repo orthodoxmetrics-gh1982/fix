@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const { promisePool } = require('../../config/db');
-const { requireAuth, requireRole } = require('../../middleware/auth');
+const { promisePool } = require('@/config/db');
+const { requireAuth, requireRole } = require('@/middleware/auth');
 
 // Get all activity logs with filtering and pagination
 router.get('/', requireAuth, requireRole(['super_admin', 'admin']), async (req, res) => {

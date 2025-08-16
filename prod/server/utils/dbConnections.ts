@@ -5,7 +5,7 @@
  */
 
 import mysql from 'mysql2/promise';
-import { promisePool as centralPool } from '../config/db';
+import { promisePool as centralPool } from '@/config/db';
 
 // Database Configuration
 const DB_CONFIG = {

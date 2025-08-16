@@ -28,8 +28,8 @@ import {
   ListItemIcon
 } from '@mui/material';
 import { visuallyHidden } from '@mui/utils';
-import CustomCheckbox from '../../../forms/theme-elements/CustomCheckbox';
-import CustomSwitch from '../../../forms/theme-elements/CustomSwitch';
+import CustomCheckbox from '@/src/components/forms/theme-elements/CustomCheckbox';
+import CustomSwitch from '@/src/components/forms/theme-elements/CustomSwitch';
 import {
   IconDotsVertical,
   IconFilter,
@@ -48,7 +48,7 @@ import {
   Event as EventIcon,
   Assignment as RecordIcon
 } from '@mui/icons-material';
-import { useChurchRecords, ChurchRecord } from '../../../../context/ChurchRecordsContext';
+import { useChurchRecords, ChurchRecord } from '@/src/context/ChurchRecordsContext';
 
 function descendingComparator<T>(a: T, b: T, orderBy: keyof T) {
   if (b[orderBy] < a[orderBy]) {

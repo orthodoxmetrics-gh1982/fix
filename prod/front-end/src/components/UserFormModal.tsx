@@ -29,7 +29,7 @@ import {
     IconRefresh,
     IconCopy
 } from '@tabler/icons-react';
-import { User, UpdateUser, Church, ResetPasswordData } from '../services/userService';
+import { User, UpdateUser, Church, ResetPasswordData } from '@/src/services/userService';
 import SocialPermissionsToggle from './SocialPermissionsToggle';
 
 interface UserFormModalProps {

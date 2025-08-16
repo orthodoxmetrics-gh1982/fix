@@ -50,14 +50,14 @@ import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
 import listPlugin from '@fullcalendar/list';
 
-import { orthodoxCalendarService } from '../../../services/orthodoxCalendarService';
+import { orthodoxCalendarService } from '@/services/orthodoxCalendarService';
 import {
   OrthodoxCalendarDay,
   CalendarLanguage,
   CalendarType,
   FeastType,
   FastingType
-} from '../../../types/orthodox-calendar.types';
+} from '@/types/orthodox-calendar.types';
 
 interface LiturgicalEvent {
   id: string;

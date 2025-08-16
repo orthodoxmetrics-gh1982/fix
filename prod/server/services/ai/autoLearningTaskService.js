@@ -4,9 +4,9 @@
 
 const fs = require('fs').promises;
 const path = require('path');
-const { promisePool: db } = require('../../config/db');
-const { switchToDatabase } = require('../../utils/dbSwitcher');
-const logger = require('../../utils/logger');
+const { promisePool: db } = require('@/config/db');
+const { switchToDatabase } = require('@/utils/dbSwitcher');
+const logger = require('@/utils/logger');
 
 class AutoLearningTaskService {
   constructor() {

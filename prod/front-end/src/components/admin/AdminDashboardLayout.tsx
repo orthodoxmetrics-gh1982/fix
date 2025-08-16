@@ -5,8 +5,8 @@
 
 import React from 'react';
 import { Box, useTheme } from '@mui/material';
-import { useAuth } from '../../context/AuthContext';
-import { ThemedLayout } from '../Theme/ThemedLayout';
+import { useAuth } from '@/src/context/AuthContext';
+import { ThemedLayout } from '@/src/components/Theme/ThemedLayout';
 import SuperAdminDashboard from './SuperAdminDashboard';
 import { Navigate } from 'react-router-dom';
 

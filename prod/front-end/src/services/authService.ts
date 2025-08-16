@@ -3,7 +3,7 @@
  * Updated to use the new userAPI with session-based authentication
  */
 
-import { userAPI } from '../api/user.api';
+import { userAPI } from '@/src/api/user.api';
 import {
   User,
   AuthResponse,

@@ -7,9 +7,9 @@ import {
   InputAdornment,
   OutlinedInput,
 } from '@mui/material';
-import CustomCheckbox from '../theme-elements/CustomCheckbox';
-import CustomFormLabel from '../theme-elements/CustomFormLabel';
-import ParentCard from '../../shared/ParentCard';
+import CustomCheckbox from '@/src/components/forms/theme-elements/CustomCheckbox';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
+import ParentCard from '@/src/components/shared/ParentCard';
 import { IconLock, IconUser, IconMail } from '@tabler/icons-react';
 import { Stack } from '@mui/system';
 import React from 'react';

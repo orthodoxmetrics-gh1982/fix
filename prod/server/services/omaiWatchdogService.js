@@ -2,7 +2,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const { spawn, execSync } = require('child_process');
 const EventEmitter = require('events');
-const logger = require('../utils/logger');
+const logger = require('@/utils/logger');
 
 class OMAIWatchdogService extends EventEmitter {
   constructor() {

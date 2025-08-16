@@ -32,7 +32,7 @@ import {
   SaveOutlined as SaveIcon,
 } from '@mui/icons-material';
 
-import { useTheme, ThemeConfig, ThemeName, THEME_CONFIGS } from '../../context/ThemeContext';
+import { useTheme, ThemeConfig, ThemeName, THEME_CONFIGS } from '@/src/context/ThemeContext';
 
 interface ThemeCustomizerProps {
   variant?: 'button' | 'menu' | 'full';

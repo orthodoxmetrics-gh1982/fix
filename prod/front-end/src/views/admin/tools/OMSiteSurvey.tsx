@@ -46,7 +46,7 @@ import {
   Warning as WarningIcon,
   Info as InfoIcon
 } from '@mui/icons-material';
-import { useAuth } from '../../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 interface TabPanelProps {
   children?: React.ReactNode;

@@ -18,7 +18,7 @@ import { SimpleTreeView } from '@mui/x-tree-view/SimpleTreeView';
 // import { TreeItem2Icon } from '@mui/x-tree-view/TreeItem2Icon';
 // import { TreeItem2Provider } from '@mui/x-tree-view/TreeItem2Provider';
 import ParentCard from 'src/components/shared/ParentCard';
-import CustomTreeItemCode from '../code/simpletreecode/CustomTreeItemCode';
+import CustomTreeItemCode from '@/src/components/muitrees/code/simpletreecode/CustomTreeItemCode';
 
 // Temporary replacement for build - using basic div instead of TreeItem2Content
 const CustomTreeItemContent = styled('div')(({ theme }) => ({

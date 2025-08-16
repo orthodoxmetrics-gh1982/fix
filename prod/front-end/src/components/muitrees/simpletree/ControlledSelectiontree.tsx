@@ -5,7 +5,7 @@ import Stack from '@mui/material/Stack';
 import { SimpleTreeView } from '@mui/x-tree-view/SimpleTreeView';
 import { TreeItem } from '@mui/x-tree-view/TreeItem';
 import Button from '@mui/material/Button';
-import ControlledSelectionCode from '../code/simpletreecode/ControlledSelectionCode';
+import ControlledSelectionCode from '@/src/components/muitrees/code/simpletreecode/ControlledSelectionCode';
 import ParentCard from 'src/components/shared/ParentCard';
 
 

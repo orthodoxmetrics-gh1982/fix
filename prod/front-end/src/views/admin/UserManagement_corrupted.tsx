@@ -52,10 +52,10 @@ import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import UserFormModal from 'src/components/UserFormModal';
 
 // contexts
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 // services
-import userService, { User, Church, NewUser, UpdateUser, ResetPasswordData } from '../../services/userService';
+import userService, { User, Church, NewUser, UpdateUser, ResetPasswordData } from '@/src/services/userService';
 
 const UserManagement: React.FC = () => {
     const { user, canCreateAdmins, canManageAllUsers, isSuperAdmin } = useAuth();

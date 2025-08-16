@@ -1,1 +1,1 @@
-module.exports = require('../src/api/funeralCertificates');
+module.exports = require('@/src/api/funeralCertificates');

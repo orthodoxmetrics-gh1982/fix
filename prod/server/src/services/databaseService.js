@@ -1,4 +1,4 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 /**
  * Database Service Layer - Proper Architecture Separation
  * 
@@ -7,7 +7,7 @@ const { getAppPool } = require('../../config/db-compat');
  * - Church-specific DBs: Only record data (baptism, marriage, funeral)
  */
 
-const { promisePool } = require('../../config/db-compat'); // orthodoxmetrics_db connection
+const { promisePool } = require('@/config/db-compat'); // orthodoxmetrics_db connection
 const mysql = require('mysql2/promise');
 
 // Cache for church database connections
@@ -125,7 +125,7 @@ async function getChurchRecordConnection(churchId) {
  * OCR data is stored in orthodoxmetrics_ocr_db (separate from platform DB)
  */
 function getOcrDb() {
-    const { getOcrDbPool } = require('../utils/dbConnections');
+    const { getOcrDbPool } = require('@/src/utils/dbConnections');
     return getOcrDbPool();
 }
 

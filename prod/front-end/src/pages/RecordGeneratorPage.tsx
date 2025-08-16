@@ -2,7 +2,7 @@
 // Demo route for the multilingual record generator
 
 import React from 'react';
-import RecordGenerator from '../components/RecordGenerator';
+import RecordGenerator from '@/src/components/RecordGenerator';
 
 const RecordGeneratorPage: React.FC = () => {
   return (

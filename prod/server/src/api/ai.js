@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const { requireAuth, requireRole } = require('../middleware/auth');
-const logger = require('../utils/logger');
+const { requireAuth, requireRole } = require('@/src/middleware/auth');
+const logger = require('@/src/utils/logger');
 
 // =====================================================
 // AI SERVICE STATUS & HEALTH ENDPOINTS

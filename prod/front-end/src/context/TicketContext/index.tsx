@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect } from 'react';
-import { TicketType } from '../../types/apps/ticket';
+import { TicketType } from '@/src/types/apps/ticket';
 import { getFetcher, deleteFetcher } from 'src/api/globalFetcher';
 
 import useSWR from 'swr';

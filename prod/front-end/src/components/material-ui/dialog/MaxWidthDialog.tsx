@@ -15,8 +15,8 @@ import {
   FormControlLabel,
 } from '@mui/material';
 
-import CustomSelect from '../../forms/theme-elements/CustomSelect';
-import CustomSwitch from '../../forms/theme-elements/CustomSwitch';
+import CustomSelect from '@/src/components/forms/theme-elements/CustomSelect';
+import CustomSwitch from '@/src/components/forms/theme-elements/CustomSwitch';
 import { DialogProps } from '@mui/material/Dialog';
 
 const MaxWidthDialog = () => {

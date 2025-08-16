@@ -6,7 +6,7 @@ import { Box, List, useMediaQuery } from '@mui/material';
 import NavItem from './NavItem';
 import NavCollapse from './NavCollapse';
 import NavGroup from './NavGroup/NavGroup';
-import { useFilteredMenuItems } from '../../../../hooks/useFilteredMenuItems';
+import { useFilteredMenuItems } from '@/src/hooks/useFilteredMenuItems';
 
 import { CustomizerContext } from 'src/context/CustomizerContext';
 

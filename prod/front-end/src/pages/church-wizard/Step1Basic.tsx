@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
-import { useProvisionStore } from '../../store/provision';
-import { Button } from "../../components/ui/button";
-import { Input } from '../../components/ui/input';
-import { Select } from '../../components/ui/Select';
-import { createProvision } from '../../lib/api';
+import { useProvisionStore } from '@/src/store/provision';
+import { Button } from "@/src/components/ui/button";
+import { Input } from '@/src/components/ui/input';
+import { Select } from '@/src/components/ui/Select';
+import { createProvision } from '@/src/lib/api';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { 
@@ -23,7 +23,7 @@ import {
   IconUsers,
   IconFileText
 } from '@tabler/icons-react';
-import { Stepper } from '../../components/wizard/Stepper';
+import { Stepper } from '@/src/components/wizard/Stepper';
 
 // Validation schema
 const basicInfoSchema = z.object({

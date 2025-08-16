@@ -1,4 +1,4 @@
-import { CHURCH_CONFIG } from '../config/church.config';
+import { CHURCH_CONFIG } from '@/src/config/church.config';
 
 /**
  * Constants for record management across baptism, marriage, and funeral records

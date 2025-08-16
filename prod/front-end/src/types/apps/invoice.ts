@@ -7,7 +7,7 @@ export type {
   InvoiceStatus 
 } from '../orthodox-metrics.types';
 
-import type { Invoice, InvoiceItem } from '../orthodox-metrics.types';
+import type { Invoice, InvoiceItem } from '@/src/types/orthodox-metrics.types';
 
 // For backward compatibility with existing components
 export type InvoiceList = Invoice;

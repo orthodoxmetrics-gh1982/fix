@@ -24,8 +24,8 @@ import {
   Paper,
 } from '@mui/material';
 import { visuallyHidden } from '@mui/utils';
-import CustomCheckbox from '../../../forms/theme-elements/CustomCheckbox';
-import CustomSwitch from '../../../forms/theme-elements/CustomSwitch';
+import CustomCheckbox from '@/src/components/forms/theme-elements/CustomCheckbox';
+import CustomSwitch from '@/src/components/forms/theme-elements/CustomSwitch';
 import { IconDotsVertical, IconFilter, IconSearch, IconTrash } from '@tabler/icons-react';
 import { ProductType } from 'src/types/apps/eCommerce';
 import { ProductContext } from "src/context/EcommerceContext";

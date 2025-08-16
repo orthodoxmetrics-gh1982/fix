@@ -54,7 +54,7 @@ import {
   AttachFile as AttachFileIcon,
 } from '@mui/icons-material';
 import { formatDistanceToNow, format, isToday, isYesterday } from 'date-fns';
-import Scrollbar from '../../custom-scroll/Scrollbar';
+import Scrollbar from '@/src/components/custom-scroll/Scrollbar';
 import MessageInput from './MessageInput';
 import { useTheme } from 'src/context/ThemeContext';
 

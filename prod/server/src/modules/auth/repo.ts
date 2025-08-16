@@ -1,5 +1,5 @@
 import { RowDataPacket, ResultSetHeader } from 'mysql2';
-import pool from '../../config/db';
+import pool from '@/src/config/db';
 import { User, RefreshToken } from './types';
 
 export class AuthRepository {

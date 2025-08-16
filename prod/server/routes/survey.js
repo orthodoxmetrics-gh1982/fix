@@ -1,2 +1,2 @@
-const api = require('../src/api/survey');
+const api = require('@/src/api/survey');
 module.exports = api;

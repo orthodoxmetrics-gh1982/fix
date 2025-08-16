@@ -39,8 +39,8 @@ import {
   Terminal as TerminalIcon,
 } from '@mui/icons-material';
 
-import { useAuth } from '../../context/AuthContext';
-import { useTheme as useOrthodoxTheme } from '../../context/ThemeContext';
+import { useAuth } from '@/src/context/AuthContext';
+import { useTheme as useOrthodoxTheme } from '@/src/context/ThemeContext';
 import AdminTile from './AdminTile';
 
 interface AdminModule {

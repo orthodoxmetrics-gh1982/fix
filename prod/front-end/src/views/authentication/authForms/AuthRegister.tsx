@@ -4,8 +4,8 @@ import React from 'react';
 import { Box, Typography, Button, Divider, Stack } from '@mui/material';
 import { Link } from 'react-router-dom';
 
-import CustomTextField from '../../../components/forms/theme-elements/CustomTextField';
-import CustomFormLabel from '../../../components/forms/theme-elements/CustomFormLabel';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
 import { registerType } from 'src/types/auth/auth';
 import AuthSocialButtons from './AuthSocialButtons';
 

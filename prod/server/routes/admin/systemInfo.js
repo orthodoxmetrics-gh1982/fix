@@ -2,7 +2,7 @@
 const express = require('express');
 const os = require('os');
 const path = require('path');
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('@/config/db');
 
 const router = express.Router();
 
@@ -128,7 +128,7 @@ router.get('/system-info', checkRole(['super_admin', 'admin']), async (req, res)
         // Get package.json version
         let version = 'Unknown';
         try {
-            const packageJson = require('../../package.json');
+            const packageJson = require('@/package.json');
             version = packageJson.version || 'Unknown';
         } catch (error) {
             console.warn('Could not read package.json version:', error.message);

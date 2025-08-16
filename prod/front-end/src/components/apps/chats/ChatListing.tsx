@@ -18,7 +18,7 @@ import {
   MenuItem,
 } from '@mui/material';
 
-import Scrollbar from '../../custom-scroll/Scrollbar';
+import Scrollbar from '@/src/components/custom-scroll/Scrollbar';
 
 import { ChatsType } from 'src/types/apps/chat';
 import { last } from 'lodash';

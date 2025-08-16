@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Box, Typography, Alert, Button, Card, CardContent } from '@mui/material';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 const SiteEditorFallback: React.FC = () => {
   const { user } = useAuth();

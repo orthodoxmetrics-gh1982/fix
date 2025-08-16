@@ -1,0 +1,119 @@
+{
+  "totalFiles": 9421,
+  "structure": {
+    "orthodoxmetrics_clean/server": {
+      "count": 569,
+      "files": [
+        "front-end/src/routes/Router.tsx",
+        "misc/omai/services/integration/analytics-controller.ts",
+        "misc/omai/services/integration/autonomy-controller.ts",
+        "misc/omai/services/integration/nlp-controller.ts",
+        "server/CLEANUP_COMPLETE_SUMMARY.md",
+        "server/COMPLETE_FIXES_SUMMARY.md",
+        "server/FINAL_UI_BUILD_CHECKLIST.md",
+        "server/LOGGING_CENTRALIZATION_SUMMARY.md",
+        "server/README-server.md",
+        "server/REFERENCE_ANALYSIS_SUMMARY.md"
+      ],
+      "hasMore": true
+    },
+    "orthodoxmetrics_clean/frontend": {
+      "count": 1646,
+      "files": [
+        "front-end/.gitignore",
+        "front-end/DEV-SETUP.md",
+        "front-end/MOBILE_AUDIT_LOG.md",
+        "front-end/README.md",
+        "front-end/TASK_144_COMPLETION_SUMMARY.md",
+        "front-end/build.meta.json",
+        "front-end/docs/OMAI_LOGGER_ADVANCED_FEATURES.md",
+        "front-end/docs/OMAI_LOGGER_COMPLETE_IMPLEMENTATION.md",
+        "front-end/docs/OMAI_LOGGER_REDESIGN_COMPLETE.md",
+        "front-end/docs/OMAI_LOGGER_SUCCESS_DEBUG_QA.md"
+      ],
+      "hasMore": true
+    },
+    "orthodoxmetrics_clean/database": {
+      "count": 57,
+      "files": [
+        "db/sql/03_auth_tables.sql",
+        "misc/omai/database/database/create_dev_database.sql",
+        "misc/omai/database/database/migrations/comprehensive_json_to_db_migration.sql",
+        "misc/omai/database/database/migrations/create_component_usage_table.sql",
+        "misc/omai/database/database/migrations/create_omai_learning_sessions_table.sql",
+        "misc/omai/database/database/migrations/create_omlearn_ethics_tables.sql",
+        "misc/omai/database/database/migrations/omai_spin_dev_tracking.sql",
+        "misc/omai/scripts/scripts/mysql/calendar-schema.sql",
+        "misc/omai/scripts/scripts/mysql/check-church-id-1.sql",
+        "misc/omai/scripts/scripts/mysql/check-database-name.sql"
+      ],
+      "hasMore": true
+    },
+    "orthodoxmetrics_clean/docs": {
+      "count": 387,
+      "files": [
+        "audit/tenant_plan.md",
+        "cursor_task_site_survey.md",
+        "docs/BACKEND_AUDIT_REPORT.md",
+        "docs/BROWSER_ERRORS_FIXED.md",
+        "docs/CRITICAL_FIXES.md",
+        "docs/CRITICAL_FIXES_IMPLEMENTATION_SUMMARY.md",
+        "docs/DUPLICATE_ROUTES_ANALYSIS.md",
+        "docs/IMPORT_RECORDS_GUIDE.md",
+        "docs/MENU_CONFIGURATION_GUIDE.md",
+        "docs/MENU_CONFIGURATION_IMPLEMENTATION_SUMMARY.md"
+      ],
+      "hasMore": true
+    },
+    "orthodoxmetrics_clean/config": {
+      "count": 15,
+      "files": [
+        "config/db-root.js",
+        "config/db.js",
+        "config/session.js",
+        "ecosystem.config.js",
+        "misc/build.config.json",
+        "misc/daily/debug-session-config.js",
+        "misc/omai/bigbook/bigbook/test-config.json",
+        "misc/omai/services/config.ts",
+        "misc/server-archive/debug/fix-session-config.js",
+        "misc/server-archive/debug/fixed-session-config.js"
+      ],
+      "hasMore": true
+    },
+    "orthodoxmetrics_clean/public": {
+      "count": 4,
+      "files": [
+        "public/logo-2.png",
+        "public/logo-3.png",
+        "public/logo-4.png",
+        "public/logo.png"
+      ],
+      "hasMore": false
+    },
+    "orthodoxmetrics_clean/scripts": {
+      "count": 2,
+      "files": [
+        "bin/run-detached.sh",
+        "bin/run-once.sh"
+      ],
+      "hasMore": false
+    },
+    "orthodoxmetrics_clean/misc": {
+      "count": 6741,
+      "files": [
+        "audit/church_id_application_results.json",
+        "audit/tenant_inventory.json",
+        "misc/ai/learning/sample-mappings.json",
+        "misc/api-routes-viewer.tsx",
+        "misc/bigbook/archived-backend/gitOpsService.js",
+        "misc/bigbook/archived-backend/jit-terminal.js",
+        "misc/bigbook/archived-backend/jitSessionManager.js",
+        "misc/bigbook/archived-backend/siteEditorManager.js",
+        "misc/daily/fix_church_14_local.js",
+        "misc/daily/maintenance/database-maintenance.js"
+      ],
+      "hasMore": true
+    }
+  }
+}

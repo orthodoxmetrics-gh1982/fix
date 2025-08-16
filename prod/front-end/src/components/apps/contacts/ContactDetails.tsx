@@ -15,7 +15,7 @@ import {
   useTheme
 } from '@mui/material';
 
-import BlankCard from '../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 import { ContactType } from 'src/types/apps/contact';
 import { IconPencil, IconStar, IconTrash, IconDeviceFloppy } from '@tabler/icons-react';
 import Scrollbar from 'src/components/custom-scroll/Scrollbar';

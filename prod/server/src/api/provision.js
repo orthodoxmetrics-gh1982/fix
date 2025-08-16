@@ -1,4 +1,4 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // Church Provisioning API
 // Handles the automated church provisioning pipeline
 
@@ -8,13 +8,13 @@ const crypto = require('crypto');
 const path = require('path');
 const fs = require('fs').promises;
 const router = express.Router();
-const db = require('../../config/db-compat');
-const { requireAuth, requireRole } = require('../middleware/auth');
-const { createReactSite } = require('../utils/createReactSite');
-const { sendProvisionEmail } = require('../utils/sendProvisionEmail');
-const { testDeployedSite } = require('../utils/testDeployedSite');
-const { generateCredentials } = require('../utils/generateCredentials');
-const logger = require('../utils/logger');
+const db = require('@/config/db-compat');
+const { requireAuth, requireRole } = require('@/src/middleware/auth');
+const { createReactSite } = require('@/src/utils/createReactSite');
+const { sendProvisionEmail } = require('@/src/utils/sendProvisionEmail');
+const { testDeployedSite } = require('@/src/utils/testDeployedSite');
+const { generateCredentials } = require('@/src/utils/generateCredentials');
+const logger = require('@/src/utils/logger');
 
 // Get all provision queue entries (admin only)
 router.get('/queue', requireAuth, requireRole(['admin', 'supervisor']), async (req, res) => {

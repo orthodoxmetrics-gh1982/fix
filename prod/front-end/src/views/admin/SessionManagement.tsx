@@ -45,12 +45,12 @@ import {
   IconEye,
   IconAlertTriangle,
 } from '@tabler/icons-react';
-import { useAuth } from '../../context/AuthContext';
-import { adminAPI } from '../../api/admin.api';
-import { userAPI } from '../../api/user.api';
-import { metricsAPI } from '../../api/metrics.api';
-import PageContainer from '../../components/container/PageContainer';
-import DashboardCard from '../../components/shared/DashboardCard';
+import { useAuth } from '@/src/context/AuthContext';
+import { adminAPI } from '@/src/api/admin.api';
+import { userAPI } from '@/src/api/user.api';
+import { metricsAPI } from '@/src/api/metrics.api';
+import PageContainer from '@/src/components/container/PageContainer';
+import DashboardCard from '@/src/components/shared/DashboardCard';
 
 interface SessionData {
   session_id: string;

@@ -3,7 +3,7 @@
  * This file allows manual control over component discovery and metadata
  */
 
-import { ComponentRegistry } from '../utils/componentScanner';
+import { ComponentRegistry } from '@/src/utils/componentScanner';
 
 export const componentRegistry: ComponentRegistry = {
   // Override component metadata

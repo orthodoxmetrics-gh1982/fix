@@ -1,7 +1,7 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // services/churchRecordEntityExtractor.js
-const { promisePool } = require('../../config/db-compat');
-const { getChurchDbConnection } = require('../utils/dbSwitcher');
+const { promisePool } = require('@/config/db-compat');
+const { getChurchDbConnection } = require('@/src/utils/dbSwitcher');
 
 /**
  * AI-Powered Entity Extraction Service for Orthodox Church Records

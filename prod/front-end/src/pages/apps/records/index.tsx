@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Box } from '@mui/material';
-import Breadcrumb from '../../../layouts/full/shared/breadcrumb/Breadcrumb';
-import PageContainer from '../../../components/container/PageContainer';
-import RecordList from '../../../components/apps/records/recordGrid/RecordList';
-import RecordSidebar from '../../../components/apps/records/recordGrid/RecordSidebar';
-import AppCard from '../../../components/shared/AppCard';
-import { RecordProvider } from '../../../context/RecordsContext';
+import Breadcrumb from '@/src/layouts/full/shared/breadcrumb/Breadcrumb';
+import PageContainer from '@/src/components/container/PageContainer';
+import RecordList from '@/src/components/apps/records/recordGrid/RecordList';
+import RecordSidebar from '@/src/components/apps/records/recordGrid/RecordSidebar';
+import AppCard from '@/src/components/shared/AppCard';
+import { RecordProvider } from '@/src/context/RecordsContext';
 
 const BCrumb = [
   {

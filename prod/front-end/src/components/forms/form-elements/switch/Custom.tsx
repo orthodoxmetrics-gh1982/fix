@@ -1,7 +1,7 @@
 
 import { Box } from '@mui/material';
 
-import CustomSwitch from '../../theme-elements/CustomSwitch';
+import CustomSwitch from '@/src/components/forms/theme-elements/CustomSwitch';
 
 
 const CustomExSwitch = () => (

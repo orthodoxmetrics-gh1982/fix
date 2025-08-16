@@ -4,8 +4,8 @@ import * as yup from 'yup';
 
 import { Box, Button, Stack, FormHelperText, MenuItem } from '@mui/material';
 
-import CustomFormLabel from '../theme-elements/CustomFormLabel';
-import CustomSelect from '../theme-elements/CustomSelect';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
+import CustomSelect from '@/src/components/forms/theme-elements/CustomSelect';
 
 const validationSchema = yup.object({
   age: yup.number().required('Age selection is required.'),

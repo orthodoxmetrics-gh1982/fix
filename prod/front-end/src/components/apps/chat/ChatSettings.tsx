@@ -52,7 +52,7 @@ import {
   NotificationsActive as TestIcon,
   Refresh as RefreshIcon,
 } from '@mui/icons-material';
-import Scrollbar from '../../custom-scroll/Scrollbar';
+import Scrollbar from '@/src/components/custom-scroll/Scrollbar';
 
 interface User {
   id: number;

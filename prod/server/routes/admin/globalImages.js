@@ -3,7 +3,7 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('@/config/db');
 const router = express.Router();
 
 // Helper function to scan directory for images

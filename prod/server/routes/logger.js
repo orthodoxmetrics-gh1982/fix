@@ -1,2 +1,2 @@
-const api = require('../src/api/logger');
+const api = require('@/src/api/logger');
 module.exports = api;

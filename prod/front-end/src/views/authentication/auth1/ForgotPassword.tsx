@@ -8,7 +8,7 @@ import PageContainer from 'src/components/container/PageContainer';
 
 import img1 from 'src/assets/images/backgrounds/login-bg.svg';
 
-import AuthForgotPassword from '../authForms/AuthForgotPassword';
+import AuthForgotPassword from '@/src/views/authentication/authForms/AuthForgotPassword';
 
 const ForgotPassword = () => (
   <PageContainer title="Forgot Password" description="this is Forgot Password page">

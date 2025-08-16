@@ -24,7 +24,7 @@ import img2 from 'src/assets/images/blog/blog-img2.jpg';
 import img3 from 'src/assets/images/blog/blog-img3.jpg';
 
 import ComplexCardCode from './code/ComplexCardCode';
-import BlankCard from '../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 
 interface cardType {
   avatar: string;

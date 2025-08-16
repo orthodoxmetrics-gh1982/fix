@@ -6,7 +6,7 @@ import { useTheme } from '@mui/material/styles';
 import { Box, Typography } from '@mui/material';
 import { Props } from 'react-apexcharts';
 
-import DashboardCard from '../../shared/DashboardCard';
+import DashboardCard from '@/src/components/shared/DashboardCard';
 
 const Sales = () => {
   // chart color

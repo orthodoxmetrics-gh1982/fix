@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const MaintenanceService = require('../services/maintenanceService');
-const logger = require('../utils/logger');
+const MaintenanceService = require('@/src/services/maintenanceService');
+const logger = require('@/src/utils/logger');
 
 // Initialize maintenance service
 const maintenanceService = new MaintenanceService();

@@ -17,7 +17,7 @@ import {
 import { sampleIcons } from './sample-icons';
 import { ComponentPaletteItem } from './types';
 // Import discovered components
-import discoveredComponents from '../../config/omb-discovered-components.json';
+import discoveredComponents from '@/src/config/omb-discovered-components.json';
 
 interface ComponentPaletteProps {
   onComponentSelect: (component: ComponentPaletteItem) => void;

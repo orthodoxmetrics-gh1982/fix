@@ -49,7 +49,7 @@ import {
     Warning,
     CheckCircle
 } from '@mui/icons-material';
-import { useNotifications, NotificationPreference } from '../../contexts/NotificationContext';
+import { useNotifications, NotificationPreference } from '@/src/contexts/NotificationContext';
 import { LoadingButton } from '@mui/lab';
 
 const NotificationPreferences: React.FC = () => {

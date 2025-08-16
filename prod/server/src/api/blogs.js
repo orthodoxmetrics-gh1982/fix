@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const mysql = require('mysql2/promise');
 const { body, validationResult, param } = require('express-validator');
-const { requireAuth, requireRole } = require('../middleware/auth');
+const { requireAuth, requireRole } = require('@/src/middleware/auth');
 
 // Database connection
 const dbConfig = {

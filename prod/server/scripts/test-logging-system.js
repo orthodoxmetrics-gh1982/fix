@@ -78,7 +78,7 @@ async function testLogInsertion() {
     
     // Insert test log
     const [result] = await db.execute(`
-      INSERT INTO errors (
+      // MIGRATED: Use LogClient.captureError() instead of direct INSERT INTO errors
         hash, type, source, message, log_level, origin, source_component, 
         first_seen, last_seen, occurrences, auto_tracked
       ) VALUES (?, ?, ?, ?, ?, ?, ?, NOW(), NOW(), 1, 1)
@@ -132,7 +132,7 @@ async function testLogLevels() {
       
       try {
         await db.execute(`
-          INSERT INTO errors (
+          // MIGRATED: Use LogClient.captureError() instead of direct INSERT INTO errors
             hash, type, source, message, log_level, origin, source_component, 
             first_seen, last_seen, occurrences, auto_tracked
           ) VALUES (?, ?, ?, ?, ?, ?, ?, NOW(), NOW(), 1, 1)

@@ -1,9 +1,9 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // server/routes/funeral.js
 const express = require('express');
-const { getChurchDbConnection } = require('../utils/dbSwitcher');
-const { cleanRecords, cleanRecord, transformFuneralRecords, transformFuneralRecord } = require('../utils/dateFormatter');
-const { promisePool } = require('../../config/db-compat');
+const { getChurchDbConnection } = require('@/src/utils/dbSwitcher');
+const { cleanRecords, cleanRecord, transformFuneralRecords, transformFuneralRecord } = require('@/src/utils/dateFormatter');
+const { promisePool } = require('@/config/db-compat');
 const router = express.Router();
 
 /**

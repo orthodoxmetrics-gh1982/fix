@@ -15,11 +15,11 @@ import ParentCard from 'src/components/shared/ParentCard';
 import ChildCard from 'src/components/shared/ChildCard';
 
 // CodeModels
-import SimpleTooltipCode from 'src/components/material-ui/tooltip/code/SimpleTooltipCode';
-import ArrowTooltipCode from 'src/components/material-ui/tooltip/code/ArrowTooltipCode';
-import VariableWidthCode from 'src/components/material-ui/tooltip/code/VariableWidthCode';
-import TransitionsCode from 'src/components/material-ui/tooltip/code/TransitionsCode';
-import PositionsTooltipCode from 'src/components/material-ui/tooltip/code/PositionsTooltipCode';
+import SimpleTooltipCode from '@/dev/examples/components/material-ui/tooltip/code/SimpleTooltipCode';
+import ArrowTooltipCode from '@/dev/examples/components/material-ui/tooltip/code/ArrowTooltipCode';
+import VariableWidthCode from '@/dev/examples/components/material-ui/tooltip/code/VariableWidthCode';
+import TransitionsCode from '@/dev/examples/components/material-ui/tooltip/code/TransitionsCode';
+import PositionsTooltipCode from '@/dev/examples/components/material-ui/tooltip/code/PositionsTooltipCode';
 
 import { IconPlus, IconTrash } from '@tabler/icons-react';
 

@@ -1,2 +1,2 @@
 // Bridge to root middleware/clientContext.js
-module.exports = require('../../middleware/clientContext');
+module.exports = require('@/middleware/clientContext');

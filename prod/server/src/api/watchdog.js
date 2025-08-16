@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const OMAIWatchdogService = require('../services/omaiWatchdogService');
-const logger = require('../utils/logger');
+const OMAIWatchdogService = require('@/src/services/omaiWatchdogService');
+const logger = require('@/src/utils/logger');
 
 // Initialize watchdog service singleton
 let watchdogService = null;

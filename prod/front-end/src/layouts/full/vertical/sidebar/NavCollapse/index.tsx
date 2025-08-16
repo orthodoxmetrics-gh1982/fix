@@ -17,7 +17,7 @@ import {
 } from '@mui/material';
 
 // custom imports
-import NavItem from '../NavItem';
+import NavItem from '@/src/layouts/full/vertical/sidebar/NavItem';
 
 // plugins
 import { IconChevronDown, IconChevronUp } from '@tabler/icons-react';

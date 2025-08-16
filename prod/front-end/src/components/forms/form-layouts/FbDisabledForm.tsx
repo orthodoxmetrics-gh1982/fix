@@ -1,9 +1,9 @@
 'use client'
 
 import { Box, Button } from '@mui/material';
-import CustomTextField from '../theme-elements/CustomTextField';
-import CustomFormLabel from '../theme-elements/CustomFormLabel';
-import ParentCard from '../../shared/ParentCard';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
+import ParentCard from '@/src/components/shared/ParentCard';
 
 const FbDisabledForm = () => (
   <ParentCard title="Disabled Form">

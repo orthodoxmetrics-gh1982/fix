@@ -100,9 +100,9 @@ import {
     IconAlertCircle,
     IconListDetails
 } from '@tabler/icons-react';
-import { useAuth } from '../../context/AuthContext';
-import { useNotifications } from '../../contexts/NotificationContext';
-import { adminAPI } from '../../api/admin.api';
+import { useAuth } from '@/src/context/AuthContext';
+import { useNotifications } from '@/src/contexts/NotificationContext';
+import { adminAPI } from '@/src/api/admin.api';
 
 // Import the BackendDetails component
 import BackendDetails from './services/BackendDetails';

@@ -1,1 +1,1 @@
-module.exports = require('../src/api/omb');
+module.exports = require('@/src/api/omb');

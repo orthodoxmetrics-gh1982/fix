@@ -176,7 +176,7 @@ ${log_level === 'CRITICAL' ? '🔴 **CRITICAL** - Immediate attention required' 
       const crypto = require('crypto');
       const errorHash = crypto.createHash('md5').update(`GitHub Issue Creation Error: ${error.message}`).digest('hex');
       await getAppPool().query(`
-        INSERT INTO errors (
+        // MIGRATED: Use LogClient.captureError() instead of direct INSERT INTO errors
           hash, message, details, log_level, origin, source_component, type, first_seen, last_seen, occurrences
         ) VALUES (?, ?, ?, 'ERROR', 'server', 'GitHubIssueAPI', 'backend', NOW(), NOW(), 1)
         ON DUPLICATE KEY UPDATE 

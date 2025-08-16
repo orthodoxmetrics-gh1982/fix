@@ -1,5 +1,5 @@
 const express = require('express');
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('@/config/db');
 const router = express.Router();
 
 // Middleware to check authentication

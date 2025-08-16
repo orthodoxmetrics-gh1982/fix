@@ -3,7 +3,7 @@
 import React from 'react';
 import icon1 from 'src/assets/images/svgs/google-icon.svg';
 import icon2 from 'src/assets/images/svgs/facebook-icon.svg';
-import CustomSocialButton from '../../../components/forms/theme-elements/CustomSocialButton';
+import CustomSocialButton from '@/src/components/forms/theme-elements/CustomSocialButton';
 import { Avatar, Box, Stack } from '@mui/material';
 import { signInType } from 'src/types/auth/auth';
 

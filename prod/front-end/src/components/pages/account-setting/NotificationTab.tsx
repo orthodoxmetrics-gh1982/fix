@@ -4,10 +4,10 @@ import React from 'react';
 import { Avatar, Box, CardContent, Grid, IconButton, Typography, Tooltip, Button, Stack } from '@mui/material';
 
 // components
-import BlankCard from '../../shared/BlankCard';
-import CustomTextField from '../../forms/theme-elements/CustomTextField';
-import CustomFormLabel from '../../forms/theme-elements/CustomFormLabel';
-import CustomSwitch from '../../forms/theme-elements/CustomSwitch';
+import BlankCard from '@/src/components/shared/BlankCard';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
+import CustomSwitch from '@/src/components/forms/theme-elements/CustomSwitch';
 import {
   IconArticle,
   IconCheckbox,

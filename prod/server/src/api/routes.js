@@ -1,7 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const { registerPages } = require('../utils/pageRegistrar');
+const { registerPages } = require('@/src/utils/pageRegistrar');
 
 const router = express.Router();
 

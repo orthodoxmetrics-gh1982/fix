@@ -4,7 +4,7 @@ import img1 from 'src/assets/images/blog/blog-img5.jpg';
 import img2 from 'src/assets/images/blog/blog-img4.jpg';
 import img3 from 'src/assets/images/blog/blog-img3.jpg';
 import { IconPlayerPlay, IconPlayerSkipBack, IconPlayerSkipForward } from '@tabler/icons-react';
-import ParentCard from '../../shared/ParentCard';
+import ParentCard from '@/src/components/shared/ParentCard';
 
 import MusicCardCode from './code/MusicCardCode';
 

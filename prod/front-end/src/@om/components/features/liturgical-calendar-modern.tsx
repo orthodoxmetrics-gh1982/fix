@@ -41,14 +41,14 @@ import { Calendar, momentLocalizer, View, Views } from 'react-big-calendar';
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 
-import { orthodoxCalendarService } from '../../../services/orthodoxCalendarService';
+import { orthodoxCalendarService } from '@/services/orthodoxCalendarService';
 import {
   OrthodoxCalendarDay,
   CalendarLanguage,
   CalendarType,
   FeastType,
   FastingType
-} from '../../../types/orthodox-calendar.types';
+} from '@/types/orthodox-calendar.types';
 
 // Initialize moment localizer
 const localizer = momentLocalizer(moment);

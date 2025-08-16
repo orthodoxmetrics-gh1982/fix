@@ -1,6 +1,6 @@
 import React, { Component, ErrorInfo, ReactNode } from 'react';
 import { Box, Typography, Alert, Button } from '@mui/material';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 interface Props {
   children: ReactNode;

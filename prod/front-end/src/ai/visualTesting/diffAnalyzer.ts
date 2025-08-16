@@ -1,5 +1,5 @@
 import { SnapshotData } from './snapshotEngine';
-import { checkVRTAccess, logVRTAction, VRTUser } from '../vrt/vrtSecurity';
+import { checkVRTAccess, logVRTAction, VRTUser } from '@/src/ai/vrt/vrtSecurity';
 
 export enum DiffType {
   LAYOUT_SHIFT = 'LAYOUT_SHIFT',

@@ -2,8 +2,8 @@
 const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcrypt');
-const { promisePool } = require('../../config/db');
-const { requireAuth, requireRole } = require('../../middleware/auth');
+const { promisePool } = require('@/config/db');
+const { requireAuth, requireRole } = require('@/middleware/auth');
 
 // Middleware for admin access
 const requireAdmin = requireRole(['admin', 'super_admin']);

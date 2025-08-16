@@ -1,8 +1,8 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // server/middleware/churchSecurity.js
 // Church Security Middleware - Enforces church_id verification for multi-tenant isolation
 
-const { promisePool } = require('../../config/db-compat');
+const { promisePool } = require('@/config/db-compat');
 
 /**
  * Middleware to enforce church_id verification

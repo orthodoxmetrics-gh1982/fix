@@ -1,7 +1,7 @@
 // server/controllers/analyticsController.js
 
 const { promisePool } = require('../../config/db');
-const { getChurchDbConnection } = require('../src/utils/dbSwitcher');
+const { getChurchDbConnection } = require('@/src/utils/dbSwitcher');
 const mysql = require('mysql2/promise');
 
 // Helper to get church_id from church context (set by security middleware)

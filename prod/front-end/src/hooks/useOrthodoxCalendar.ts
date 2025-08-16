@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { orthodoxCalendarService } from '../services/orthodoxCalendarService';
-import { OrthodoxCalendarDay, CalendarLanguage, CalendarType } from '../types/orthodox-calendar.types';
+import { orthodoxCalendarService } from '@/src/services/orthodoxCalendarService';
+import { OrthodoxCalendarDay, CalendarLanguage, CalendarType } from '@/src/types/orthodox-calendar.types';
 
 interface UseOrthodoxCalendarOptions {
   year: number;

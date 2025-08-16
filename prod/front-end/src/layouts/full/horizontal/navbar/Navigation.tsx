@@ -1,7 +1,7 @@
 import { useMediaQuery, Box, Drawer, Container, Theme } from '@mui/material';
 import NavListing from './NavListing/NavListing';
-import Logo from '../../shared/logo/Logo';
-import SidebarItems from '../../vertical/sidebar/SidebarItems';
+import Logo from '@/src/layouts/full/shared/logo/Logo';
+import SidebarItems from '@/src/layouts/full/vertical/sidebar/SidebarItems';
 import { useContext } from 'react';
 import { CustomizerContext } from 'src/context/CustomizerContext';
 import config from 'src/context/config';

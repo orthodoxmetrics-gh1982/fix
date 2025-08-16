@@ -11,12 +11,12 @@ import User1 from "src/assets/images/profile/user-1.jpg"
 import User2 from "src/assets/images/profile/user-2.jpg"
 import User3 from "src/assets/images/profile/user-5.jpg"
 
-import FilledCode from 'src/components/material-ui/chip/code/FilledCode';
-import OutlinedCode from 'src/components/material-ui/chip/code/OutlinedCode';
-import CustomIconCode from 'src/components/material-ui/chip/code/CustomIconCode';
-import CustomOutlinedIcon from 'src/components/material-ui/chip/code/CustomOutlinedIcon';
-import DisabledCode from 'src/components/material-ui/chip/code/DisabledCode';
-import SizesCode from 'src/components/material-ui/chip/code/SizesCode';
+import FilledCode from '@/dev/examples/components/material-ui/chip/code/FilledCode';
+import OutlinedCode from '@/dev/examples/components/material-ui/chip/code/OutlinedCode';
+import CustomIconCode from '@/dev/examples/components/material-ui/chip/code/CustomIconCode';
+import CustomOutlinedIcon from '@/dev/examples/components/material-ui/chip/code/CustomOutlinedIcon';
+import DisabledCode from '@/dev/examples/components/material-ui/chip/code/DisabledCode';
+import SizesCode from '@/dev/examples/components/material-ui/chip/code/SizesCode';
 
 import { IconCheck, IconChecks, IconMoodHappy } from '@tabler/icons-react';
 

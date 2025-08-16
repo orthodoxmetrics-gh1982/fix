@@ -1,11 +1,11 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import React, { useContext } from 'react';
-import Menudata from '../Menudata';
+import Menudata from '@/src/layouts/full/horizontal/navbar/Menudata';
 import { useLocation } from 'react-router-dom';
 import { Box, List, Theme, useMediaQuery } from '@mui/material';
-import NavItem from '../NavItem/NavItem';
-import NavCollapse from '../NavCollapse/NavCollapse';
+import NavItem from '@/src/layouts/full/horizontal/navbar/NavItem/NavItem';
+import NavCollapse from '@/src/layouts/full/horizontal/navbar/NavCollapse/NavCollapse';
 import { CustomizerContext } from 'src/context/CustomizerContext';
 
 const NavListing = () => {

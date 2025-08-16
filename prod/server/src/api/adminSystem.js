@@ -1,9 +1,9 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // server/routes/admin.js - Extended admin routes for Orthodox Metrics mana    const productionHos    // If we're on orthodoxmetrics_db.com or production server, assume productionnames = ['prod', 'production', 'live', 'orthodoxmetrics_db'];ement
 const express = require('express');
 const router = express.Router();
-const { promisePool } = require('../../config/db-compat');
-const { requireAuth } = require('../middleware/auth');
+const { promisePool } = require('@/config/db-compat');
+const { requireAuth } = require('@/src/middleware/auth');
 const os = require('os');
 const fs = require('fs').promises;
 const path = require('path');
@@ -611,7 +611,7 @@ router.get('/system-info', checkRole(['super_admin', 'admin']), async (req, res)
         // Get package.json version
         let version = 'Unknown';
         try {
-            const packageJson = require('../../package.json');
+            const packageJson = require('@/package.json');
             version = packageJson.version || 'Unknown';
         } catch (error) {
             console.warn('Could not read package.json version:', error.message);

@@ -1,7 +1,7 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // Centralized Database Logger
 // Replaces filesystem-based Winston and custom file logging
-const { promisePool } = require('../../config/db-compat');
+const { promisePool } = require('@/config/db-compat');
 const mysql = require('mysql2/promise');
 const fs = require('fs').promises;
 const path = require('path');
@@ -103,7 +103,7 @@ class DatabaseLogger {
 
   async writeToDatabase(logEntry) {
     const sql = `
-      INSERT INTO system_logs (timestamp, level, source, message, meta, user_email, service, session_id, request_id, ip_address, user_agent)
+      // MIGRATED: Use LogClient.log() instead of direct INSERT INTO system_logstimestamp, level, source, message, meta, user_email, service, session_id, request_id, ip_address, user_agent)
       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     `;
     
@@ -142,7 +142,7 @@ class DatabaseLogger {
     // Broadcast to WebSocket clients (non-blocking)
     setImmediate(() => {
       try {
-        const websocketService = require('../services/websocketService');
+        const websocketService = require('@/src/services/websocketService');
         websocketService.broadcastLogEntry(completeLogEntry);
       } catch (broadcastError) {
         // Don't fail the logging operation if broadcast fails

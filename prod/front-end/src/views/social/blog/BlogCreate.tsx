@@ -17,10 +17,10 @@ import {
   FormControlLabel,
 } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../../../context/AuthContext';
-import PageContainer from '../../../components/container/PageContainer';
-import Breadcrumb from '../../../layouts/full/shared/breadcrumb/Breadcrumb';
-import { socialAPI } from '../../../api/social.api';
+import { useAuth } from '@/src/context/AuthContext';
+import PageContainer from '@/src/components/container/PageContainer';
+import Breadcrumb from '@/src/layouts/full/shared/breadcrumb/Breadcrumb';
+import { socialAPI } from '@/src/api/social.api';
 
 const BlogCreate: React.FC = () => {
   const { user } = useAuth();

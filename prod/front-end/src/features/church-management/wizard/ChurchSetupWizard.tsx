@@ -24,7 +24,7 @@ import {
     Typography
 } from '@mui/material';
 import React, { useState } from 'react';
-import { useAuth } from '../../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 // Types
 interface ChurchFormData {

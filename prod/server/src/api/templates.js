@@ -1,7 +1,7 @@
 // server/routes/templates.js
 const express = require('express');
 const router = express.Router();
-const TemplateService = require('../services/templateService');
+const TemplateService = require('@/src/services/templateService');
 const multer = require('multer');
 const csv = require('csv-parser');
 const fs = require('fs');

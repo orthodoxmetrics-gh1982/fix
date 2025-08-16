@@ -6,7 +6,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Box, Card, CardContent, Typography, Chip, useTheme } from '@mui/material';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 interface AdminTileProps {
   icon: React.ReactNode;

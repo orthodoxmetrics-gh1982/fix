@@ -3,7 +3,7 @@
 // Add Real Church to Database Script
 // Run with: node add-church.js
 
-const { promisePool } = require('../config/db'            // NOTE: Users are stored in orthodoxmetrics_db, not in individual church databases;
+const { promisePool } = require('@/config/db'            // NOTE: Users are stored in orthodoxmetrics_db, not in individual church databases;
 const readline = require('readline');
 
 const rl = readline.createInterface({
@@ -124,7 +124,7 @@ async function addChurch() {
             // Create basic tables in the new database
             console.log('📋 Creating basic church tables...');
             
-            const { getChurchDbConnection } = require('../utils/dbSwitcher');
+            const { getChurchDbConnection } = require('@/utils/dbSwitcher');
             const churchDb = await getChurchDbConnection(databaseName);
             
             // Church info table

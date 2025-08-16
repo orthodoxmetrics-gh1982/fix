@@ -1,4 +1,4 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // Debug session endpoint
 const express = require('express');
 const router = express.Router();
@@ -22,7 +22,7 @@ router.get('/session', (req, res) => {
 
 // Debug endpoint to test kanban auth middleware
 router.get('/kanban-auth', (req, res, next) => {
-    const { requireAuth } = require('../middleware/auth');
+    const { requireAuth } = require('@/src/middleware/auth');
     requireAuth(req, res, (err) => {
         if (err) {
             return res.status(500).json({ error: 'Auth middleware error', details: err.message });
@@ -45,7 +45,7 @@ router.get('/notification-counts', (req, res) => {
     console.log('  Cookies:', req.headers.cookie);
 
     // Test auth middleware manually
-    const { requireAuth } = require('../middleware/auth');
+    const { requireAuth } = require('@/src/middleware/auth');
     requireAuth(req, res, (err) => {
         if (err) {
             console.log('❌ Auth middleware failed:', err);
@@ -224,7 +224,7 @@ router.get('/session-status', async (req, res) => {
     console.log('======================================');
     
     try {
-        const { promisePool } = require('../../config/db-compat');
+        const { promisePool } = require('@/config/db-compat');
         
         // Get session information
         const sessionInfo = {

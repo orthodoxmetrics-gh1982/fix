@@ -1,6 +1,6 @@
 import { useMediaQuery, Box, Drawer, useTheme } from '@mui/material';
 import SidebarItems from './SidebarItems';
-import Logo from '../../shared/logo/Logo';
+import Logo from '@/src/layouts/full/shared/logo/Logo';
 import Scrollbar from 'src/components/custom-scroll/Scrollbar';
 import { Profile } from './SidebarProfile/Profile';
 import config from 'src/context/config';

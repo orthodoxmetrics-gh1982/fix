@@ -8,8 +8,8 @@ import ParentCard from 'src/components/shared/ParentCard';
 import ChildCard from 'src/components/shared/ChildCard';
 import ClickPopover from 'src/components/material-ui/popover/ClickPopover';
 import HoverPopover from 'src/components/material-ui/popover/HoverPopover';
-import ClickPopoverCode from 'src/components/material-ui/popover/code/ClickPopoverCode';
-import HoverPopoverCode from 'src/components/material-ui/popover/code/HoverPopoverCode';
+import ClickPopoverCode from '@/dev/examples/components/material-ui/popover/code/ClickPopoverCode';
+import HoverPopoverCode from '@/dev/examples/components/material-ui/popover/code/HoverPopoverCode';
 
 const BCrumb = [
   {

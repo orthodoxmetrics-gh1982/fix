@@ -4,7 +4,7 @@
  */
 
 import axios from 'axios';
-import { ChurchRecord, RecordType } from '../types/church-records-advanced.types';
+import { ChurchRecord, RecordType } from '@/src/types/church-records-advanced.types';
 
 // API base configuration
 const API_BASE = '/api/records';

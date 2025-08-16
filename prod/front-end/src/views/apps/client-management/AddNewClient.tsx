@@ -22,9 +22,9 @@ import {
     ArrowBack as ArrowBackIcon,
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
-import { useCreateClient } from '../../../hooks/useClientManagement';
+import { useCreateClient } from '@/src/hooks/useClientManagement';
 import { useQueryClient } from '@tanstack/react-query';
-import type { CreateClientRequest } from '../../../types/client-management.types';
+import type { CreateClientRequest } from '@/src/types/client-management.types';
 import PageContainer from 'src/components/container/PageContainer';
 import DashboardCard from 'src/components/shared/DashboardCard';
 

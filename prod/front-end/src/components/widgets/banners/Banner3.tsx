@@ -3,7 +3,7 @@
 import React from 'react';
 import { CardContent, Typography, Button, Avatar, Badge, Box, Stack } from '@mui/material';
 import userBg from 'src/assets/images/profile/user-1.jpg';
-import ParentCard from '../../shared/ParentCard';
+import ParentCard from '@/src/components/shared/ParentCard';
 
 import FriendCardCode from './code/FriendCardCode';
 

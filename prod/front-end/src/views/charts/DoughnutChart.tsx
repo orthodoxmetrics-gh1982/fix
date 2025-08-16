@@ -4,13 +4,13 @@ import React from 'react';
 import Chart from 'react-apexcharts';
 import { useTheme } from '@mui/material/styles';
 import { Grid } from '@mui/material';
-import PageContainer from '../../components/container/PageContainer';
-import Breadcrumb from '../../layouts/full/shared/breadcrumb/Breadcrumb';
-import ParentCard from '../../components/shared/ParentCard';
+import PageContainer from '@/src/components/container/PageContainer';
+import Breadcrumb from '@/src/layouts/full/shared/breadcrumb/Breadcrumb';
+import ParentCard from '@/src/components/shared/ParentCard';
 import { Props } from 'react-apexcharts';
 
-import DoughnutChartsCode from 'src/components/charts/Doughnut Charts/code/DoughnutChartsCode';
-import PieChartsCode from 'src/components/charts/Pie Charts/code/PieChartsCode';
+import DoughnutChartsCode from '@/dev/examples/components/charts/Doughnut Charts/code/DoughnutChartsCode';
+import PieChartsCode from '@/dev/examples/components/charts/Pie Charts/code/PieChartsCode';
 
 const BCrumb = [
   {

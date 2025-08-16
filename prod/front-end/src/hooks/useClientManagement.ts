@@ -1,7 +1,7 @@
 // Client Management React Hooks
 import { useState, useEffect } from 'react';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import clientManagementApi from '../api/client-management.api';
+import clientManagementApi from '@/src/api/client-management.api';
 import type {
     Client,
     CreateClientRequest,

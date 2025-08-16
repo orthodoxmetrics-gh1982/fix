@@ -2,7 +2,7 @@
 // @ts-ignore
 import React from 'react';
 import { List, ListItemText, ListItemButton, Divider, ListItemIcon } from '@mui/material';
-import BlankCard from '../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 
 import { IconInbox, IconMailOpened } from '@tabler/icons-react';
 

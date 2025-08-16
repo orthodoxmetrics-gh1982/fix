@@ -37,7 +37,7 @@ import {
   Archive as ArchiveIcon
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 import axios from 'axios';
 
 interface BlogPost {

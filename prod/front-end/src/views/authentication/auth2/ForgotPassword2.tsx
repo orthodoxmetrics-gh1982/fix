@@ -6,7 +6,7 @@ import { Grid, Box, Card, Typography } from '@mui/material';
 import Logo from 'src/layouts/full/shared/logo/Logo';
 import PageContainer from 'src/components/container/PageContainer';
 
-import AuthForgotPassword from '../authForms/AuthForgotPassword';
+import AuthForgotPassword from '@/src/views/authentication/authForms/AuthForgotPassword';
 
 const ForgotPassword2 = () => (
   <PageContainer title="Forgot Password" description="this is Forgot Password page">

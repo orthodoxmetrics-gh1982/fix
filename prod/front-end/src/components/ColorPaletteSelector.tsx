@@ -17,7 +17,7 @@ import {
   useTheme
 } from '@mui/material';
 import { Palette, Colorize, History } from '@mui/icons-material';
-import { liturgicalThemes } from '../store/useTableStyleStore';
+import { liturgicalThemes } from '@/src/store/useTableStyleStore';
 
 interface ColorPaletteProps {
   selectedColor: string;

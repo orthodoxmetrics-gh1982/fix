@@ -8,12 +8,12 @@ import {
   OutlinedInput,
   Stack,
 } from "@mui/material";
-import CustomCheckbox from "../theme-elements/CustomCheckbox";
-import CustomFormLabel from "../theme-elements/CustomFormLabel";
-import ParentCard from "../../shared/ParentCard";
+import CustomCheckbox from "@/src/components/forms/theme-elements/CustomCheckbox";
+import CustomFormLabel from "@/src/components/forms/theme-elements/CustomFormLabel";
+import ParentCard from "@/src/components/shared/ParentCard";
 import { IconLock, IconMail, IconUser } from "@tabler/icons-react";
 
-import LeftIconFormCode from "src/components/forms/form-layouts/code/LeftIconFormCode";
+import LeftIconFormCode from '@/dev/examples/components/forms/form-layouts/code/LeftIconFormCode';
 
 const FbLeftIconForm = () => {
   const [state, setState] = React.useState({

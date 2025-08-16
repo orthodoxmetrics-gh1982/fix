@@ -84,10 +84,10 @@ import {
   Visibility as ShowIcon,
   VisibilityOff as HideIcon
 } from '@mui/icons-material';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 import { useLocation } from 'react-router-dom';
-import { useGlobalErrorStore, GlobalError } from '../../hooks/useGlobalErrorStore';
-import { KanbanDataContext } from '../../context/kanbancontext';
+import { useGlobalErrorStore, GlobalError } from '@/src/hooks/useGlobalErrorStore';
+import { KanbanDataContext } from '@/src/context/kanbancontext';
 import ErrorDetailsCard from './ErrorDetailsCard';
 
 interface OMAICommand {

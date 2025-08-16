@@ -26,7 +26,7 @@ import {
   FormatPaint,
   BorderStyle
 } from '@mui/icons-material';
-import { TableTheme } from '../store/useTableStyleStore';
+import { TableTheme } from '@/src/store/useTableStyleStore';
 
 interface TableControlPanelProps {
   selectedElement: string;

@@ -37,9 +37,9 @@ import {
   Upload as ImportIcon,
   Refresh as RefreshIcon,
 } from '@mui/icons-material';
-import { useBaptismRecords, useDropdownOptions, useCertificateGeneration } from '../api/church-records.hooks';
-import { usePermissions } from '../context/ChurchRecordsProvider';
-import type { BaptismRecord, SearchFilters } from '../types/church-records.types';
+import { useBaptismRecords, useDropdownOptions, useCertificateGeneration } from '@/src/api/church-records.hooks';
+import { usePermissions } from '@/src/context/ChurchRecordsProvider';
+import type { BaptismRecord, SearchFilters } from '@/src/types/church-records.types';
 
 const BaptismRecordsComponent: React.FC = () => {
   const [filters, setFilters] = useState<SearchFilters>({

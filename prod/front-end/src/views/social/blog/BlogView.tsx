@@ -34,11 +34,11 @@ import {
   IconBookmarkFilled,
 } from '@tabler/icons-react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { useAuth } from '../../../context/AuthContext';
-import PageContainer from '../../../components/container/PageContainer';
-import Breadcrumb from '../../../layouts/full/shared/breadcrumb/Breadcrumb';
+import { useAuth } from '@/src/context/AuthContext';
+import PageContainer from '@/src/components/container/PageContainer';
+import Breadcrumb from '@/src/layouts/full/shared/breadcrumb/Breadcrumb';
 import { format } from 'date-fns';
-import { socialAPI } from '../../../api/social.api';
+import { socialAPI } from '@/src/api/social.api';
 
 interface BlogPost {
   id: number;

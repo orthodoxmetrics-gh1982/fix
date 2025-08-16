@@ -1,5 +1,5 @@
 // Utility functions for normalizing log entries and ensuring consistent schema
-import { LogEntry, LogLevel, StandardLogFormat } from '../types/logging';
+import { LogEntry, LogLevel, StandardLogFormat } from '@/src/types/logging';
 
 /**
  * Normalizes raw log data into StandardLogFormat

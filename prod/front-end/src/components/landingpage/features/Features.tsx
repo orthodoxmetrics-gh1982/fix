@@ -23,7 +23,7 @@ import {
   IconTable,
   IconPresentation,
 } from '@tabler/icons-react';
-import AnimationFadeIn from '../animation/Animation';
+import AnimationFadeIn from '@/src/components/landingpage/animation/Animation';
 
 interface FeaturesType {
   icon: React.ReactElement;

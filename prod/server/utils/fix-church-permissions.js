@@ -76,7 +76,7 @@ async function fixPermissions() {
         for (const church of churches) {
             try {
                 // Try to connect to the church database using dbSwitcher
-                const { getChurchDbConnection } = require('../utils/dbSwitcher');
+                const { getChurchDbConnection } = require('@/utils/dbSwitcher');
                 const churchDb = await getChurchDbConnection(church.database_name);
                 
                 // Test a simple query

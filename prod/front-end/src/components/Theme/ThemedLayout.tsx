@@ -5,7 +5,7 @@
 
 import React, { useEffect } from 'react';
 import { Box } from '@mui/material';
-import { useTheme } from '../../context/ThemeContext';
+import { useTheme } from '@/src/context/ThemeContext';
 
 interface ThemedLayoutProps {
   children: React.ReactNode;

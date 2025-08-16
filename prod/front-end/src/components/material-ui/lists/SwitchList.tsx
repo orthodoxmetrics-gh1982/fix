@@ -2,11 +2,11 @@
 // @ts-ignore
 import React from 'react';
 import { List, ListItem, ListItemIcon, ListItemText, ListSubheader } from '@mui/material';
-import BlankCard from '../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 
 import { IconWifi, IconBluetooth } from '@tabler/icons-react';
 
-import CustomSwitch from '../../forms/theme-elements/CustomSwitch';
+import CustomSwitch from '@/src/components/forms/theme-elements/CustomSwitch';
 
 const SwitchList = () => {
   const [checked, setChecked] = React.useState(['wifi']);

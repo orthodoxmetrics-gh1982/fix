@@ -3,9 +3,9 @@
 
 const express = require('express');
 const router = express.Router();
-const { authMiddleware, requireRole } = require('../middleware/auth');
-const JITSessionManager = require('../services/jitSessionManager');
-const TerminalManager = require('../services/terminalManager');
+const { authMiddleware, requireRole } = require('@/src/middleware/auth');
+const JITSessionManager = require('@/src/services/jitSessionManager');
+const TerminalManager = require('@/src/services/terminalManager');
 const WebSocket = require('ws');
 const path = require('path');
 const fs = require('fs').promises;

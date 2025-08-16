@@ -19,7 +19,7 @@ import {
   Send as SubmitIcon,
   ArrowBack as BackIcon
 } from '@mui/icons-material';
-import { useProvisionStore } from '../../store/provision';
+import { useProvisionStore } from '@/src/store/provision';
 
 const Summary: React.FC = () => {
   const navigate = useNavigate();

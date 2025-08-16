@@ -13,8 +13,8 @@ import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import PageContainer from 'src/components/container/PageContainer';
 import ParentCard from 'src/components/shared/ParentCard';
 import ChildCard from 'src/components/shared/ChildCard';
-import BasicCode from 'src/components/material-ui/accordion/code/BasicCode';
-import ControlledCode from 'src/components/material-ui/accordion/code/ControlledCode';
+import BasicCode from '@/dev/examples/components/material-ui/accordion/code/BasicCode';
+import ControlledCode from '@/dev/examples/components/material-ui/accordion/code/ControlledCode';
 import { IconChevronDown } from '@tabler/icons-react';
 
 const BCrumb = [

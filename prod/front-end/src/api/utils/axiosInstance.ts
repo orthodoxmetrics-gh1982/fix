@@ -4,7 +4,7 @@
  */
 
 import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
-import { API_CONFIG } from '../../config/api.config';
+import { API_CONFIG } from '@/src/config/api.config';
 
 // ===== API CLIENT CONFIGURATION =====
 // Use centralized configuration

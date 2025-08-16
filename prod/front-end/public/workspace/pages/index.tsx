@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import AvatarExtractor from '../AvatarExtractor';
+import AvatarExtractor from '@/public/workspace/AvatarExtractor';
 
 const Home: NextPage = () => {
   return (

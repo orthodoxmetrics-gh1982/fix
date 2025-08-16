@@ -5,7 +5,7 @@ import { Slider } from '@mui/material'
 import ChildCard from 'src/components/shared/ChildCard'
 
 
-import TemperatureRangeCode from 'src/components/forms/form-elements/slider/code/TemperatureRangeCode'
+import TemperatureRangeCode from '@/dev/examples/components/forms/form-elements/slider/code/TemperatureRangeCode'
 
 function valuetext2(value: any) {
   return `${value}°C`

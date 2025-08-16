@@ -13,7 +13,7 @@ import {
 } from '@mui/material';
 
 import { IconMessage } from '@tabler/icons-react';
-import BlankCard from '../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 
 const ControlsList = () => {
   const [checked, setChecked] = React.useState([0]);

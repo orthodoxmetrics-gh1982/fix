@@ -1,7 +1,7 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // server/routes/admin.js
 const express = require('express');
-const { promisePool } = require('../../config/db-compat');
+const { promisePool } = require('@/config/db-compat');
 const bcrypt = require('bcrypt');
 const { 
     canManageUser, 
@@ -10,7 +10,7 @@ const {
     isRootSuperAdmin,
     logUnauthorizedAttempt,
     ROOT_SUPERADMIN_EMAIL
-} = require('../middleware/userAuthorization');
+} = require('@/src/middleware/userAuthorization');
 
 const router = express.Router();
 

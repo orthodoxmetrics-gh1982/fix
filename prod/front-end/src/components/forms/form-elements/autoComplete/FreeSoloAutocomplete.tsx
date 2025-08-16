@@ -2,7 +2,7 @@
 
 import { Stack } from '@mui/material';
 import Autocomplete from '@mui/material/Autocomplete';
-import CustomTextField from '../../theme-elements/CustomTextField';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
 import top100Films from './data';
 
 const FreeSoloAutocomplete = () => {

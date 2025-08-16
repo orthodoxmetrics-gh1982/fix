@@ -33,7 +33,7 @@ import {
   Error as ErrorIcon,
   AccessTime as TimeIcon
 } from '@mui/icons-material';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 interface Script {
   id: string;

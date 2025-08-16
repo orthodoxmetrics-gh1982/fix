@@ -5,11 +5,11 @@ import { z } from 'zod';
 import { useNavigate } from 'react-router-dom';
 import { IconUser, IconLock, IconMail, IconEye, IconEyeOff, IconShield, IconCheck } from '@tabler/icons-react';
 
-import { Button } from "../../components/ui/button";
-import { Input } from '../../components/ui/input';
-import { useProvisionStore } from '../../store/provision';
-import { setAccounts } from '../../lib/api';
-import { Accounts } from '../../lib/types';
+import { Button } from "@/src/components/ui/button";
+import { Input } from '@/src/components/ui/input';
+import { useProvisionStore } from '@/src/store/provision';
+import { setAccounts } from '@/src/lib/api';
+import { Accounts } from '@/src/lib/types';
 
 // Validation schema
 const accountsSchema = z.object({

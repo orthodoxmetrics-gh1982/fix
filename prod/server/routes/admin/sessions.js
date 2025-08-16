@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const { requireRole } = require('../../middleware/auth');
-const DatabaseService = require('../../src/services/databaseService');
+const { requireRole } = require('@/middleware/auth');
+const DatabaseService = require('@/src/services/databaseService');
 
 /**
  * Session Management API Routes

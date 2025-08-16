@@ -31,7 +31,7 @@ import {
   Download as DownloadIcon,
   VpnKey as TokenIcon
 } from '@mui/icons-material';
-import { JITTerminal } from '../../components/terminal/JITTerminal';
+import { JITTerminal } from '@/src/components/terminal/JITTerminal';
 
 interface AgentAccessRequest {
   agentId: string;

@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const { promisePool } = require('../../config/db');
-const { authMiddleware, requireRole } = require('../../middleware/auth');
+const { promisePool } = require('@/config/db');
+const { authMiddleware, requireRole } = require('@/middleware/auth');
 
 // Apply authentication middleware
 router.use(authMiddleware);

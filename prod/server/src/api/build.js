@@ -3,9 +3,9 @@ const router = express.Router();
 const fs = require('fs').promises;
 const path = require('path');
 const { spawn } = require('child_process');
-const { authMiddleware, requireRole } = require('../middleware/auth');
-const { formatTimestamp, formatTimestampUser } = require('../utils/formatTimestamp');
-const BuildOutputParser = require('../utils/buildOutputParser');
+const { authMiddleware, requireRole } = require('@/src/middleware/auth');
+const { formatTimestamp, formatTimestampUser } = require('@/src/utils/formatTimestamp');
+const BuildOutputParser = require('@/src/utils/buildOutputParser');
 
 // Apply authentication middleware
 router.use(authMiddleware);

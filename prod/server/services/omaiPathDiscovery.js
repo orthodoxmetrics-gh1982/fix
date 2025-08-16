@@ -1,8 +1,8 @@
 const fs = require('fs').promises;
 const path = require('path');
 const crypto = require('crypto');
-const logger = require('../utils/logger');
-const EncryptedStorage = require('../utils/encryptedStorage');
+const logger = require('@/utils/logger');
+const EncryptedStorage = require('@/utils/encryptedStorage');
 
 class OMAIPathDiscovery {
   constructor() {

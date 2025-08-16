@@ -1,6 +1,6 @@
 import { createContext, useState, useContext, useEffect } from 'react';
 import React from "react";
-import { useAuth } from '../AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 // OCR Types
 export interface OCRFile {

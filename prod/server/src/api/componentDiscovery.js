@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 const fs = require('fs').promises;
 const path = require('path');
-const ComponentDiscovery = require('../utils/componentDiscovery');
-const logger = require('../utils/logger');
+const ComponentDiscovery = require('@/src/utils/componentDiscovery');
+const logger = require('@/src/utils/logger');
 
 // Initialize component discovery
 const discovery = new ComponentDiscovery();
@@ -47,7 +47,7 @@ router.post('/discover', async (req, res) => {
  */
 router.get('/list', async (req, res) => {
   try {
-    const ComponentRegistryService = require('../services/componentRegistryService');
+    const ComponentRegistryService = require('@/src/services/componentRegistryService');
     const componentService = new ComponentRegistryService();
     
     const results = await componentService.getAllComponents();
@@ -213,7 +213,7 @@ router.get('/search', async (req, res) => {
 router.get('/component/:name', async (req, res) => {
   try {
     const { name } = req.params;
-    const ComponentRegistryService = require('../services/componentRegistryService');
+    const ComponentRegistryService = require('@/src/services/componentRegistryService');
     const componentService = new ComponentRegistryService();
     
     const component = await componentService.getComponentByName(name);

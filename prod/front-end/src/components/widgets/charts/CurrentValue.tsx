@@ -4,7 +4,7 @@ import React from 'react';
 import Chart from 'react-apexcharts';
 import { useTheme } from '@mui/material/styles';
 import { Box, Button, CardContent, Grid, Typography, Stack } from '@mui/material';
-import BlankCard from '../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 import { Props } from 'react-apexcharts';
 
 

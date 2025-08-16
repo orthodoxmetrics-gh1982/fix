@@ -5,10 +5,10 @@ import { z } from 'zod';
 import { useNavigate } from 'react-router-dom';
 import { IconDatabase, IconEye, IconCheck, IconDroplet, IconHeart, IconCross } from '@tabler/icons-react';
 
-import { Button } from "../../components/ui/button";
-import { useProvisionStore } from '../../store/provision';
-import { setModules } from '../../lib/api';
-import { Modules } from '../../lib/types';
+import { Button } from "@/src/components/ui/button";
+import { useProvisionStore } from '@/src/store/provision';
+import { setModules } from '@/src/lib/api';
+import { Modules } from '@/src/lib/types';
 
 // Validation schema
 const modulesSchema = z.object({

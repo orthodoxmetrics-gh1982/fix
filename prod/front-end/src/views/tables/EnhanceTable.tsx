@@ -34,7 +34,7 @@ import PageContainer from 'src/components/container/PageContainer';
 import ParentCard from 'src/components/shared/ParentCard';
 import { IconTrash, IconFilter } from '@tabler/icons-react';
 import { EnhancedTableData, EnTableType } from 'src/components/tables/tableData';
-import BlankCard from '../../components/shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 
 const BCrumb = [
   {

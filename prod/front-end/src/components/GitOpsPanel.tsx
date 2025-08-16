@@ -44,11 +44,11 @@ import {
   FiberManualRecord as CommitIcon,
   CompareArrows as PullRequestIcon
 } from '@mui/icons-material';
-import { ComponentInfo } from '../hooks/useComponentRegistry';
-import { gitOpsBridge } from '../ai/git/gitOpsBridge';
-import { commitHandler, CommitData } from '../ai/git/commitHandler';
-import { prGenerator, PullRequest, PRResult } from '../ai/git/prGenerator';
-import { gitConfigManager, GitConfig } from '../ai/git/config';
+import { ComponentInfo } from '@/src/hooks/useComponentRegistry';
+import { gitOpsBridge } from '@/src/ai/git/gitOpsBridge';
+import { commitHandler, CommitData } from '@/src/ai/git/commitHandler';
+import { prGenerator, PullRequest, PRResult } from '@/src/ai/git/prGenerator';
+import { gitConfigManager, GitConfig } from '@/src/ai/git/config';
 
 interface GitOpsPanelProps {
   component: ComponentInfo;

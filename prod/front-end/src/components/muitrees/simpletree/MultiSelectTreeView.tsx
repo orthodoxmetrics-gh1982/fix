@@ -3,7 +3,7 @@
 import Box from '@mui/material/Box';
 import { SimpleTreeView } from '@mui/x-tree-view/SimpleTreeView';
 import { TreeItem } from '@mui/x-tree-view/TreeItem';
-import MultiSelectTreeViewCode from '../code/simpletreecode/MultiSelectTreeViewCode';
+import MultiSelectTreeViewCode from '@/src/components/muitrees/code/simpletreecode/MultiSelectTreeViewCode';
 import ParentCard from 'src/components/shared/ParentCard';
 
 function MultiSelectTreeView() {

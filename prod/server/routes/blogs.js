@@ -1,2 +1,2 @@
-const api = require('../src/api/blogs');
+const api = require('@/src/api/blogs');
 module.exports = api;

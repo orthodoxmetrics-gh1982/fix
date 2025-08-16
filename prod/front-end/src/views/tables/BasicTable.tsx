@@ -6,13 +6,13 @@ import { Box, Grid } from '@mui/material';
 import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import PageContainer from 'src/components/container/PageContainer';
 import ParentCard from 'src/components/shared/ParentCard';
-import Table2 from '../../components/tables/Table2';
-import Table3 from '../../components/tables/Table3';
-import Table1 from '../../components/tables/Table1';
-import Table4 from '../../components/tables/Table4';
-import Table5 from '../../components/tables/Table5';
+import Table2 from '@/src/components/tables/Table2';
+import Table3 from '@/src/components/tables/Table3';
+import Table1 from '@/src/components/tables/Table1';
+import Table4 from '@/src/components/tables/Table4';
+import Table5 from '@/src/components/tables/Table5';
 
-import BasicTableCode from 'src/components/tables/code/BasicTableCode';
+import BasicTableCode from '@/dev/examples/components/tables/code/BasicTableCode';
 
 const BCrumb = [
   {

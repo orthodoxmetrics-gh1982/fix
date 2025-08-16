@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 import { CircularProgress, Box, Typography } from '@mui/material';
-import { userAPI } from '../../api/user.api';
+import { userAPI } from '@/src/api/user.api';
 
 const SmartRedirect: React.FC = () => {
   const navigate = useNavigate();

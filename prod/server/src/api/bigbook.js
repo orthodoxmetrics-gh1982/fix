@@ -5,9 +5,9 @@ const fs = require('fs').promises;
 const path = require('path');
 const mysql = require('mysql2/promise');
 const { v4: uuidv4 } = require('uuid');
-const EncryptedStorage = require('../utils/encryptedStorage');
-const QuestionnaireParser = require('../utils/questionnaireParser');
-const OMAIPathDiscovery = require('../services/omaiPathDiscovery');
+const EncryptedStorage = require('@/src/utils/encryptedStorage');
+const QuestionnaireParser = require('@/src/utils/questionnaireParser');
+const OMAIPathDiscovery = require('@/src/services/omaiPathDiscovery');
 
 // Big Book configuration
 const BIGBOOK_ROOT = '/var/www/orthodox-church-mgmt/orthodoxmetrics/prod/bigbook';
@@ -1590,7 +1590,7 @@ router.get('/omai/summary', async (req, res) => {
 
 const multer = require('multer');
 const AdmZip = require('adm-zip');
-const { authMiddleware: authenticate, requireRole: authorize } = require('../middleware/auth');
+const { authMiddleware: authenticate, requireRole: authorize } = require('@/src/middleware/auth');
 
 // Configure multer for zip file uploads
 const upload = multer({
@@ -2627,7 +2627,7 @@ async function notifyOMAIForLearning(result) {
     await logToFile('omai-learning.log', `OMAI Learning Notification: ${JSON.stringify(result, null, 2)}`);
     
     // Connect to OMAI orchestrator for learning ingestion (temporarily disabled)
-    // const { OMAIOrchestrator } = require('../omai/services/orchestrator');
+    // const { OMAIOrchestrator } = require('@/src/omai/services/orchestrator');
     
     // Initialize orchestrator if needed (temporarily mocked)
     let orchestrator;

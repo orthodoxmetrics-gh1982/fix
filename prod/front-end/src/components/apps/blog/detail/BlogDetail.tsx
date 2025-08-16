@@ -20,7 +20,7 @@ import BlogComment from './BlogComment';
 import { uniqueId } from 'lodash';
 import { BlogContext, BlogContextProps } from "src/context/BlogContext";
 
-import BlankCard from '../../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 
 import type { BlogType } from 'src/types/apps/blog';
 

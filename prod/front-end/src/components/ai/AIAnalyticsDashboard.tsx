@@ -37,7 +37,7 @@ import {
     IconDownload,
 } from '@tabler/icons-react';
 import { useQuery, useMutation } from '@tanstack/react-query';
-import { aiService, AIAnalyticsResponse } from '../../services/aiService';
+import { aiService, AIAnalyticsResponse } from '@/src/services/aiService';
 import { Line, Bar, Doughnut } from 'react-chartjs-2';
 import {
     Chart as ChartJS,

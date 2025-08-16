@@ -1,7 +1,7 @@
 // React hooks for Church Records Management System
 import useSWR from 'swr';
 import useSWRMutation from 'swr/mutation';
-import { churchRecordsApi } from '../api/church-records.api';
+import { churchRecordsApi } from '@/src/api/church-records.api';
 import type {
   BaptismRecord,
   MarriageRecord,

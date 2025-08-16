@@ -12,14 +12,14 @@ import PageContainer from 'src/components/container/PageContainer';
 import ParentCard from 'src/components/shared/ParentCard';
 import ChildCard from 'src/components/shared/ChildCard';
 
-import TextCode from 'src/components/material-ui/tabs/code/TextCode';
-import IconCode from 'src/components/material-ui/tabs/code/IconCode';
-import IconWithLabelCode from 'src/components/material-ui/tabs/code/IconWithLabelCode';
-import IconBottomCode from 'src/components/material-ui/tabs/code/IconBottomCode';
-import IconLeftCode from 'src/components/material-ui/tabs/code/IconLeftCode';
-import IconRightCode from 'src/components/material-ui/tabs/code/IconRightCode';
-import ScrollableCode from 'src/components/material-ui/tabs/code/ScrollableCode';
-import VerticalCode from 'src/components/material-ui/tabs/code/VerticalCode';
+import TextCode from '@/dev/examples/components/material-ui/tabs/code/TextCode';
+import IconCode from '@/dev/examples/components/material-ui/tabs/code/IconCode';
+import IconWithLabelCode from '@/dev/examples/components/material-ui/tabs/code/IconWithLabelCode';
+import IconBottomCode from '@/dev/examples/components/material-ui/tabs/code/IconBottomCode';
+import IconLeftCode from '@/dev/examples/components/material-ui/tabs/code/IconLeftCode';
+import IconRightCode from '@/dev/examples/components/material-ui/tabs/code/IconRightCode';
+import ScrollableCode from '@/dev/examples/components/material-ui/tabs/code/ScrollableCode';
+import VerticalCode from '@/dev/examples/components/material-ui/tabs/code/VerticalCode';
 
 import { IconHeart, IconPhone, IconUser } from "@tabler/icons-react";
 

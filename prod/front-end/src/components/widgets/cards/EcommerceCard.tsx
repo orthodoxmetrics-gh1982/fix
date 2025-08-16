@@ -7,8 +7,8 @@ import img1 from 'src/assets/images/products/s4.jpg';
 import img2 from 'src/assets/images/products/s5.jpg';
 import img3 from 'src/assets/images/products/s7.jpg';
 import img4 from 'src/assets/images/products/s11.jpg';
-import BlankCard from '../../shared/BlankCard';
-import ParentCard from '../../shared/ParentCard';
+import BlankCard from '@/src/components/shared/BlankCard';
+import ParentCard from '@/src/components/shared/ParentCard';
 import { IconBasket } from '@tabler/icons-react';
 
 import EcommerceCardCode from './code/EcommerceCardCode';

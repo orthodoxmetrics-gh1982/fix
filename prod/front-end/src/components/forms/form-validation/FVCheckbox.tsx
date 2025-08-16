@@ -3,7 +3,7 @@
 import { useFormik } from 'formik';
 import * as yup from 'yup';
 import { Box, Button, Stack, FormHelperText } from '@mui/material';
-import CustomCheckbox from '../theme-elements/CustomCheckbox';
+import CustomCheckbox from '@/src/components/forms/theme-elements/CustomCheckbox';
 
 const validationSchema = yup.object({
   color: yup.array().min(1, 'At least one color is required'),

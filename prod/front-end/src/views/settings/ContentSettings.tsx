@@ -32,9 +32,9 @@ import {
     IconUsers,
     IconLayoutGrid
 } from '@tabler/icons-react';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 import ImageGridExtractor from './ImageGridExtractor';
-import { adminAPI } from '../../api/admin.api';
+import { adminAPI } from '@/src/api/admin.api';
 
 interface GlobalImage {
     id: string;

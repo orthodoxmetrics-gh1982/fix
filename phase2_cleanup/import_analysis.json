@@ -1,0 +1,31 @@
+{
+  "server": {
+    "totalFiles": 914,
+    "jsFiles": 603,
+    "tsFiles": 16,
+    "importPatterns": {
+      "relative": 0,
+      "absolute": 0,
+      "module": 0,
+      "require": 0,
+      "import": 0
+    },
+    "commonImports": {}
+  },
+  "frontend": {
+    "totalFiles": 1665,
+    "jsFiles": 12,
+    "tsFiles": 150,
+    "jsxFiles": 24,
+    "tsxFiles": 1111,
+    "importPatterns": {
+      "relative": 0,
+      "absolute": 0,
+      "module": 0,
+      "aliased": 0,
+      "require": 0,
+      "import": 0
+    },
+    "commonImports": {}
+  }
+}

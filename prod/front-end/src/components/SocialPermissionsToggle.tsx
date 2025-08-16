@@ -27,7 +27,7 @@ import {
     IconCheck,
     IconX
 } from '@tabler/icons-react';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 interface SocialPermission {
     id: number;

@@ -1,1 +1,1 @@
-module.exports = require('../src/api/uploadToken');
+module.exports = require('@/src/api/uploadToken');

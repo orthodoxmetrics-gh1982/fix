@@ -2,7 +2,7 @@ const express = require('express');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs').promises;
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('@/config/db');
 const { v4: uuidv4 } = require('uuid');
 const router = express.Router();
 

@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Box, useMediaQuery } from '@mui/material';
-import Breadcrumb from '../../../layouts/full/shared/breadcrumb/Breadcrumb';
-import PageContainer from '../../../components/container/PageContainer';
-import NoteSidebar from '../../../components/apps/notes/NoteSidebar';
-import NoteContent from '../../../components/apps/notes/NoteContent';
+import Breadcrumb from '@/src/layouts/full/shared/breadcrumb/Breadcrumb';
+import PageContainer from '@/src/components/container/PageContainer';
+import NoteSidebar from '@/src/components/apps/notes/NoteSidebar';
+import NoteContent from '@/src/components/apps/notes/NoteContent';
 import AppCard from 'src/components/shared/AppCard';
 import { NotesProvider } from 'src/context/NotesContext';
 

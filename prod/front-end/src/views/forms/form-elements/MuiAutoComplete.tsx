@@ -17,13 +17,13 @@ import ParentCard from 'src/components/shared/ParentCard';
 import ChildCard from 'src/components/shared/ChildCard';
 
 // codeModel
-import ComboBoxCode from 'src/components/forms/form-elements/autoComplete/code/ComboBoxCode';
-import CountrySelectCode from 'src/components/forms/form-elements/autoComplete/code/CountrySelectCode';
-import ControlledStateCode from 'src/components/forms/form-elements/autoComplete/code/ControlledStateCode';
-import FreeSoloCode from 'src/components/forms/form-elements/autoComplete/code/FreeSoloCode';
-import MultipleValuesCode from 'src/components/forms/form-elements/autoComplete/code/MultipleValuesCode';
-import CheckboxesCode from 'src/components/forms/form-elements/autoComplete/code/CheckboxesCode';
-import SizesCode from 'src/components/forms/form-elements/autoComplete/code/SizesCode';
+import ComboBoxCode from '@/dev/examples/components/forms/form-elements/autoComplete/code/ComboBoxCode';
+import CountrySelectCode from '@/dev/examples/components/forms/form-elements/autoComplete/code/CountrySelectCode';
+import ControlledStateCode from '@/dev/examples/components/forms/form-elements/autoComplete/code/ControlledStateCode';
+import FreeSoloCode from '@/dev/examples/components/forms/form-elements/autoComplete/code/FreeSoloCode';
+import MultipleValuesCode from '@/dev/examples/components/forms/form-elements/autoComplete/code/MultipleValuesCode';
+import CheckboxesCode from '@/dev/examples/components/forms/form-elements/autoComplete/code/CheckboxesCode';
+import SizesCode from '@/dev/examples/components/forms/form-elements/autoComplete/code/SizesCode';
 
 const BCrumb = [
   {

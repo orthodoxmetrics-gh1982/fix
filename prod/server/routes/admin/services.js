@@ -3,8 +3,8 @@ const { exec, spawn } = require('child_process');
 const { promisify } = require('util');
 const fs = require('fs').promises;
 const path = require('path');
-const { promisePool } = require('../../config/db');
-const { notificationService } = require('../notifications');
+const { promisePool } = require('@/config/db');
+const { notificationService } = require('@/routes/notifications');
 const router = express.Router();
 
 const execAsync = promisify(exec);

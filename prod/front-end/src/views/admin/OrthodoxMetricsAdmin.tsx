@@ -53,8 +53,8 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { format, formatDistanceToNow } from 'date-fns';
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { adminAPI } from '../../api/admin.api';
-import { devLogDataShape } from '../../utils/devLogger';
+import { adminAPI } from '@/src/api/admin.api';
+import { devLogDataShape } from '@/src/utils/devLogger';
 
 interface TabPanelProps {
     children?: React.ReactNode;

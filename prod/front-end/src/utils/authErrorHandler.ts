@@ -3,7 +3,7 @@
  * Provides consistent 401 error handling and retry logic across the app
  */
 
-import { AuthService } from '../services/authService';
+import { AuthService } from '@/src/services/authService';
 
 // Track retry attempts to prevent infinite loops
 const retryAttempts = new Map<string, number>();

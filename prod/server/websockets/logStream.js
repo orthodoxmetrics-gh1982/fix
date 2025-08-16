@@ -1,5 +1,5 @@
 // WebSocket handler for real-time log streaming
-const { dbLogger } = require('../utils/dbLogger');
+const { dbLogger } = require('@/utils/dbLogger');
 
 class LogStreamManager {
   constructor() {

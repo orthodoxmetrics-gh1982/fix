@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const { promisePool } = require('../../config/db');
-const { requireAuth, requireRole } = require('../../middleware/auth');
+const { promisePool } = require('@/config/db');
+const { requireAuth, requireRole } = require('@/middleware/auth');
 
 // GET /api/kanban/tasks - Get all tasks for a board
 router.get('/', requireAuth, async (req, res) => {

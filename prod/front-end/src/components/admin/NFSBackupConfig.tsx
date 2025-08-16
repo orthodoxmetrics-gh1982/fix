@@ -32,7 +32,7 @@ import {
   CloudUpload as CloudUploadIcon,
   CloudDownload as CloudDownloadIcon,
 } from '@mui/icons-material';
-import { adminAPI } from '../../api/admin.api';
+import { adminAPI } from '@/src/api/admin.api';
 import SDLCBackupPanel from './SDLCBackupPanel';
 
 interface NFSConfig {

@@ -3,7 +3,7 @@
 import React from 'react';
 import { CardContent, Typography, Button, Box } from '@mui/material';
 import starBg from 'src/assets/images/backgrounds/gold.png';
-import ParentCard from '../../shared/ParentCard';
+import ParentCard from '@/src/components/shared/ParentCard';
 
 import NotificationCode from './code/NotificationCode';
 

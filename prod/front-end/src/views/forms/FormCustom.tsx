@@ -36,7 +36,7 @@ import CustomRadio from 'src/components/forms/theme-elements/CustomRadio';
 import ParentCard from 'src/components/shared/ParentCard';
 import { IconVolume, IconVolume2 } from '@tabler/icons-react';
 
-import FormCustomCode from 'src/components/forms/form-custom/code/FormCustomCode';
+import FormCustomCode from '@/dev/examples/components/forms/form-custom/code/FormCustomCode';
 
 function CustomThumbComponent(props: SliderValueLabelProps) {
   const { children, ...other } = props;

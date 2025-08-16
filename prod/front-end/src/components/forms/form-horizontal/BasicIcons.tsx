@@ -1,8 +1,8 @@
 'use client'
 import { Grid, InputAdornment, Button } from '@mui/material';
 
-import CustomFormLabel from '../theme-elements/CustomFormLabel';
-import CustomOutlinedInput from '../theme-elements/CustomOutlinedInput';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
+import CustomOutlinedInput from '@/src/components/forms/theme-elements/CustomOutlinedInput';
 import { IconBuildingArch, IconMail, IconMessage2, IconPhone, IconUser } from '@tabler/icons-react';
 
 const BasicIcons = () => {

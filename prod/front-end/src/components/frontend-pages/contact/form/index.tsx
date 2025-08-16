@@ -1,8 +1,8 @@
 import React from 'react';
 import { Box, Container, Grid, MenuItem, Button } from '@mui/material';
-import CustomFormLabel from '../../../forms/theme-elements/CustomFormLabel';
-import CustomTextField from '../../../forms/theme-elements/CustomTextField';
-import CustomSelect from '../../../forms/theme-elements/CustomSelect';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
+import CustomSelect from '@/src/components/forms/theme-elements/CustomSelect';
 import Address from './Address';
 
 const numbers = [

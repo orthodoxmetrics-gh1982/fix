@@ -3,7 +3,7 @@
 import React from 'react';
 import { Button, Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions, Box } from '@mui/material';
 
-import CustomTextField from "../../forms/theme-elements/CustomTextField";
+import CustomTextField from "@/src/components/forms/theme-elements/CustomTextField";
 
 const FormDialog = () => {
     const [open, setOpen] = React.useState(false);

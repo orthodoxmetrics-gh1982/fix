@@ -5,8 +5,8 @@ const bcrypt = require('bcrypt');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs').promises;
-const ChurchProvisioner = require('../church-provisioner');
-const TestChurchDataGenerator = require('../services/testChurchDataGenerator');
+const ChurchProvisioner = require('@/src/church-provisioner');
+const TestChurchDataGenerator = require('@/src/services/testChurchDataGenerator');
 
 const router = express.Router();
 

@@ -2,14 +2,14 @@
 import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import PageContainer from 'src/components/container/PageContainer';
 
-import TinyBarChart from 'src/components/muicharts/barcharts/SimpleBarChart'
-import StackedBarChart from 'src/components/muicharts/barcharts/StackedBarChart'
-import SimpleBarChart from "src/components/muicharts/barcharts/SimpleBarChart";
-import MixedBarChart from 'src/components/muicharts/barcharts/MixedBarChart'
-import PositiveAndNegativeBarChart from "src/components/muicharts/barcharts/PositiveAndNegativeBarChart";
-import BarChartStackedBySignChart from "src/components/muicharts/barcharts/BarChartStackedBySignChart";
+import TinyBarChart from '@/dev/examples/components/muicharts/barcharts/SimpleBarChart'
+import StackedBarChart from '@/dev/examples/components/muicharts/barcharts/StackedBarChart'
+import SimpleBarChart from '@/dev/examples/components/muicharts/barcharts/SimpleBarChart';
+import MixedBarChart from '@/dev/examples/components/muicharts/barcharts/MixedBarChart'
+import PositiveAndNegativeBarChart from '@/dev/examples/components/muicharts/barcharts/PositiveAndNegativeBarChart';
+import BarChartStackedBySignChart from '@/dev/examples/components/muicharts/barcharts/BarChartStackedBySignChart';
 import { Grid } from "@mui/material";
-import BiaxialBarChart from "src/components/muicharts/barcharts/BiaxialBarChart";
+import BiaxialBarChart from '@/dev/examples/components/muicharts/barcharts/BiaxialBarChart';
 
 const BCrumb = [
     {

@@ -23,7 +23,7 @@ import {
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
-import { useRecords } from '../../../../context/RecordsContext';
+import { useRecords } from '@/src/context/RecordsContext';
 
 const RecordFilter: React.FC = () => {
   const { filters, updateFilters, clearFilters, selectedChurch, availableChurches } = useRecords();

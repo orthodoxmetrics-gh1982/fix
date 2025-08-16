@@ -58,7 +58,7 @@ import { Calendar, dateFnsLocalizer } from 'react-big-calendar';
 import { format, parse, startOfWeek, getDay } from 'date-fns';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
-import { calendarAPI } from '../../api/calendar.api';
+import { calendarAPI } from '@/src/api/calendar.api';
 
 // Types
 interface AITask {

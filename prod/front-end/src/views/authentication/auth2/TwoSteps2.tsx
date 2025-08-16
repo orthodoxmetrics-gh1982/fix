@@ -6,7 +6,7 @@ import { Grid, Box, Card, Typography } from '@mui/material';
 import Logo from 'src/layouts/full/shared/logo/Logo';
 import PageContainer from 'src/components/container/PageContainer';
 
-import AuthTwoSteps from '../authForms/AuthTwoSteps';
+import AuthTwoSteps from '@/src/views/authentication/authForms/AuthTwoSteps';
 
 const TwoSteps2 = () => (
   <PageContainer title="Forgot Password" description="this is Forgot Password page">

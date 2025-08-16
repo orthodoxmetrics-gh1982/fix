@@ -14,9 +14,9 @@ import {
 } from '@mui/material';
 
 // components
-import BlankCard from '../../shared/BlankCard';
-import CustomTextField from '../../forms/theme-elements/CustomTextField';
-import CustomFormLabel from '../../forms/theme-elements/CustomFormLabel';
+import BlankCard from '@/src/components/shared/BlankCard';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
 import { IconCirclePlus, IconCreditCard, IconPackage, IconPencilMinus } from '@tabler/icons-react';
 
 const BillsTab = () => {

@@ -1,4 +1,4 @@
-import { ComponentInfo } from '../hooks/useComponentRegistry';
+import { ComponentInfo } from '@/src/hooks/useComponentRegistry';
 import { DetectedIssue, IssueType } from './errorClassifier';
 
 export enum FixStrategyType {

@@ -5,8 +5,8 @@ import PageContainer from 'src/components/container/PageContainer';
 import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import { Grid } from '@mui/material';
 
-import Questions from '../../../components/pages/faq/Questions';
-import StillQuestions from '../../../components/pages/faq/StillQuestions';
+import Questions from '@/src/components/pages/faq/Questions';
+import StillQuestions from '@/src/components/pages/faq/StillQuestions';
 
 const BCrumb = [
   {

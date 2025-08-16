@@ -11,8 +11,8 @@ import {
   Container,
   Stack,
 } from '@mui/material';
-import BlankCard from '../../shared/BlankCard';
-import AnimationFadeIn from '../animation/Animation';
+import BlankCard from '@/src/components/shared/BlankCard';
+import AnimationFadeIn from '@/src/components/landingpage/animation/Animation';
 import bannerbgImg from 'src/assets/images/landingpage/shape/line-bg.svg';
 
 const ImgCard = styled(BlankCard)(() => ({

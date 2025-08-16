@@ -5,7 +5,7 @@ import Chart from 'react-apexcharts';
 import { useTheme } from '@mui/material/styles';
 import { Box, Typography } from '@mui/material';
 
-import DashboardCard from '../../shared/DashboardCard';
+import DashboardCard from '@/src/components/shared/DashboardCard';
 import { Props } from 'react-apexcharts';
 import { IconArrowUpRight, IconShoppingCart } from '@tabler/icons-react';
 

@@ -4,8 +4,8 @@
  */
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { useAuth } from '../context/AuthContext';
-import MenuService, { MenuItem } from '../services/menuService';
+import { useAuth } from '@/src/context/AuthContext';
+import MenuService, { MenuItem } from '@/src/services/menuService';
 
 interface DynamicMenuContextType {
     menuItems: MenuItem[];

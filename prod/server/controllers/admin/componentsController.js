@@ -11,9 +11,9 @@
 
 const fs = require('fs').promises;
 const path = require('path');
-const ComponentUsageTrackerDB = require('../../src/utils/componentUsageTrackerDB');
+const ComponentUsageTrackerDB = require('@/src/utils/componentUsageTrackerDB');
 const usageTracker = new ComponentUsageTrackerDB();
-const { formatTimestamp, formatTimestampUser, formatRelativeTime } = require('../../src/utils/formatTimestamp');
+const { formatTimestamp, formatTimestampUser, formatRelativeTime } = require('@/src/utils/formatTimestamp');
 
 class ComponentsController {
   constructor() {

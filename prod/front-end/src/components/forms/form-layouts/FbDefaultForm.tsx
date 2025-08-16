@@ -8,14 +8,14 @@ import {
   FormControl,
   MenuItem,
 } from "@mui/material";
-import CustomTextField from "../theme-elements/CustomTextField";
-import CustomSelect from "../theme-elements/CustomSelect";
-import CustomCheckbox from "../theme-elements/CustomCheckbox";
-import CustomRadio from "../theme-elements/CustomRadio";
-import CustomFormLabel from "../theme-elements/CustomFormLabel";
-import ParentCard from "../../shared/ParentCard";
+import CustomTextField from "@/src/components/forms/theme-elements/CustomTextField";
+import CustomSelect from "@/src/components/forms/theme-elements/CustomSelect";
+import CustomCheckbox from "@/src/components/forms/theme-elements/CustomCheckbox";
+import CustomRadio from "@/src/components/forms/theme-elements/CustomRadio";
+import CustomFormLabel from "@/src/components/forms/theme-elements/CustomFormLabel";
+import ParentCard from "@/src/components/shared/ParentCard";
 
-import DefaultFormCode from "src/components/forms/form-layouts/code/DefaultFormCode";
+import DefaultFormCode from '@/dev/examples/components/forms/form-layouts/code/DefaultFormCode';
 
 const numbers = [
   {

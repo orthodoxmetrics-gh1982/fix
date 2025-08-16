@@ -35,10 +35,10 @@ import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import PageContainer from 'src/components/container/PageContainer';
 
 // Import enhanced chat components
-import ChatSidebar from '../../../components/apps/chat/ChatSidebar';
-import ChatWindow from '../../../components/apps/chat/ChatWindow';
-import FriendsList from '../../../components/apps/chat/FriendsList';
-import ChatSettings from '../../../components/apps/chat/ChatSettings';
+import ChatSidebar from '@/src/components/apps/chat/ChatSidebar';
+import ChatWindow from '@/src/components/apps/chat/ChatWindow';
+import FriendsList from '@/src/components/apps/chat/FriendsList';
+import ChatSettings from '@/src/components/apps/chat/ChatSettings';
 
 interface Conversation {
   id: number;

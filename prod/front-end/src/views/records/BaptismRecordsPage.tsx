@@ -51,16 +51,16 @@ import {
   ViewList as ViewListIcon,
   ExpandLess as IconChevronUp,
 } from '@mui/icons-material';
-import { useTableStyleStore } from '../../store/useTableStyleStore';
-import { churchService, Church } from '../../services/churchService';
-import recordService from '../../services/recordService';
-import { TableControlPanel } from '../../components/TableControlPanel';
-import { ColorPaletteSelector } from '../../components/ColorPaletteSelector';
-import { AGGridViewOnly } from '../../components/AGGridViewOnly/AGGridViewOnly';
-import { ChurchRecord, RecordType as ChurchRecordType } from '../../types/church-records-advanced.types';
-import ImportRecordsButton from '../../components/ImportRecordsButton';
-import { AdvancedGridDialog } from '../../components/AdvancedGridDialog';
-import { FIELD_DEFINITIONS, RECORD_TYPES } from '../../records/constants.js';
+import { useTableStyleStore } from '@/src/store/useTableStyleStore';
+import { churchService, Church } from '@/src/services/churchService';
+import recordService from '@/src/services/recordService';
+import { TableControlPanel } from '@/src/components/TableControlPanel';
+import { ColorPaletteSelector } from '@/src/components/ColorPaletteSelector';
+import { AGGridViewOnly } from '@/src/components/AGGridViewOnly/AGGridViewOnly';
+import { ChurchRecord, RecordType as ChurchRecordType } from '@/src/types/church-records-advanced.types';
+import ImportRecordsButton from '@/src/components/ImportRecordsButton';
+import { AdvancedGridDialog } from '@/src/components/AdvancedGridDialog';
+import { FIELD_DEFINITIONS, RECORD_TYPES } from '@/src/records/constants.js';
 
 
 // Types

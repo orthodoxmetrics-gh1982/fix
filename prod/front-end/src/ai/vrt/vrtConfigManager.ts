@@ -1,11 +1,11 @@
 // VRT Configuration Manager
 // Centralizes configuration management for all VRT modules and coordinates logging
 
-import { SnapshotConfig } from '../visualTesting/snapshotEngine';
-import { DiffConfig } from '../visualTesting/diffAnalyzer';
-import { ConfidenceConfig } from '../visualTesting/confidenceAdjuster';
-import { PlaywrightConfig } from '../visualTesting/playwrightTests';
-import { LearningConfig } from '../learning/regressionFeedback';
+import { SnapshotConfig } from '@/src/ai/visualTesting/snapshotEngine';
+import { DiffConfig } from '@/src/ai/visualTesting/diffAnalyzer';
+import { ConfidenceConfig } from '@/src/ai/visualTesting/confidenceAdjuster';
+import { PlaywrightConfig } from '@/src/ai/visualTesting/playwrightTests';
+import { LearningConfig } from '@/src/ai/learning/regressionFeedback';
 import { vrtSecurity, VRTUser, logVRTAction } from './vrtSecurity';
 
 export interface VRTMasterConfig {

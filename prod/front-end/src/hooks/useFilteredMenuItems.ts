@@ -1,14 +1,14 @@
 import { useMemo, useState, useEffect } from 'react';
-import { useAuth } from '../context/AuthContext';
-import { useMenuVisibility } from '../contexts/MenuVisibilityContext';
+import { useAuth } from '@/src/context/AuthContext';
+import { useMenuVisibility } from '@/src/contexts/MenuVisibilityContext';
 import { useDynamicMenuPermissions } from './useDynamicMenuPermissions';
-import createSSPPOCMenuItems from '../layouts/full/vertical/sidebar/SSPPOCMenuItems';
-import { devLogDataShape, devLogMenuFilter } from '../utils/devLogger';
-import Menuitems from '../layouts/full/vertical/sidebar/MenuItems';
-import { ensureArray } from '../utils/arrayUtils';
+import createSSPPOCMenuItems from '@/src/layouts/full/vertical/sidebar/SSPPOCMenuItems';
+import { devLogDataShape, devLogMenuFilter } from '@/src/utils/devLogger';
+import Menuitems from '@/src/layouts/full/vertical/sidebar/MenuItems';
+import { ensureArray } from '@/src/utils/arrayUtils';
 import { uniqueId } from 'lodash';
-import { useAddonsRegistry } from '../components/registry/ComponentRegistry';
-import { componentsAPI, type Component } from '../api/components.api';
+import { useAddonsRegistry } from '@/src/components/registry/ComponentRegistry';
+import { componentsAPI, type Component } from '@/src/api/components.api';
 import {
     IconWriting,
     IconUserPlus,

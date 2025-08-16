@@ -1,11 +1,11 @@
 import { Box, CardContent, Grid, Typography } from '@mui/material';
 
-import icon1 from '../../../assets/images/svgs/icon-connect.svg';
-import icon2 from '../../../assets/images/svgs/icon-user-male.svg';
-import icon3 from '../../../assets/images/svgs/icon-briefcase.svg';
-import icon4 from '../../../assets/images/svgs/icon-mailbox.svg';
-import icon5 from '../../../assets/images/svgs/icon-favorites.svg';
-import icon6 from '../../../assets/images/svgs/icon-speech-bubble.svg';
+import icon1 from '@/src/assets/images/svgs/icon-connect.svg';
+import icon2 from '@/src/assets/images/svgs/icon-user-male.svg';
+import icon3 from '@/src/assets/images/svgs/icon-briefcase.svg';
+import icon4 from '@/src/assets/images/svgs/icon-mailbox.svg';
+import icon5 from '@/src/assets/images/svgs/icon-favorites.svg';
+import icon6 from '@/src/assets/images/svgs/icon-speech-bubble.svg';
 
 interface cardType {
   icon: string;

@@ -3,7 +3,7 @@
  * Handles AI task management, Kanban synchronization, and real-time updates
  */
 
-import type { AITask, CalendarEvent } from '../types/calendar.types';
+import type { AITask, CalendarEvent } from '@/src/types/calendar.types';
 import { apiClient } from './utils/axiosInstance';
 
 class CalendarAPI {

@@ -2,10 +2,10 @@
 import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import PageContainer from 'src/components/container/PageContainer';
 import { Grid } from "@mui/material";
-import BasicScatterChart from "src/components/muicharts/scattercharts/BasicScatterChart";
-import ScatterDatasetChart from "src/components/muicharts/scattercharts/ScatterDatasetChart";
-import VoronoiInteractionChart from "src/components/muicharts/scattercharts/VoronoiInteractionChart";
-import ScatterClickNoSnapChart from "src/components/muicharts/scattercharts/ScatterClickNoSnapChart";
+import BasicScatterChart from '@/dev/examples/components/muicharts/scattercharts/BasicScatterChart';
+import ScatterDatasetChart from '@/dev/examples/components/muicharts/scattercharts/ScatterDatasetChart';
+import VoronoiInteractionChart from '@/dev/examples/components/muicharts/scattercharts/VoronoiInteractionChart';
+import ScatterClickNoSnapChart from '@/dev/examples/components/muicharts/scattercharts/ScatterClickNoSnapChart';
 
 const BCrumb = [
     {

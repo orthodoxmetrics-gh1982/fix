@@ -16,7 +16,7 @@ const {
   getRoleInfo,
   CANONICAL_ROLES,
   legacyRoleMap
-} = require('../utils/roles');
+} = require('@/utils/roles');
 
 async function validateRoleMigration() {
   console.log('🔄 Starting Role Migration Validation...\n');

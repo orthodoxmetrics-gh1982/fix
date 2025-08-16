@@ -1,10 +1,10 @@
 
 import { createContext, useState, useEffect } from 'react';
-import { PostType, profiledataType } from '../../types/apps/userProfile';
+import { PostType, profiledataType } from '@/src/types/apps/userProfile';
 import React from "react";
 import useSWR from 'swr';
 import { getFetcher, postFetcher } from 'src/api/globalFetcher';
-import { ensureArray } from '../../utils/arrayUtils';
+import { ensureArray } from '@/src/utils/arrayUtils';
 
 // Define context type
 export type UserDataContextType = {

@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-alpine.css';
-import OrthodoxBanner from '../../components/OrthodoxBanner/OrthodoxBanner';
+import OrthodoxBanner from '@/src/components/OrthodoxBanner/OrthodoxBanner';
 import EditChurchModal from './EditChurchModal';
-import { useAuth } from '../../hooks/useAuth';
+import { useAuth } from '@/src/hooks/useAuth';
 import { toast } from 'react-toastify';
-import api from '../../api/orthodox-metrics.api';
+import api from '@/src/api/orthodox-metrics.api';
 
 const ChurchManagement = () => {
   const [churches, setChurches] = useState([]);

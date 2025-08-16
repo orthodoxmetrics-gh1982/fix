@@ -21,7 +21,7 @@ import {
   Login as LoginIcon,
   Church as ChurchIcon,
 } from '@mui/icons-material';
-import { useChurchRecords } from '../context/ChurchRecordsProvider';
+import { useChurchRecords } from '@/src/context/ChurchRecordsProvider';
 
 const AuthenticationComponent: React.FC = () => {
   const [username, setUsername] = useState('');

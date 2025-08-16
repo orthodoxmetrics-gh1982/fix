@@ -21,7 +21,7 @@ import {
   CheckCircle as CheckIcon,
 } from '@mui/icons-material';
 
-import { DEFAULT_PALETTES } from '../../types/church-records-advanced.types';
+import { DEFAULT_PALETTES } from '@/src/types/church-records-advanced.types';
 
 interface ColorPickerPopoverProps {
   open: boolean;

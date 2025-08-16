@@ -1,6 +1,6 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // middleware/clientContext.js
-const { promisePool } = require('../../config/db-compat');
+const { promisePool } = require('@/config/db-compat');
 
 const clientContext = async (req, res, next) => {
     const clientSlug = req.params.clientSlug || req.headers['x-client-slug'];

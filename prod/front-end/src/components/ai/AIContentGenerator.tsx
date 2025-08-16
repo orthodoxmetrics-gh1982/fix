@@ -36,7 +36,7 @@ import {
     IconX,
 } from '@tabler/icons-react';
 import { useMutation } from '@tanstack/react-query';
-import { aiService, AIContentRequest, AIContentResponse } from '../../services/aiService';
+import { aiService, AIContentRequest, AIContentResponse } from '@/src/services/aiService';
 
 interface AIContentGeneratorProps {
     onContentGenerated?: (content: string) => void;

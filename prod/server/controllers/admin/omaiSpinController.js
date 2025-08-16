@@ -3,7 +3,7 @@
  * Web interface for environment mirroring operations
  */
 
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('@/config/db');
 const { spawn } = require('child_process');
 const path = require('path');
 const fs = require('fs').promises;

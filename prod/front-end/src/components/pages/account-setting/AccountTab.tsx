@@ -4,13 +4,13 @@ import React, { useState, useContext } from 'react';
 import { CardContent, Grid, Typography, MenuItem, Box, Avatar, Button, Stack, Alert, CircularProgress } from '@mui/material';
 
 // components
-import BlankCard from '../../shared/BlankCard';
-import CustomTextField from '../../forms/theme-elements/CustomTextField';
-import CustomFormLabel from '../../forms/theme-elements/CustomFormLabel';
-import CustomSelect from '../../forms/theme-elements/CustomSelect';
+import BlankCard from '@/src/components/shared/BlankCard';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
+import CustomSelect from '@/src/components/forms/theme-elements/CustomSelect';
 
 // context
-import { useAuth } from '../../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 // images
 import user1 from 'src/assets/images/profile/user-1.jpg';

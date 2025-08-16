@@ -11,13 +11,13 @@ import CustomSlider from 'src/components/forms/theme-elements/CustomSlider';
 import { IconVolume, IconVolume2 } from '@tabler/icons-react';
 
 // codeModel
-import CustomSliderCode from 'src/components/forms/form-elements/slider/code/CustomSliderCode';
-import VolumesliderCode from 'src/components/forms/form-elements/slider/code/VolumesliderCode';
-import RangesliderCode from 'src/components/forms/form-elements/slider/code/RangesliderCode';
-import DefaultsliderCode from 'src/components/forms/form-elements/slider/code/DefaultsliderCode';
-import DisabledSliderCode from 'src/components/forms/form-elements/slider/code/DisabledSliderCode';
-import DiscreteSliderCode from 'src/components/forms/form-elements/slider/code/DiscreteSliderCode';
-import TemperatureRangeCode from 'src/components/forms/form-elements/slider/code/TemperatureRangeCode';
+import CustomSliderCode from '@/dev/examples/components/forms/form-elements/slider/code/CustomSliderCode';
+import VolumesliderCode from '@/dev/examples/components/forms/form-elements/slider/code/VolumesliderCode';
+import RangesliderCode from '@/dev/examples/components/forms/form-elements/slider/code/RangesliderCode';
+import DefaultsliderCode from '@/dev/examples/components/forms/form-elements/slider/code/DefaultsliderCode';
+import DisabledSliderCode from '@/dev/examples/components/forms/form-elements/slider/code/DisabledSliderCode';
+import DiscreteSliderCode from '@/dev/examples/components/forms/form-elements/slider/code/DiscreteSliderCode';
+import TemperatureRangeCode from '@/dev/examples/components/forms/form-elements/slider/code/TemperatureRangeCode';
 
 const BCrumb = [
   {

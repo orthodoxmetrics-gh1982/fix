@@ -1,6 +1,6 @@
 "use client"
 import React, { createContext, useState, Dispatch, SetStateAction, useEffect } from 'react';
-import { EmailType } from '../../types/apps/email';
+import { EmailType } from '@/src/types/apps/email';
 import useSWR from 'swr';
 import { deleteFetcher, getFetcher } from 'src/api/globalFetcher';
 

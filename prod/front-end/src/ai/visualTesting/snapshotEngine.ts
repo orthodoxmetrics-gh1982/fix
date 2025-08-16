@@ -1,5 +1,5 @@
-import { ComponentInfo } from '../../hooks/useComponentRegistry';
-import { checkVRTAccess, logVRTAction, VRTUser } from '../vrt/vrtSecurity';
+import { ComponentInfo } from '@/src/hooks/useComponentRegistry';
+import { checkVRTAccess, logVRTAction, VRTUser } from '@/src/ai/vrt/vrtSecurity';
 
 export interface SnapshotMetadata {
   componentId: string;

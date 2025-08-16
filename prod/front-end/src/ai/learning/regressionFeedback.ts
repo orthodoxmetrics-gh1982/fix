@@ -1,7 +1,7 @@
-import { VisualDiffResult, DiffSeverity, DiffType } from '../visualTesting/diffAnalyzer';
-import { ConfidenceAdjustment } from '../visualTesting/confidenceAdjuster';
-import { PlaywrightTestSuite, TestResult } from '../visualTesting/playwrightTests';
-import { ComponentInfo } from '../../hooks/useComponentRegistry';
+import { VisualDiffResult, DiffSeverity, DiffType } from '@/src/ai/visualTesting/diffAnalyzer';
+import { ConfidenceAdjustment } from '@/src/ai/visualTesting/confidenceAdjuster';
+import { PlaywrightTestSuite, TestResult } from '@/src/ai/visualTesting/playwrightTests';
+import { ComponentInfo } from '@/src/hooks/useComponentRegistry';
 
 export interface RegressionFeedback {
   id: string;

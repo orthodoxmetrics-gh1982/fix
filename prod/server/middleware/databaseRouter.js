@@ -5,7 +5,7 @@
  * - Record operations → church-specific DB
  */
 
-const { isRecordPath, getChurchRecordDatabase } = require('../services/databaseService');
+const { isRecordPath, getChurchRecordDatabase } = require('@/services/databaseService');
 
 /**
  * Middleware to set the correct database connection for the request
@@ -28,7 +28,7 @@ async function databaseRouter(req, res, next) {
             if (req.path.startsWith('/api/admin/logs') || req.path.startsWith('/api/logger') || req.path.startsWith('/api/errors')) {
                 req.isRecordRequest = false;
                 req.useOmaiDatabase = true;
-                console.log('🔍 Request routed to OMAI error tracking database (omai_error_tracking_db)');
+                console.log('🔍 Request routed to OMAI error tracking database (om_logging_db)');
             } else {
                 // All other requests use the platform database
                 req.isRecordRequest = false;

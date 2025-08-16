@@ -1,4 +1,4 @@
-const { logMessage } = require('../api/logs');
+const { logMessage } = require('@/src/api/logs');
 
 // Middleware to log all API requests
 const requestLogger = (req, res, next) => {

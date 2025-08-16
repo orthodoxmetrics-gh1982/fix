@@ -1,7 +1,7 @@
 
 
 
-import { TaskProperties } from '../../../../api/kanban/KanbanData';
+import { TaskProperties } from '@/src/api/kanban/KanbanData';
 import {
   Button,
   MenuItem,

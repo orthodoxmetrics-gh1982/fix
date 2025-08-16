@@ -1,1 +1,1 @@
-module.exports = require('../src/api/bigbook');
+module.exports = require('@/src/api/bigbook');

@@ -27,12 +27,12 @@ import {
   Pending as PendingIcon,
   Refresh as RefreshIcon
 } from '@mui/icons-material';
-import { ComponentInfo } from '../hooks/useComponentRegistry';
-import { editorBridge, FixResponse } from '../services/om-ai/editorBridge';
-import { OMAIStatus } from '../services/om-ai/editorBridge';
-import { autoFixEngine, AutoFixConfig } from '../ai/autoFixEngine';
-import { DetectedIssue, IssueSeverity } from '../ai/errorClassifier';
-import { FixRecord } from '../ai/fixLogger';
+import { ComponentInfo } from '@/src/hooks/useComponentRegistry';
+import { editorBridge, FixResponse } from '@/src/services/om-ai/editorBridge';
+import { OMAIStatus } from '@/src/services/om-ai/editorBridge';
+import { autoFixEngine, AutoFixConfig } from '@/src/ai/autoFixEngine';
+import { DetectedIssue, IssueSeverity } from '@/src/ai/errorClassifier';
+import { FixRecord } from '@/src/ai/fixLogger';
 import GitOpsPanel from './GitOpsPanel';
 import VisualRegressionDashboard from './VisualRegressionDashboard';
 import ManualFixEditor from './ManualFixEditor';

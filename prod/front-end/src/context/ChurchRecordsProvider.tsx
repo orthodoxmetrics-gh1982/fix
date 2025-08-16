@@ -1,8 +1,8 @@
 // Church Records Management System Context Provider
 // 🔄 Refactored to use unified role system (see utils/roles.ts)
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
-import { useAuth } from '../api/church-records.hooks';
-import type { User } from '../types/church-records.types';
+import { useAuth } from '@/src/api/church-records.hooks';
+import type { User } from '@/src/types/church-records.types';
 import { 
   hasRole as checkRole, 
   hasAnyRole, 

@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const { promisePool } = require('../../config/db');
-const { requireRole, authMiddleware } = require('../../middleware/auth');
+const { promisePool } = require('@/config/db');
+const { requireRole, authMiddleware } = require('@/middleware/auth');
 
 // Get current user's menu permissions  
 router.get('/user-permissions', authMiddleware, async (req, res) => {

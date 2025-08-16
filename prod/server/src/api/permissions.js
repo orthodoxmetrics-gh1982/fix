@@ -1,10 +1,10 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // server/routes/permissions.js
 const express = require('express');
 const fs      = require('fs');
 const path    = require('path');
 const router  = express.Router();
-const { promisePool } = require('../../config/db-compat');
+const { promisePool } = require('@/config/db-compat');
 
 // Path to your permissionConfig.json
 const CONFIG_FILE = path.join(__dirname, 'permissionConfig.json');

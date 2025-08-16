@@ -2,7 +2,7 @@
 
 import { Slider } from "@mui/material";
 import ChildCard from 'src/components/shared/ChildCard'
-import DiscreteSliderCode from "src/components/forms/form-elements/slider/code/DiscreteSliderCode";
+import DiscreteSliderCode from '@/dev/examples/components/forms/form-elements/slider/code/DiscreteSliderCode';
 
 const valuetext = (value: any) => `${value}°C`;
 

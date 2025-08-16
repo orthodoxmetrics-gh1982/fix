@@ -1,1 +1,1 @@
-module.exports = require('../src/api/ai');
+module.exports = require('@/src/api/ai');

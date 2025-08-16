@@ -8,7 +8,7 @@ import { styled } from '@mui/material/styles';
 import { SimpleTreeView } from '@mui/x-tree-view/SimpleTreeView';
 import { TreeItem, treeItemClasses } from '@mui/x-tree-view/TreeItem';
 import ParentCard from 'src/components/shared/ParentCard';
-import BasicCustomIconsCode from '../code/simpletreecode/BasicCustomIconsCode';
+import BasicCustomIconsCode from '@/src/components/muitrees/code/simpletreecode/BasicCustomIconsCode';
 
 
 const CustomTreeItem = styled(TreeItem)({

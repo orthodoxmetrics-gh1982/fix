@@ -50,11 +50,11 @@ import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import UserFormModal from 'src/components/UserFormModal';
 
 // contexts
-import { useAuth } from '../../context/AuthContext';
-import { User as AuthUser } from '../../types/orthodox-metrics.types';
+import { useAuth } from '@/src/context/AuthContext';
+import { User as AuthUser } from '@/src/types/orthodox-metrics.types';
 
 // services
-import userService, { User, Church, NewUser, UpdateUser, ResetPasswordData } from '../../services/userService';
+import userService, { User, Church, NewUser, UpdateUser, ResetPasswordData } from '@/src/services/userService';
 
 const UserManagement: React.FC = () => {
     const { 

@@ -18,7 +18,7 @@ import {
   useTheme
 } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import { TableTheme } from '../store/useTableStyleStore';
+import { TableTheme } from '@/src/store/useTableStyleStore';
 
 interface ThemedTableProps {
   data: Array<{

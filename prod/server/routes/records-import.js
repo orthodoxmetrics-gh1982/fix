@@ -6,7 +6,7 @@ const router = express.Router();
 let importRoutes;
 try {
   // Try to load compiled TypeScript routes
-  importRoutes = require('../dist/routes/records/import').default;
+  importRoutes = require('@/dist/routes/records/import').default;
   console.log('✅ Loaded compiled TypeScript import routes');
 } catch (error) {
   console.log('⚠️ TypeScript import routes not compiled, using fallback implementation');
@@ -16,7 +16,7 @@ try {
   const path = require('path');
   const fs = require('fs').promises;
   const crypto = require('crypto');
-  const { getAppPool } = require('../config/db');
+  const { getAppPool } = require('@/config/db');
   
   // Configure multer for file uploads
   const upload = multer({

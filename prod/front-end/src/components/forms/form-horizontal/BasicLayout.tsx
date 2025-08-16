@@ -1,9 +1,9 @@
 'use client'
 import { Grid, InputAdornment, Button } from '@mui/material';
 
-import CustomFormLabel from '../theme-elements/CustomFormLabel';
-import CustomTextField from '../theme-elements/CustomTextField';
-import CustomOutlinedInput from '../theme-elements/CustomOutlinedInput';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
+import CustomOutlinedInput from '@/src/components/forms/theme-elements/CustomOutlinedInput';
 
 const BasicLayout = () => {
   return (

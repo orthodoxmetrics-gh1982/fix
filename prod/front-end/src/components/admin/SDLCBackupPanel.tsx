@@ -37,8 +37,8 @@ import {
     CheckCircle as CheckCircleIcon,
     Error as ErrorIcon,
 } from '@mui/icons-material';
-import { useAuth } from '../../context/AuthContext';
-import { apiClient } from '../../api/utils/axiosInstance';
+import { useAuth } from '@/src/context/AuthContext';
+import { apiClient } from '@/src/api/utils/axiosInstance';
 
 interface BackupFile {
     filename: string;

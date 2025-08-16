@@ -1,7 +1,7 @@
 const fs = require('fs').promises;
 const path = require('path');
 const crypto = require('crypto');
-const logger = require('../utils/logger');
+const logger = require('@/src/utils/logger');
 
 class OMAIPathDiscoveryStandalone {
   constructor() {

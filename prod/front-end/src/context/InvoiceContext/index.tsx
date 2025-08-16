@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState, useContext } from 'react';
-import { InvoiceList } from '../../types/apps/invoice';
+import { InvoiceList } from '@/src/types/apps/invoice';
 import type {
   InvoiceFilters,
   CreateInvoiceData,

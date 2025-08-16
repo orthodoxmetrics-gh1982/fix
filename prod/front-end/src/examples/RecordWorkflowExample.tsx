@@ -2,8 +2,8 @@
 // Complete example showing record generation → import workflow
 
 import React, { useState } from 'react';
-import RecordGenerator from '../components/RecordGenerator';
-import ImportRecordsButton from '../components/ImportRecordsButton';
+import RecordGenerator from '@/src/components/RecordGenerator';
+import ImportRecordsButton from '@/src/components/ImportRecordsButton';
 
 const RecordWorkflowExample: React.FC = () => {
   const [currentStep, setCurrentStep] = useState(1);

@@ -5,8 +5,8 @@ import * as yup from 'yup';
 
 import { Box, Button, Stack } from '@mui/material';
 
-import CustomTextField from '../theme-elements/CustomTextField';
-import CustomFormLabel from '../theme-elements/CustomFormLabel';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
 
 const validationSchema = yup.object({
   emailInstant: yup.string().email('Enter a valid email').required('Email is required'),

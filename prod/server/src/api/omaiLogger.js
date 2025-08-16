@@ -1,16 +1,16 @@
-// OMAI Logger API - Connects to omai_error_tracking_db
+// OMAI Logger API - Connects to om_logging_db
 const express = require('express');
 const router = express.Router();
 const mysql = require('mysql2/promise');
-const { requireAuth } = require('../middleware/auth');
-const ApiResponse = require('../utils/apiResponse');
+const { requireAuth } = require('@/src/middleware/auth');
+const ApiResponse = require('@/src/utils/apiResponse');
 
 // Create a separate connection pool for the error tracking database
 const errorTrackingPool = mysql.createPool({
   host: process.env.DB_HOST || 'localhost',
   user: process.env.DB_USER || 'orthodoxapps',
   password: process.env.DB_PASSWORD || 'Summerof1982@!',
-  database: 'omai_error_tracking_db',
+  database: 'om_logging_db',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
@@ -329,7 +329,7 @@ router.post('/log', async (req, res) => {
     } else {
       // Insert new error
       const [result] = await getAppPool().query(`
-        INSERT INTO errors (
+        // MIGRATED: Use LogClient.captureError() instead of direct INSERT INTO errors
           hash,
           type,
           source,

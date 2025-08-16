@@ -24,8 +24,8 @@ import {
   CalendarToday as CalendarIcon
 } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
-import { useRecords, RecordType } from '../../../../context/RecordsContext';
-import BlankCard from '../../../shared/BlankCard';
+import { useRecords, RecordType } from '@/src/context/RecordsContext';
+import BlankCard from '@/src/components/shared/BlankCard';
 
 interface RecordCardProps {
   record: RecordType;

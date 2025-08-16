@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const { promisePool } = require('../../config/db');
-const { requireAuth, requireRole } = require('../../middleware/auth');
+const { promisePool } = require('@/config/db');
+const { requireAuth, requireRole } = require('@/middleware/auth');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs').promises;

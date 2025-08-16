@@ -1,9 +1,9 @@
 import React from 'react';
-import Breadcrumb from '../../../layouts/full/shared/breadcrumb/Breadcrumb';
-import PageContainer from '../../../components/container/PageContainer';
-import ChurchRecordTableList from '../../../components/apps/records-ui/ChurchRecordTableList/ChurchRecordTableList';
-import BlankCard from '../../../components/shared/BlankCard';
-import { ChurchRecordsProvider } from '../../../context/ChurchRecordsContext';
+import Breadcrumb from '@/src/layouts/full/shared/breadcrumb/Breadcrumb';
+import PageContainer from '@/src/components/container/PageContainer';
+import ChurchRecordTableList from '@/src/components/apps/records-ui/ChurchRecordTableList/ChurchRecordTableList';
+import BlankCard from '@/src/components/shared/BlankCard';
+import { ChurchRecordsProvider } from '@/src/context/ChurchRecordsContext';
 
 const BCrumb = [
   {

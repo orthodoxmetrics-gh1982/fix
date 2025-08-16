@@ -34,10 +34,10 @@ import {
     Menu as MenuIcon,
     AdminPanelSettings as AdminIcon,
 } from '@mui/icons-material';
-import { useMenuVisibility } from '../../contexts/MenuVisibilityContext';
-import PageContainer from '../../components/container/PageContainer';
-import BlankCard from '../../components/shared/BlankCard';
-import Breadcrumb from '../../layouts/full/shared/breadcrumb/Breadcrumb';
+import { useMenuVisibility } from '@/src/contexts/MenuVisibilityContext';
+import PageContainer from '@/src/components/container/PageContainer';
+import BlankCard from '@/src/components/shared/BlankCard';
+import Breadcrumb from '@/src/layouts/full/shared/breadcrumb/Breadcrumb';
 
 const BCrumb = [
     {

@@ -630,7 +630,7 @@ class WebSocketService {
      */
     async sendRecentLogs(socket, filters = {}) {
         try {
-            const { dbLogger } = require('../utils/dbLogger');
+            const { dbLogger } = require('@/utils/dbLogger');
             
             const logFilters = {
                 ...filters,

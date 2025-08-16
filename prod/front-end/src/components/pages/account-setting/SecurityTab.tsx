@@ -23,13 +23,13 @@ import {
 } from '@mui/material';
 
 // components
-import BlankCard from '../../shared/BlankCard';
-import CustomFormLabel from '../../forms/theme-elements/CustomFormLabel';
-import CustomTextField from '../../forms/theme-elements/CustomTextField';
+import BlankCard from '@/src/components/shared/BlankCard';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
 import { IconDeviceLaptop, IconDeviceMobile, IconDotsVertical, IconLock, IconKey, IconShield } from '@tabler/icons-react';
 
 // context
-import { useAuth } from '../../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 const SecurityTab = () => {
   const { user } = useAuth();

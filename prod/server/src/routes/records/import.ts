@@ -6,7 +6,7 @@ import { Router, Request, Response } from 'express';
 import multer from 'multer';
 import * as path from 'path';
 import * as fs from 'fs';
-import { ImportService, ImportFormat, RecordType } from '../../modules/records/importService';
+import { ImportService, ImportFormat, RecordType } from '@/src/modules/records/importService';
 
 const router = Router();
 

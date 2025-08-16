@@ -1,1 +1,1 @@
-module.exports = require('../src/api/importRecords');
+module.exports = require('@/src/api/importRecords');

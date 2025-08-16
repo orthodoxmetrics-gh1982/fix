@@ -38,7 +38,7 @@ import {
     Note,
     AdminPanelSettings
 } from '@mui/icons-material';
-import { useNotifications, NotificationType } from '../../contexts/NotificationContext';
+import { useNotifications, NotificationType } from '@/src/contexts/NotificationContext';
 import { formatDistanceToNow } from 'date-fns';
 
 interface NotificationDropdownProps {

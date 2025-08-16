@@ -286,7 +286,7 @@ async function createLandingPage(sitePath, { churchData, language, config }) {
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { useTranslation } from '../hooks/useTranslation';
+import { useTranslation } from '@/hooks/useTranslation';
 
 const Landing = () => {
   const { t } = useTranslation();

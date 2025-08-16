@@ -32,8 +32,8 @@ import {
     Settings as SettingsIcon,
     Refresh as RefreshIcon,
 } from '@mui/icons-material';
-import { useClients, useCreateClient, useUpdateClientStatus, useDeleteClient } from '../../../hooks/useClientManagement';
-import type { Client, CreateClientRequest } from '../../../types/client-management.types';
+import { useClients, useCreateClient, useUpdateClientStatus, useDeleteClient } from '@/src/hooks/useClientManagement';
+import type { Client, CreateClientRequest } from '@/src/types/client-management.types';
 import PageContainer from 'src/components/container/PageContainer';
 import DashboardCard from 'src/components/shared/DashboardCard';
 

@@ -7,7 +7,7 @@ import PageContainer from 'src/components/container/PageContainer';
 import img1 from 'src/assets/images/backgrounds/login-bg.svg';
 import Logo from 'src/layouts/full/shared/logo/Logo';
 
-import AuthTwoSteps from '../authForms/AuthTwoSteps';
+import AuthTwoSteps from '@/src/views/authentication/authForms/AuthTwoSteps';
 
 const TwoSteps = () => (
   <PageContainer title="Two Steps" description="this is Two Steps page">

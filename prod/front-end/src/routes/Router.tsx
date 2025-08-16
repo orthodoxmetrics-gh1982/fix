@@ -2,12 +2,12 @@
 // @ts-ignore
 import { lazy } from 'react';
 import { createBrowserRouter, Navigate } from 'react-router-dom';
-import ProtectedRoute from '../components/auth/ProtectedRoute';
-import AdminErrorBoundary from '../components/ErrorBoundary/AdminErrorBoundary';
-import HeadlineSourcePicker from '../components/headlines/HeadlineSourcePicker';
-import SmartRedirect from '../components/routing/SmartRedirect';
-import ComingSoon from '../components/shared/ComingSoon';
-import Loadable from '../layouts/full/shared/loadable/Loadable';
+import ProtectedRoute from '@/src/components/auth/ProtectedRoute';
+import AdminErrorBoundary from '@/src/components/ErrorBoundary/AdminErrorBoundary';
+import HeadlineSourcePicker from '@/src/components/headlines/HeadlineSourcePicker';
+import SmartRedirect from '@/src/components/routing/SmartRedirect';
+import ComingSoon from '@/src/components/shared/ComingSoon';
+import Loadable from '@/src/layouts/full/shared/loadable/Loadable';
 
 /* ***Layouts**** */
 const FullLayout = Loadable(lazy(() => import('../layouts/full/FullLayout')));
@@ -159,7 +159,7 @@ const BigBookDynamicRoute = Loadable(lazy(() => import('../components/admin/BigB
 const OMAIDiscoveryPanelMobile = Loadable(lazy(() => import('../components/admin/OMAIDiscoveryPanelMobile')));
 
 // Component Registry for Dynamic Addons
-import { DynamicAddonRoute } from '../components/registry/ComponentRegistry';
+import { DynamicAddonRoute } from '@/src/components/registry/ComponentRegistry';
 
 // OMLearn Module
 const OMLearn = Loadable(lazy(() => import('../modules/OMLearn/OMLearn')));

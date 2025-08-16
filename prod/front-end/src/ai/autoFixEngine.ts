@@ -1,5 +1,5 @@
-import { ComponentInfo } from '../hooks/useComponentRegistry';
-import { editorBridge, FixResponse } from '../services/om-ai/editorBridge';
+import { ComponentInfo } from '@/src/hooks/useComponentRegistry';
+import { editorBridge, FixResponse } from '@/src/services/om-ai/editorBridge';
 import { ErrorClassifier, IssueSeverity, DetectedIssue } from './errorClassifier';
 import { RecoveryActions, FixStrategy, FixResult } from './recoveryActions';
 import { FixLogger, FixRecord } from './fixLogger';

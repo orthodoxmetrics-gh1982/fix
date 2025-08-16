@@ -5,9 +5,9 @@
 
 const express = require('express');
 const router = express.Router();
-const recordsController = require('../../controllers/records');
-const { requireAuth } = require('../middleware/auth');
-const { auditLogger } = require('../middleware/auditLogger');
+const recordsController = require('@/controllers/records');
+const { requireAuth } = require('@/src/middleware/auth');
+const { auditLogger } = require('@/src/middleware/auditLogger');
 
 // Middleware to validate record type
 const validateRecordType = (req, res, next) => {

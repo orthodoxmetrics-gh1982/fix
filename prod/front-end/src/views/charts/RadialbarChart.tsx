@@ -4,13 +4,13 @@ import React from 'react';
 import Chart from 'react-apexcharts';
 import { Grid } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import PageContainer from '../../components/container/PageContainer';
-import Breadcrumb from '../../layouts/full/shared/breadcrumb/Breadcrumb';
-import ParentCard from '../../components/shared/ParentCard';
+import PageContainer from '@/src/components/container/PageContainer';
+import Breadcrumb from '@/src/layouts/full/shared/breadcrumb/Breadcrumb';
+import ParentCard from '@/src/components/shared/ParentCard';
 import { Props } from 'react-apexcharts';
 
-import RadialbarChartsCode from 'src/components/charts/Radialbar Charts/code/RadialbarChartsCode';
-import RadarChartsCode from 'src/components/charts/Radar Charts/code/RadarChartsCode';
+import RadialbarChartsCode from '@/dev/examples/components/charts/Radialbar Charts/code/RadialbarChartsCode';
+import RadarChartsCode from '@/dev/examples/components/charts/Radar Charts/code/RadarChartsCode';
 
 const BCrumb = [
   {

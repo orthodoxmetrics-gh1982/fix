@@ -14,7 +14,7 @@ import {
 } from '@mui/material';
 
 import { ContactContext } from "src/context/ConatactContext";
-import user1 from '../../../assets/images/profile/user-1.jpg';
+import user1 from '@/src/assets/images/profile/user-1.jpg';
 
 const ContactAdd = () => {
 

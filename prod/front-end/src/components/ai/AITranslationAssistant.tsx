@@ -42,7 +42,7 @@ import {
     IconHistory,
 } from '@tabler/icons-react';
 import { useMutation, useQuery } from '@tanstack/react-query';
-import { aiService, AITranslationRequest, AITranslationResponse } from '../../services/aiService';
+import { aiService, AITranslationRequest, AITranslationResponse } from '@/src/services/aiService';
 
 interface TranslationQualityDisplayProps {
     quality: {

@@ -53,7 +53,7 @@ import {
   Person as PersonIcon
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 

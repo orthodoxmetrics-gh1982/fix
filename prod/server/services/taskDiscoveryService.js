@@ -1,7 +1,7 @@
 const fs = require('fs').promises;
 const path = require('path');
 const yaml = require('js-yaml');
-const logger = require('../utils/logger');
+const logger = require('@/utils/logger');
 
 class TaskDiscoveryService {
   constructor() {

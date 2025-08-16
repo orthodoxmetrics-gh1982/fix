@@ -17,7 +17,7 @@ import {
 } from '@tabler/icons-react';
 import SSPPOCRecordsPage from './SSPPOCRecordsPage';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import AnalyticsDashboard from '../../pages/AnalyticsDashboard';
+import AnalyticsDashboard from '@/src/pages/AnalyticsDashboard';
 
 interface TabPanelProps {
   children?: React.ReactNode;

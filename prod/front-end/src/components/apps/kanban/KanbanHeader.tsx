@@ -11,8 +11,8 @@ import {
   Box,
   Grid,
 } from '@mui/material';
-import CustomFormLabel from '../../forms/theme-elements/CustomFormLabel';
-import CustomTextField from '../../forms/theme-elements/CustomTextField';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
 
 
 

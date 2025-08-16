@@ -3,8 +3,8 @@ const router = express.Router();
 const fs = require('fs').promises;
 const path = require('path');
 const { execSync, spawn } = require('child_process');
-const logger = require('../utils/logger');
-const OmaiCommandService = require('../services/omaiCommandService');
+const logger = require('@/src/utils/logger');
+const OmaiCommandService = require('@/src/services/omaiCommandService');
 
 // Initialize OMAI command service
 const omaiCommandService = new OmaiCommandService();

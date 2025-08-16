@@ -1,1 +1,1 @@
-module.exports = require('../src/api/metrics');
+module.exports = require('@/src/api/metrics');

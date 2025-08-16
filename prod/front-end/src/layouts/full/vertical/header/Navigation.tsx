@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { IconChevronDown, IconHelp } from '@tabler/icons-react';
 import AppLinks from './AppLinks';
 import QuickLinks from './QuickLinks';
-import { useMenuVisibility } from '../../../../contexts/MenuVisibilityContext';
+import { useMenuVisibility } from '@/src/contexts/MenuVisibilityContext';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import React from 'react';

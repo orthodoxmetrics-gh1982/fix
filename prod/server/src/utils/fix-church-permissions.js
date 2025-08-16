@@ -1,10 +1,10 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 #!/usr/bin/env node
 
 // Fix Database Permissions for Church Databases
 // Run with: node fix-church-permissions.js
 
-const { promisePool } = require('../../config/db-compat');
+const { promisePool } = require('@/config/db-compat');
 
 console.log('🔧 Fixing Database Permissions for Church Databases\n');
 
@@ -77,7 +77,7 @@ async function fixPermissions() {
         for (const church of churches) {
             try {
                 // Try to connect to the church database using dbSwitcher
-                const { getChurchDbConnection } = require('../utils/dbSwitcher');
+                const { getChurchDbConnection } = require('@/src/utils/dbSwitcher');
                 const churchDb = await getChurchDbConnection(church.database_name);
                 
                 // Test a simple query

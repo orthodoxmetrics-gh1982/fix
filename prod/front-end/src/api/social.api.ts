@@ -3,7 +3,7 @@
  * Handles social media features: chat, friends, blog posts, and notifications
  */
 
-import type { ApiResponse } from '../types/orthodox-metrics.types';
+import type { ApiResponse } from '@/src/types/orthodox-metrics.types';
 import { apiClient } from './utils/axiosInstance';
 
 // Type definitions for social features

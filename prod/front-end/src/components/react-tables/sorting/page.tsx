@@ -20,7 +20,7 @@ import {
 } from '@mui/material';
 import { Stack } from '@mui/system';
 import DownloadCard from 'src/components/shared/DownloadCard';
-import { basicsTableData, BasicsTableDataType } from '../filter/FilterTableData';
+import { basicsTableData, BasicsTableDataType } from '@/src/components/react-tables/filter/FilterTableData';
 
 import {
   flexRender,

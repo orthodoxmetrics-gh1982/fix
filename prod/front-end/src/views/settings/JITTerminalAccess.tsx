@@ -41,8 +41,8 @@ import {
   History as HistoryIcon,
   ContentCopy as CopyIcon
 } from '@mui/icons-material';
-import { useAuth } from '../../context/AuthContext';
-import JITTerminal from '../../components/terminal/JITTerminal';
+import { useAuth } from '@/src/context/AuthContext';
+import JITTerminal from '@/src/components/terminal/JITTerminal';
 
 interface JITSession {
   id: string;

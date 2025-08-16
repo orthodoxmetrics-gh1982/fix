@@ -9,13 +9,13 @@ import {
   FormControl,
   Alert,
 } from "@mui/material";
-import CustomTextField from "../theme-elements/CustomTextField";
-import CustomSelect from "../theme-elements/CustomSelect";
-import CustomRadio from "../theme-elements/CustomRadio";
-import CustomFormLabel from "../theme-elements/CustomFormLabel";
-import ParentCard from "../../shared/ParentCard";
+import CustomTextField from "@/src/components/forms/theme-elements/CustomTextField";
+import CustomSelect from "@/src/components/forms/theme-elements/CustomSelect";
+import CustomRadio from "@/src/components/forms/theme-elements/CustomRadio";
+import CustomFormLabel from "@/src/components/forms/theme-elements/CustomFormLabel";
+import ParentCard from "@/src/components/shared/ParentCard";
 
-import BasicHeaderFormCode from "src/components/forms/form-layouts/code/BasicHeaderFormCode";
+import BasicHeaderFormCode from '@/dev/examples/components/forms/form-layouts/code/BasicHeaderFormCode';
 
 const currencies = [
   {

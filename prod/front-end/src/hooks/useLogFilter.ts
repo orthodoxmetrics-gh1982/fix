@@ -1,6 +1,6 @@
 // React hook for managing log filters and building API queries
 import { useState, useCallback, useMemo } from 'react';
-import { LogFilters, UseLogFilterReturn } from '../types/logging';
+import { LogFilters, UseLogFilterReturn } from '@/src/types/logging';
 
 interface UseLogFilterOptions {
   initialFilters?: Partial<LogFilters>;

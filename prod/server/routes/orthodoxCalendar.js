@@ -1,1 +1,1 @@
-module.exports = require('../src/api/orthodoxCalendar');
+module.exports = require('@/src/api/orthodoxCalendar');

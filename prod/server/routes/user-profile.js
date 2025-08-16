@@ -1,2 +1,2 @@
-const api = require('../src/api/user-profile');
+const api = require('@/src/api/user-profile');
 module.exports = api;

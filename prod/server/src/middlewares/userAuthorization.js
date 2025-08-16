@@ -1,7 +1,7 @@
 // server/middleware/userAuthorization.js - User Management Authorization
 // 🔄 Refactored to use unified role system (see utils/roles.js)
 
-const { canManageUser: checkCanManageUser, getUserLevel } = require('../utils/roles');
+const { canManageUser: checkCanManageUser, getUserLevel } = require('@/src/utils/roles');
 
 // Root super admin email - can be overridden via environment variable
 const ROOT_SUPERADMIN_EMAIL = process.env.ROOT_SUPERADMIN_EMAIL || 'superadmin@orthodoxmetrics_db.com';

@@ -32,7 +32,7 @@ import {
   Code as CodeIcon,
   Refresh as RefreshIcon
 } from '@mui/icons-material';
-import { GlobalError } from '../../hooks/useGlobalErrorStore';
+import { GlobalError } from '@/src/hooks/useGlobalErrorStore';
 
 interface ErrorDetailsCardProps {
   error: GlobalError;

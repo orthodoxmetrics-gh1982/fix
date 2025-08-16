@@ -2,7 +2,7 @@
 // @ts-ignore
 import React from 'react';
 import { Typography, Box, Button, styled, CardContent, Stack } from '@mui/material';
-import BlankCard from '../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 import badgeImg from 'src/assets/images/landingpage/shape/badge.svg';
 import lineImg from 'src/assets/images/landingpage/shape/line-bg-2.svg';
 

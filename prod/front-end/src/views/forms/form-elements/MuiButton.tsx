@@ -32,30 +32,30 @@ import SizeButtonGroup from 'src/components/forms/form-elements/button/SizeButto
 import VerticalButtonGroup from 'src/components/forms/form-elements/button/VerticalButtonGroup';
 import ColorButtonGroup from 'src/components/forms/form-elements/button/ColorButtonGroup';
 import TextButtonGroup from 'src/components/forms/form-elements/button/TextButtonGroup';
-import OutlinedColorButtons from '../../../components/forms/form-elements/button/OutlinedColorButtons';
+import OutlinedColorButtons from '@/src/components/forms/form-elements/button/OutlinedColorButtons';
 
 // codeModel
-import DefaultCode from 'src/components/forms/form-elements/button/code/DefaultCode';
-import ColorsCode from 'src/components/forms/form-elements/button/code/ColorsCode';
-import LoadingButtonsCode from 'src/components/forms/form-elements/button/code/LoadingButtonsCode';
-import SizesCode from 'src/components/forms/form-elements/button/code/SizesCode';
-import OutlinedCode from 'src/components/forms/form-elements/button/code/OutlinedCode';
-import OutlinedIconCode from 'src/components/forms/form-elements/button/code/OutlinedIconCode';
-import OutlineSizeCode from 'src/components/forms/form-elements/button/code/OutlineSizeCode';
-import TextCode from 'src/components/forms/form-elements/button/code/TextCode';
-import TextColorCode from 'src/components/forms/form-elements/button/code/TextColorCode';
-import TextIconColor from 'src/components/forms/form-elements/button/code/TextIconColor';
-import TextSizesCode from 'src/components/forms/form-elements/button/code/TextSizesCode';
-import IconColorCode from 'src/components/forms/form-elements/button/code/IconColorCode';
-import IconSizesCode from 'src/components/forms/form-elements/button/code/IconSizesCode';
-import FABCode from 'src/components/forms/form-elements/button/code/FABCode';
-import FABColorCode from 'src/components/forms/form-elements/button/code/FABColorCode';
-import FABSizeCode from 'src/components/forms/form-elements/button/code/FABSizeCode';
-import DefaultButtonGroupCode from 'src/components/forms/form-elements/button/code/DefaultButtonGroupCode';
-import SizeButtonGroupCode from 'src/components/forms/form-elements/button/code/SizeButtonGroupCode';
-import VerticalButtonGroupCode from 'src/components/forms/form-elements/button/code/VerticalButtonGroupCode';
-import TextButtonGroupCode from 'src/components/forms/form-elements/button/code/TextButtonGroupCode';
-import ColorButtonGroupCode from 'src/components/forms/form-elements/button/code/ColorButtonGroupCode';
+import DefaultCode from '@/dev/examples/components/forms/form-elements/button/code/DefaultCode';
+import ColorsCode from '@/dev/examples/components/forms/form-elements/button/code/ColorsCode';
+import LoadingButtonsCode from '@/dev/examples/components/forms/form-elements/button/code/LoadingButtonsCode';
+import SizesCode from '@/dev/examples/components/forms/form-elements/button/code/SizesCode';
+import OutlinedCode from '@/dev/examples/components/forms/form-elements/button/code/OutlinedCode';
+import OutlinedIconCode from '@/dev/examples/components/forms/form-elements/button/code/OutlinedIconCode';
+import OutlineSizeCode from '@/dev/examples/components/forms/form-elements/button/code/OutlineSizeCode';
+import TextCode from '@/dev/examples/components/forms/form-elements/button/code/TextCode';
+import TextColorCode from '@/dev/examples/components/forms/form-elements/button/code/TextColorCode';
+import TextIconColor from '@/dev/examples/components/forms/form-elements/button/code/TextIconColor';
+import TextSizesCode from '@/dev/examples/components/forms/form-elements/button/code/TextSizesCode';
+import IconColorCode from '@/dev/examples/components/forms/form-elements/button/code/IconColorCode';
+import IconSizesCode from '@/dev/examples/components/forms/form-elements/button/code/IconSizesCode';
+import FABCode from '@/dev/examples/components/forms/form-elements/button/code/FABCode';
+import FABColorCode from '@/dev/examples/components/forms/form-elements/button/code/FABColorCode';
+import FABSizeCode from '@/dev/examples/components/forms/form-elements/button/code/FABSizeCode';
+import DefaultButtonGroupCode from '@/dev/examples/components/forms/form-elements/button/code/DefaultButtonGroupCode';
+import SizeButtonGroupCode from '@/dev/examples/components/forms/form-elements/button/code/SizeButtonGroupCode';
+import VerticalButtonGroupCode from '@/dev/examples/components/forms/form-elements/button/code/VerticalButtonGroupCode';
+import TextButtonGroupCode from '@/dev/examples/components/forms/form-elements/button/code/TextButtonGroupCode';
+import ColorButtonGroupCode from '@/dev/examples/components/forms/form-elements/button/code/ColorButtonGroupCode';
 
 const BCrumb = [
   {

@@ -18,7 +18,7 @@ import {
   ExpandLess as ExpandLessIcon,
   Task as TaskIcon
 } from '@mui/icons-material';
-import { GlobalError } from '../../hooks/useGlobalErrorStore';
+import { GlobalError } from '@/src/hooks/useGlobalErrorStore';
 
 interface ErrorNotificationToastProps {
   onTaskCreate?: (error: GlobalError) => void;

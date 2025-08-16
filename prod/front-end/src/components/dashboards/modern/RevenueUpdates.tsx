@@ -5,8 +5,8 @@ import Chart from 'react-apexcharts';
 import { useTheme } from '@mui/material/styles';
 import { MenuItem, Grid, Stack, Typography, Button, Avatar, Box } from '@mui/material';
 import { IconGridDots } from '@tabler/icons-react';
-import DashboardCard from '../../shared/DashboardCard';
-import CustomSelect from '../../forms/theme-elements/CustomSelect';
+import DashboardCard from '@/src/components/shared/DashboardCard';
+import CustomSelect from '@/src/components/forms/theme-elements/CustomSelect';
 import { Props } from 'react-apexcharts';
 
 const RevenueUpdates = () => {

@@ -14,7 +14,7 @@ import {
 } from '@mui/material';
 import PageContainer from 'src/components/container/PageContainer';
 import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
-import FormWizardCode from 'src/components/forms/form-wizard/code/FormWizardCode';
+import FormWizardCode from '@/dev/examples/components/forms/form-wizard/code/FormWizardCode';
 import CustomTextField from 'src/components/forms/theme-elements/CustomTextField';
 import CustomCheckbox from 'src/components/forms/theme-elements/CustomCheckbox';
 import CustomFormLabel from 'src/components/forms/theme-elements/CustomFormLabel';

@@ -12,7 +12,7 @@ const errorTrackingDb = mysql.createPool({
   host: process.env.DB_HOST || 'localhost',
   user: process.env.DB_USER || 'orthodoxapps',
   password: process.env.DB_PASSWORD || 'Summerof1982@!',
-  database: 'omai_error_tracking_db',
+  database: 'om_logging_db',
   connectTimeout: 60000,
   waitForConnections: true,
   connectionLimit: 10,
@@ -120,7 +120,7 @@ router.post('/', [
       const validType = typeMapping[origin] || 'backend';
 
       const [result] = await errorTrackingDb.query(`
-        INSERT INTO errors (
+        // MIGRATED: Use LogClient.captureError() instead of direct INSERT INTO errors
           hash, 
           type,
           source, 
@@ -178,7 +178,7 @@ router.post('/', [
     try {
       const errorHash = crypto.createHash('md5').update(`Logger API Error: ${error.message}`).digest('hex');
       await errorTrackingDb.query(`
-        INSERT INTO errors (
+        // MIGRATED: Use LogClient.captureError() instead of direct INSERT INTO errors
           hash, type, source, message, log_level, origin, source_component, first_seen, last_seen, occurrences
         ) VALUES (?, 'backend', 'backend', ?, 'ERROR', 'server', 'LoggerAPI', NOW(), NOW(), 1)
         ON DUPLICATE KEY UPDATE 
@@ -305,7 +305,7 @@ router.post('/client', [
       const validType = typeMapping[type] || 'frontend';
 
       const insertResult = await errorTrackingDb.query(`
-        INSERT INTO errors (
+        // MIGRATED: Use LogClient.captureError() instead of direct INSERT INTO errors
           hash, type, source, message, log_level, origin, source_component, 
           first_seen, last_seen, occurrences
         ) VALUES (?, ?, ?, ?, ?, ?, ?, NOW(), NOW(), 1)
@@ -361,7 +361,7 @@ router.post('/client', [
     try {
       const errorHash = crypto.createHash('md5').update(`Client Logger API Error: ${error.message}`).digest('hex');
       await errorTrackingDb.query(`
-        INSERT INTO errors (
+        // MIGRATED: Use LogClient.captureError() instead of direct INSERT INTO errors
           hash, type, source, message, log_level, origin, source_component, first_seen, last_seen, occurrences
         ) VALUES (?, 'backend', 'backend', ?, 'ERROR', 'server', 'ClientLoggerAPI', NOW(), NOW(), 1)
         ON DUPLICATE KEY UPDATE 
@@ -808,7 +808,7 @@ router.post('/batch', [
           const validType = typeMapping[origin] || 'backend';
 
           const [result] = await errorTrackingDb.query(`
-            INSERT INTO errors (
+            // MIGRATED: Use LogClient.captureError() instead of direct INSERT INTO errors
               hash, 
               type,
               source, 
@@ -873,7 +873,7 @@ router.post('/batch', [
     try {
       const errorHash = crypto.createHash('md5').update(`Batch Logger API Error: ${error.message}`).digest('hex');
       await errorTrackingDb.query(`
-        INSERT INTO errors (
+        // MIGRATED: Use LogClient.captureError() instead of direct INSERT INTO errors
           hash, type, source, message, log_level, origin, source_component, first_seen, last_seen, occurrences
         ) VALUES (?, 'backend', 'backend', ?, 'ERROR', 'server', 'BatchLoggerAPI', NOW(), NOW(), 1)
         ON DUPLICATE KEY UPDATE 

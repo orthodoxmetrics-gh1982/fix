@@ -4,7 +4,7 @@ import React from 'react';
 import Chart from 'react-apexcharts';
 import { useTheme } from '@mui/material/styles';
 
-import DashboardWidgetCard from '../../shared/DashboardWidgetCard';
+import DashboardWidgetCard from '@/src/components/shared/DashboardWidgetCard';
 import { Props } from 'react-apexcharts';
 
 const YearlySales = () => {

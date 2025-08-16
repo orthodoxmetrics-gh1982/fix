@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect, ReactNode } from 'react';
-import { useAuth } from '../AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 // Enhanced types to match backend structure
 export interface KanbanLabel {

@@ -1,7 +1,7 @@
 'use client'
 
 import Autocomplete from '@mui/material/Autocomplete';
-import CustomTextField from '../../theme-elements/CustomTextField';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
 
 // Top 100 films as rated by IMDb users. http://www.imdb.com/chart/top
 const top100Films = [

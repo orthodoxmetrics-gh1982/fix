@@ -39,7 +39,7 @@ import {
   CheckCircle,
   Cancel
 } from '@mui/icons-material';
-import { useProvisionStore } from '../../store/provision';
+import { useProvisionStore } from '@/src/store/provision';
 
 interface TabPanelProps {
   children?: React.ReactNode;

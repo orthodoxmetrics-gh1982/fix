@@ -3,7 +3,7 @@
 import React from 'react';
 import { Card, CardContent, Typography, Button, Box, Grid } from '@mui/material';
 import trackBg from 'src/assets/images/backgrounds/login-bg.svg';
-import ParentCard from '../../shared/ParentCard';
+import ParentCard from '@/src/components/shared/ParentCard';
 
 import Transection from './code/TransectionCode';
 

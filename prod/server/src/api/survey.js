@@ -3,7 +3,7 @@ const router = express.Router();
 const fs = require('fs').promises;
 const path = require('path');
 const mysql = require('mysql2/promise');
-const { requireRole } = require('../middleware/auth');
+const { requireRole } = require('@/src/middleware/auth');
 
 // Filesystem analysis endpoint
 router.post('/filesystem', requireRole(['super_admin']), async (req, res) => {

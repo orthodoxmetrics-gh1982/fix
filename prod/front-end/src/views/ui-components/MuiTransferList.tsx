@@ -9,8 +9,8 @@ import ChildCard from 'src/components/shared/ChildCard';
 import BasicTransferList from 'src/components/material-ui/transfer-list/BasicTransferList';
 import EnhancedTransferList from 'src/components/material-ui/transfer-list/EnhancedTransferList';
 
-import BasicTransferListCode from 'src/components/material-ui/transfer-list/code/BasicTransferListCode';
-import EnhancedTransferListCode from 'src/components/material-ui/transfer-list/code/EnhancedTransferListCode';
+import BasicTransferListCode from '@/dev/examples/components/material-ui/transfer-list/code/BasicTransferListCode';
+import EnhancedTransferListCode from '@/dev/examples/components/material-ui/transfer-list/code/EnhancedTransferListCode';
 
 const BCrumb = [
   {

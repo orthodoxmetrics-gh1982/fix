@@ -3,7 +3,7 @@
 import React from 'react';
 import { CardContent, Typography, Button, Box } from '@mui/material';
 import shopBg from 'src/assets/images/products/empty-shopping-cart.svg';
-import ParentCard from '../../shared/ParentCard';
+import ParentCard from '@/src/components/shared/ParentCard';
 
 import EmptyCartCode from './code/EmptyCartCode';
 

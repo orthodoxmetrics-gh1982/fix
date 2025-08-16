@@ -1,8 +1,8 @@
 import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
-import Step1Basic from '../../pages/church-wizard/Step1Basic';
-import Step2Modules from '../../pages/church-wizard/Step2Modules';
-import Step3Accounts from '../../pages/church-wizard/Step3Accounts';
+import Step1Basic from '@/src/pages/church-wizard/Step1Basic';
+import Step2Modules from '@/src/pages/church-wizard/Step2Modules';
+import Step3Accounts from '@/src/pages/church-wizard/Step3Accounts';
 import ProvisionDashboard from './ProvisionDashboard';
 import Success from './Success';
 import Summary from './Summary';

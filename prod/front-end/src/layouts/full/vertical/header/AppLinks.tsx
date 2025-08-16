@@ -1,7 +1,7 @@
 import { Avatar, Box, Typography, Grid, Stack } from '@mui/material';
 import * as dropdownData from './data';
 import { Link } from 'react-router-dom';
-import { useMenuVisibility } from '../../../../contexts/MenuVisibilityContext';
+import { useMenuVisibility } from '@/src/contexts/MenuVisibilityContext';
 import { useAuth } from 'src/context/AuthContext';
 import { getAppsLink } from './data';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment

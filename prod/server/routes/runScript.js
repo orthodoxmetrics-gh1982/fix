@@ -1,1 +1,1 @@
-module.exports = require('../src/api/runScript');
+module.exports = require('@/src/api/runScript');

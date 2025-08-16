@@ -30,8 +30,8 @@ import {
     CheckCircle as CheckCircleIcon,
     Person as PersonIcon,
 } from '@mui/icons-material';
-import { useChurchInfo, useUpdateChurchInfo, useTestClientConnection } from '../../../hooks/useClientManagement';
-import type { ChurchInfo, ChurchInfoUpdateRequest, ClientBranding } from '../../../types/client-management.types';
+import { useChurchInfo, useUpdateChurchInfo, useTestClientConnection } from '@/src/hooks/useClientManagement';
+import type { ChurchInfo, ChurchInfoUpdateRequest, ClientBranding } from '@/src/types/client-management.types';
 import PageContainer from 'src/components/container/PageContainer';
 import DashboardCard from 'src/components/shared/DashboardCard';
 

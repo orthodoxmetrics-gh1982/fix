@@ -1,7 +1,7 @@
 const TaskDiscoveryService = require('./taskDiscoveryService');
 const KanbanIntegrationService = require('./kanbanIntegrationService');
-const logger = require('../utils/logger');
-const { info, warn, error, debug } = require('../utils/dbLogger');
+const logger = require('@/src/utils/logger');
+const { info, warn, error, debug } = require('@/src/utils/dbLogger');
 const fs = require('fs').promises;
 const path = require('path');
 

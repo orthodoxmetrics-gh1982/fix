@@ -15,9 +15,9 @@ import { TimePicker } from '@mui/x-date-pickers/TimePicker';
 import { renderTimeViewClock } from '@mui/x-date-pickers/timeViewRenderers'
 
 // codeModel
-import BasicDateTimeCode from 'src/components/forms/form-elements/date-time/code/BasicDateTimeCode';
-import DifferentDesignCode from 'src/components/forms/form-elements/date-time/code/DifferentDesignCode';
-import TimepickerCode from 'src/components/forms/form-elements/date-time/code/TimepickerCode';
+import BasicDateTimeCode from '@/dev/examples/components/forms/form-elements/date-time/code/BasicDateTimeCode';
+import DifferentDesignCode from '@/dev/examples/components/forms/form-elements/date-time/code/DifferentDesignCode';
+import TimepickerCode from '@/dev/examples/components/forms/form-elements/date-time/code/TimepickerCode';
 
 const BCrumb = [
   {

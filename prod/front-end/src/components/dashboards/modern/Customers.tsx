@@ -6,7 +6,7 @@ import { useTheme } from '@mui/material/styles';
 import { Stack, Typography, Avatar } from '@mui/material';
 import { IconArrowDownRight } from '@tabler/icons-react';
 
-import DashboardCard from '../../shared/DashboardCard';
+import DashboardCard from '@/src/components/shared/DashboardCard';
 import { Props } from 'react-apexcharts';
 
 const Customers = () => {

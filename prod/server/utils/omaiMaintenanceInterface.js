@@ -1,4 +1,4 @@
-const MaintenanceService = require('../services/maintenanceService');
+const MaintenanceService = require('@/services/maintenanceService');
 const logger = require('./logger');
 
 class OMAIMaintenanceInterface {

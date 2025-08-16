@@ -1,7 +1,7 @@
 // routes/public/entityExtraction.js
 const express = require('express');
 const router = express.Router();
-const entityExtractionController = require('../../controllers/entityExtractionController');
+const entityExtractionController = require('@/controllers/entityExtractionController');
 
 /**
  * Entity Extraction API Routes

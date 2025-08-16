@@ -6,7 +6,7 @@ import { IconMapPin } from '@tabler/icons-react';
 import img1 from 'src/assets/images/profile/user-1.jpg';
 import img2 from 'src/assets/images/profile/user-2.jpg';
 import img3 from 'src/assets/images/profile/user-3.jpg';
-import BlankCard from '../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 import ParentCard from 'src/components/shared/ParentCard';
 
 import FollowerCardCode from './code/FollowerCardCode';

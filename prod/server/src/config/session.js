@@ -1,2 +1,2 @@
 // Bridge to root config/session.js
-module.exports = require('../config/session');
+module.exports = require('@/src/config/session');

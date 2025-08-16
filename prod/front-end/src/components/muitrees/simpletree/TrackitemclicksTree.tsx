@@ -5,7 +5,7 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { SimpleTreeView } from '@mui/x-tree-view/SimpleTreeView';
 import { TreeItem } from '@mui/x-tree-view/TreeItem';
-import TrackitemclicksTreeCode from '../code/simpletreecode/TrackitemclicksTreeCode';
+import TrackitemclicksTreeCode from '@/src/components/muitrees/code/simpletreecode/TrackitemclicksTreeCode';
 import ParentCard from 'src/components/shared/ParentCard';
 
 function TrackitemclicksTree() {

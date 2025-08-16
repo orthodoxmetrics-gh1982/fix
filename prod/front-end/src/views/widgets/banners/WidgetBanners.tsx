@@ -4,12 +4,12 @@ import React from 'react';
 import { Grid } from '@mui/material';
 import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import PageContainer from 'src/components/container/PageContainer';
-import WelcomeCard from '../../../components/dashboards/ecommerce/WelcomeCard';
-import Banner1 from '../../../components/widgets/banners/Banner1';
-import Banner2 from '../../../components/widgets/banners/Banner2';
-import Banner3 from '../../../components/widgets/banners/Banner3';
-import Banner4 from '../../../components/widgets/banners/Banner4';
-import Banner5 from '../../../components/widgets/banners/Banner5';
+import WelcomeCard from '@/src/components/dashboards/ecommerce/WelcomeCard';
+import Banner1 from '@/src/components/widgets/banners/Banner1';
+import Banner2 from '@/src/components/widgets/banners/Banner2';
+import Banner3 from '@/src/components/widgets/banners/Banner3';
+import Banner4 from '@/src/components/widgets/banners/Banner4';
+import Banner5 from '@/src/components/widgets/banners/Banner5';
 
 const BCrumb = [
   {

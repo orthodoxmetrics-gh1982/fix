@@ -35,7 +35,7 @@ import {
   Info as InfoIcon
 } from '@mui/icons-material';
 import { useSnackbar } from 'notistack';
-import { adminAPI } from '../api/admin.api';
+import { adminAPI } from '@/src/api/admin.api';
 
 // ─── TYPES ─────────────────────────────────────────────────────
 interface Church {

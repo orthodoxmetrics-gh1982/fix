@@ -5,7 +5,7 @@
 
 const express = require('express');
 const router = express.Router();
-const templateService = require('../services/templateService');
+const templateService = require('@/src/services/templateService');
 const fs = require('fs').promises;
 const path = require('path');
 

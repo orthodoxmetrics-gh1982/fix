@@ -2,7 +2,7 @@
 // @ts-ignore
 import React from 'react';
 import { Grid, Typography } from '@mui/material';
-import AnimationFadeIn from '../animation/Animation';
+import AnimationFadeIn from '@/src/components/landingpage/animation/Animation';
 
 const TestimonialTitle = () => {
   return (

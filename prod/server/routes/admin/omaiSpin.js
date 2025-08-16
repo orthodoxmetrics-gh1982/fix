@@ -5,8 +5,8 @@
 
 const express = require('express');
 const router = express.Router();
-const omaiSpinController = require('../../controllers/admin/omaiSpinController');
-const { requireRole } = require('../../middleware/auth');
+const omaiSpinController = require('@/controllers/admin/omaiSpinController');
+const { requireRole } = require('@/middleware/auth');
 
 // Middleware: Require super admin role for all OMAI-Spin operations
 router.use(requireRole('super_admin'));

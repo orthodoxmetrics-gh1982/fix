@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Box } from '@mui/material';
-import CustomCheckbox from '../../theme-elements/CustomCheckbox';
+import CustomCheckbox from '@/src/components/forms/theme-elements/CustomCheckbox';
 
 const CustomEleCheckbox = () => {
   const [checked, setChecked] = React.useState(true);

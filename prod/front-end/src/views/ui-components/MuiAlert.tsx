@@ -9,11 +9,11 @@ import PageContainer from 'src/components/container/PageContainer';
 import ParentCard from 'src/components/shared/ParentCard';
 import ChildCard from 'src/components/shared/ChildCard';
 
-import FilledCode from "src/components/material-ui/alert/code/FilledCode";
-import OutlinedCode from "src/components/material-ui/alert/code/OutlinedCode";
-import DescriptionCode from "src/components/material-ui/alert/code/DescriptionCode";
-import ActionCode from "src/components/material-ui/alert/code/ActionCode";
-import TransitionCode from "src/components/material-ui/alert/code/TransitionCode";
+import FilledCode from '@/dev/examples/components/material-ui/alert/code/FilledCode';
+import OutlinedCode from '@/dev/examples/components/material-ui/alert/code/OutlinedCode';
+import DescriptionCode from '@/dev/examples/components/material-ui/alert/code/DescriptionCode';
+import ActionCode from '@/dev/examples/components/material-ui/alert/code/ActionCode';
+import TransitionCode from '@/dev/examples/components/material-ui/alert/code/TransitionCode';
 
 const BCrumb = [
   {

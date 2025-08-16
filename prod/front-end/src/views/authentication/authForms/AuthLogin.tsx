@@ -18,11 +18,11 @@ import {
 } from '@mui/material';
 import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
 import { Link, useNavigate } from 'react-router-dom';
-import { useAuth } from '../../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 import { loginType } from 'src/types/auth/auth';
-import CustomCheckbox from '../../../components/forms/theme-elements/CustomCheckbox';
-import CustomTextField from '../../../components/forms/theme-elements/CustomTextField';
-import CustomFormLabel from '../../../components/forms/theme-elements/CustomFormLabel';
+import CustomCheckbox from '@/src/components/forms/theme-elements/CustomCheckbox';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
 import AuthSocialButtons from './AuthSocialButtons';
 
 const AuthLogin = ({ title, subtitle, subtext }: loginType) => {

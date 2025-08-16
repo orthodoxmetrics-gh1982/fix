@@ -4,7 +4,7 @@
  */
 
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
-import type { SupportedLanguage, TranslationKey, Translations } from '../types/orthodox-metrics.types';
+import type { SupportedLanguage, TranslationKey, Translations } from '@/src/types/orthodox-metrics.types';
 
 interface I18nContextType {
   language: SupportedLanguage;

@@ -1,7 +1,7 @@
 // server/utils/emailService.js
 const nodemailer = require('nodemailer');
 const path = require('path');
-const { getActiveEmailConfig } = require('../api/settings');
+const { getActiveEmailConfig } = require('@/api/settings');
 
 // Email templates
 const getOCRReceiptTemplate = (sessionInfo, results) => {

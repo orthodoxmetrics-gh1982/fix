@@ -1,5 +1,5 @@
 // Notification integration helper for sending notifications from other parts of the application
-const { notificationService } = require('../routes/notifications');
+const { notificationService } = require('@/src/routes/notifications');
 
 /**
  * Send a notification to a user

@@ -1,6 +1,6 @@
 import React from "react";
 import { createContext, useState, useEffect } from 'react';
-import { ProductType } from '../../types/apps/eCommerce';
+import { ProductType } from '@/src/types/apps/eCommerce';
 
 import useSWR from 'swr';
 

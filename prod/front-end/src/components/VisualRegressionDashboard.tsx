@@ -57,13 +57,13 @@ import {
   TabletMac as TabletIcon,
   Smartphone as PhoneIcon
 } from '@mui/icons-material';
-import { ComponentInfo } from '../hooks/useComponentRegistry';
-import { SnapshotData } from '../ai/visualTesting/snapshotEngine';
-import { VisualDiffResult, DiffSeverity, DiffType } from '../ai/visualTesting/diffAnalyzer';
-import { ConfidenceAdjustment } from '../ai/visualTesting/confidenceAdjuster';
-import { PlaywrightTestSuite, TestResult } from '../ai/visualTesting/playwrightTests';
-import { RegressionFeedback } from '../ai/learning/regressionFeedback';
-import { exportSnapshotAsPng, exportVRTMetadataAsJson, generatePngFilename, generateJsonFilename, logExportAction, VRTMetadata } from '../ai/vrt/exportUtils';
+import { ComponentInfo } from '@/src/hooks/useComponentRegistry';
+import { SnapshotData } from '@/src/ai/visualTesting/snapshotEngine';
+import { VisualDiffResult, DiffSeverity, DiffType } from '@/src/ai/visualTesting/diffAnalyzer';
+import { ConfidenceAdjustment } from '@/src/ai/visualTesting/confidenceAdjuster';
+import { PlaywrightTestSuite, TestResult } from '@/src/ai/visualTesting/playwrightTests';
+import { RegressionFeedback } from '@/src/ai/learning/regressionFeedback';
+import { exportSnapshotAsPng, exportVRTMetadataAsJson, generatePngFilename, generateJsonFilename, logExportAction, VRTMetadata } from '@/src/ai/vrt/exportUtils';
 
 interface VisualRegressionDashboardProps {
   component: ComponentInfo;

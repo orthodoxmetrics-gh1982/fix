@@ -4,9 +4,9 @@ const router = express.Router();
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs').promises;
-const { getAppPool } = require('../../config/db');
-const { getChurchDbConnection } = require('../../src/utils/dbSwitcher');
-const churchSetupService = require('../../src/services/churchSetupService'); // Add template integration
+const { getAppPool } = require('@/config/db');
+const { getChurchDbConnection } = require('@/src/utils/dbSwitcher');
+const churchSetupService = require('@/src/services/churchSetupService'); // Add template integration
 
 // Configure multer for logo uploads
 const storage = multer.diskStorage({

@@ -2,7 +2,7 @@
 
 import { Box } from '@mui/material';
 
-import CustomRadio from '../../theme-elements/CustomRadio';
+import CustomRadio from '@/src/components/forms/theme-elements/CustomRadio';
 import React from 'react';
 
 const CustomExRadio = () => {

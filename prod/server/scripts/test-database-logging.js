@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Test script to validate database logging functionality
 
-const { info, warn, error, debug, success, getLogs } = require('../utils/dbLogger');
+const { info, warn, error, debug, success, getLogs } = require('@/utils/dbLogger');
 
 async function testDatabaseLogging() {
   console.log('🧪 Testing Database Logging System...\n');

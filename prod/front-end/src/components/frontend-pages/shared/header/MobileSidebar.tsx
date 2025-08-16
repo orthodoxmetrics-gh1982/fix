@@ -1,7 +1,7 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
-import Logo from '../../../../layouts/full/shared/logo/Logo';
+import Logo from '@/src/layouts/full/shared/logo/Logo';
 import { NavLinks } from './Navigations';
 import { Chip } from '@mui/material';
 

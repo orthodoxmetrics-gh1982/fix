@@ -9,15 +9,15 @@ import PageContainer from 'src/components/container/PageContainer';
 import ParentCard from 'src/components/shared/ParentCard';
 
 
-import BasicLayout from '../../components/forms/form-vertical/BasicLayout';
+import BasicLayout from '@/src/components/forms/form-vertical/BasicLayout';
 
-import BasicIcons from '../../components/forms/form-vertical/BasicIcons';
-import FormSeparator from '../../components/forms/form-vertical/FormSeparator';
-import CollapsibleForm from '../../components/forms/form-vertical/CollapsibleForm';
-import FormTabs from '../../components/forms/form-vertical/FormTabs';
+import BasicIcons from '@/src/components/forms/form-vertical/BasicIcons';
+import FormSeparator from '@/src/components/forms/form-vertical/FormSeparator';
+import CollapsibleForm from '@/src/components/forms/form-vertical/CollapsibleForm';
+import FormTabs from '@/src/components/forms/form-vertical/FormTabs';
 
-import BasicLayoutCode from 'src/components/forms/form-vertical/code/BasicLayoutCode';
-import BasicIconsCode from 'src/components/forms/form-vertical/code/BasicIconsCode';
+import BasicLayoutCode from '@/dev/examples/components/forms/form-vertical/code/BasicLayoutCode';
+import BasicIconsCode from '@/dev/examples/components/forms/form-vertical/code/BasicIconsCode';
 
 const BCrumb = [
   {

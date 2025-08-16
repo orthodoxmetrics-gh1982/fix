@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import { CardContent, Typography, Grid, Button, CardMedia, IconButton, Stack, Skeleton } from '@mui/material';
 import img1 from 'src/assets/images/products/s1.jpg';
 import img2 from 'src/assets/images/products/s2.jpg';
-import BlankCard from '../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 import { IconGift } from '@tabler/icons-react';
 
-import ParentCard from '../../shared/ParentCard';
+import ParentCard from '@/src/components/shared/ParentCard';
 
 import GiftCardCode from './code/GiftCardCode';
 

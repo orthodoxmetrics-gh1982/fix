@@ -8,10 +8,10 @@ import {
   BugReport as BugIcon,
   Settings as SettingsIcon
 } from '@mui/icons-material';
-import { useAuth } from '../context/AuthContext';
-import { useComponentRegistry, ComponentInfo, generateComponentId, extractComponentInfo } from '../hooks/useComponentRegistry';
-import { useInspectorState } from '../hooks/useInspectorState';
-import { editorBridge } from '../services/om-ai/editorBridge';
+import { useAuth } from '@/src/context/AuthContext';
+import { useComponentRegistry, ComponentInfo, generateComponentId, extractComponentInfo } from '@/src/hooks/useComponentRegistry';
+import { useInspectorState } from '@/src/hooks/useInspectorState';
+import { editorBridge } from '@/src/services/om-ai/editorBridge';
 import ComponentInspector from './ComponentInspector';
 import '../styles/inspector.css';
 import VRTSettingsPanel from './VRTSettingsPanel';

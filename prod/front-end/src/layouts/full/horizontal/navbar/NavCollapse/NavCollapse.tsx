@@ -9,7 +9,7 @@ import { ListItemIcon, styled, ListItemText, Box, ListItemButton } from '@mui/ma
 
 
 // custom imports
-import NavItem from '../NavItem/NavItem';
+import NavItem from '@/src/layouts/full/horizontal/navbar/NavItem/NavItem';
 
 // plugins
 import { IconChevronDown } from '@tabler/icons-react';

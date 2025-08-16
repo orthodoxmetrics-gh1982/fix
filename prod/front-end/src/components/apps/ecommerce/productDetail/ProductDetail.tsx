@@ -18,7 +18,7 @@ import {
 } from '@mui/material';
 import { ProductContext } from "src/context/EcommerceContext";
 import { IconCheck, IconMinus, IconPlus } from '@tabler/icons-react';
-import AlertCart from '../productCart/AlertCart';
+import AlertCart from '@/src/components/apps/ecommerce/productCart/AlertCart';
 import { ProductType } from 'src/types/apps/eCommerce';
 
 const ProductDetail = () => {

@@ -52,12 +52,12 @@ import {
   Security as SecurityIcon,
   Close as CloseIcon
 } from '@mui/icons-material';
-import { SnapshotConfig } from '../ai/visualTesting/snapshotEngine';
-import { DiffConfig } from '../ai/visualTesting/diffAnalyzer';
-import { ConfidenceConfig } from '../ai/visualTesting/confidenceAdjuster';
-import { PlaywrightConfig } from '../ai/visualTesting/playwrightTests';
-import { LearningConfig } from '../ai/learning/regressionFeedback';
-import { checkVRTAccess, logVRTAction, vrtSecurity } from '../ai/vrt/vrtSecurity';
+import { SnapshotConfig } from '@/src/ai/visualTesting/snapshotEngine';
+import { DiffConfig } from '@/src/ai/visualTesting/diffAnalyzer';
+import { ConfidenceConfig } from '@/src/ai/visualTesting/confidenceAdjuster';
+import { PlaywrightConfig } from '@/src/ai/visualTesting/playwrightTests';
+import { LearningConfig } from '@/src/ai/learning/regressionFeedback';
+import { checkVRTAccess, logVRTAction, vrtSecurity } from '@/src/ai/vrt/vrtSecurity';
 
 // Mock useAuth hook (replace with real auth context in production)
 const useAuth = () => ({ 

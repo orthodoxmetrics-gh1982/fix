@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextField, InputAdornment } from '@mui/material';
 import { Search as SearchIcon } from '@mui/icons-material';
-import { useRecords } from '../../../../context/RecordsContext';
+import { useRecords } from '@/src/context/RecordsContext';
 
 const RecordSearch: React.FC = () => {
   const { filters, updateFilters } = useRecords();

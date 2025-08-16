@@ -6,12 +6,12 @@ import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import { Grid, Tabs, Tab, Box, CardContent, Divider } from '@mui/material';
 
 // components
-import AccountTab from '../../../components/pages/account-setting/AccountTab';
+import AccountTab from '@/src/components/pages/account-setting/AccountTab';
 import { IconArticle, IconBell, IconLock, IconUserCircle } from '@tabler/icons-react';
-import BlankCard from '../../../components/shared/BlankCard';
-import NotificationTab from '../../../components/pages/account-setting/NotificationTab';
-import BillsTab from '../../../components/pages/account-setting/BillsTab';
-import SecurityTab from '../../../components/pages/account-setting/SecurityTab';
+import BlankCard from '@/src/components/shared/BlankCard';
+import NotificationTab from '@/src/components/pages/account-setting/NotificationTab';
+import BillsTab from '@/src/components/pages/account-setting/BillsTab';
+import SecurityTab from '@/src/components/pages/account-setting/SecurityTab';
 
 const BCrumb = [
   {

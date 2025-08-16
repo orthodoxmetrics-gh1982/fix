@@ -33,7 +33,7 @@ import {
   Notifications as NotificationsIcon,
   Settings as SettingsIcon
 } from '@mui/icons-material';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 import SiteEditorOverlay from './SiteEditorOverlay';
 import SiteEditorErrorBoundary from './SiteEditorErrorBoundary';
 

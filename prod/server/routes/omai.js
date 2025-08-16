@@ -1,1 +1,1 @@
-module.exports = require('../src/api/omai');
+module.exports = require('@/src/api/omai');

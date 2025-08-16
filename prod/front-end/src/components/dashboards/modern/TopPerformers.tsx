@@ -1,8 +1,8 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import React from 'react';
-import DashboardCard from '../../shared/DashboardCard';
-import CustomSelect from '../../forms/theme-elements/CustomSelect';
+import DashboardCard from '@/src/components/shared/DashboardCard';
+import CustomSelect from '@/src/components/forms/theme-elements/CustomSelect';
 import {
   MenuItem,
   Typography,

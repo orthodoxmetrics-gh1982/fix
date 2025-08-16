@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Box } from '@mui/material';
-import PageContainer from '../../../components/container/PageContainer';
-import BlankCard from '../../../components/shared/BlankCard';
+import PageContainer from '@/src/components/container/PageContainer';
+import BlankCard from '@/src/components/shared/BlankCard';
 
 const TestLiturgicalCalendar: React.FC = () => {
     console.log('TestLiturgicalCalendar component loaded');

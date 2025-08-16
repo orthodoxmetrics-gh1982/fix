@@ -17,7 +17,7 @@ import {
   TableHead,
   Box, Stack
 } from '@mui/material';
-import BlankCard from '../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 import img1 from 'src/assets/images/blog/blog-img1.jpg';
 import img2 from 'src/assets/images/blog/blog-img2.jpg';
 import img3 from 'src/assets/images/blog/blog-img3.jpg';

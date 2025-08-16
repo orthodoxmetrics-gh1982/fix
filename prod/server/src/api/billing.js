@@ -1,10 +1,10 @@
-const { getAppPool } = require('../../config/db-compat');
+const { getAppPool } = require('@/config/db-compat');
 // server/routes/billing.js
 const express = require('express');
-const { promisePool } = require('../../config/db-compat');
-const { BillingInvoiceGenerator } = require('../utils/billingInvoiceGenerator');
-const { requireAuth } = require('../middleware/auth');
-const { cleanRecord, cleanRecords } = require('../utils/dateFormatter');
+const { promisePool } = require('@/config/db-compat');
+const { BillingInvoiceGenerator } = require('@/src/utils/billingInvoiceGenerator');
+const { requireAuth } = require('@/src/middleware/auth');
+const { cleanRecord, cleanRecords } = require('@/src/utils/dateFormatter');
 
 // Stripe functionality has been removed from development environment
 

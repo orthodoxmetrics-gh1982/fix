@@ -5,7 +5,7 @@
 const fs = require('fs').promises;
 const path = require('path');
 const { promisePool } = require('../../config/db');
-const { dbLogger } = require('../utils/dbLogger');
+const { dbLogger } = require('@/utils/dbLogger');
 
 class LogMigration {
   constructor() {
@@ -261,7 +261,7 @@ class LogMigration {
 
   async insertLogEntry(entry) {
     const sql = `
-      INSERT INTO system_logs (timestamp, level, source, message, meta, service, user_email, session_id, request_id, ip_address, user_agent)
+      // MIGRATED: Use LogClient.log() instead of direct INSERT INTO system_logstimestamp, level, source, message, meta, service, user_email, session_id, request_id, ip_address, user_agent)
       VALUES (?, ?, ?, ?, ?, ?, NULL, NULL, NULL, NULL, NULL)
     `;
     

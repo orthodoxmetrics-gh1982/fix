@@ -1,4 +1,4 @@
-import { NotificationBell } from '../../../../components/notifications/NotificationBell';
+import { NotificationBell } from '@/src/components/notifications/NotificationBell';
 
 const Notifications = () => {
   return <NotificationBell />;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, TextField, Button, Checkbox, FormControlLabel, styled } from '@mui/material';
-import { useAuth } from '../../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
 // Styled components to match the original design

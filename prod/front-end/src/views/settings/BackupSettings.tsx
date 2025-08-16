@@ -46,12 +46,12 @@ import {
     GetApp as ExportIcon,
     Info as InfoIcon,
 } from '@mui/icons-material';
-import PageContainer from '../../components/container/PageContainer';
-import BlankCard from '../../components/shared/BlankCard';
-import Breadcrumb from '../../layouts/full/shared/breadcrumb/Breadcrumb';
-import { adminAPI } from '../../api/admin.api';
-import { useAuth } from '../../context/AuthContext';
-import NFSBackupConfig from '../../components/admin/NFSBackupConfig';
+import PageContainer from '@/src/components/container/PageContainer';
+import BlankCard from '@/src/components/shared/BlankCard';
+import Breadcrumb from '@/src/layouts/full/shared/breadcrumb/Breadcrumb';
+import { adminAPI } from '@/src/api/admin.api';
+import { useAuth } from '@/src/context/AuthContext';
+import NFSBackupConfig from '@/src/components/admin/NFSBackupConfig';
 
 const BCrumb = [
     {

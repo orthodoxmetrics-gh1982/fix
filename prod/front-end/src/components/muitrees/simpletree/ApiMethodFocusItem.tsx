@@ -7,7 +7,7 @@ import { SimpleTreeView } from '@mui/x-tree-view/SimpleTreeView';
 import { TreeItem } from '@mui/x-tree-view/TreeItem';
 // import { useTreeViewApiRef } from '@mui/x-tree-view/hooks/useTreeViewApiRef'; // Temporarily commented for build
 import ParentCard from 'src/components/shared/ParentCard';
-import ApiMethodFocusItemCode from '../code/simpletreecode/ApiMethodFocusItemCode';
+import ApiMethodFocusItemCode from '@/src/components/muitrees/code/simpletreecode/ApiMethodFocusItemCode';
 
 export default function ApiMethodFocusItem() {
     // const apiRef = useTreeViewApiRef(); // Temporarily commented for build

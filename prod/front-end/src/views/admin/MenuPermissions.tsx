@@ -39,7 +39,7 @@ import {
     Security as SecurityIcon,
     Menu as MenuIcon
 } from '@mui/icons-material';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 interface MenuItemPermission {
     id: number;

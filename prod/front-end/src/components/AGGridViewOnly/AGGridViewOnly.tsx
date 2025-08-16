@@ -28,8 +28,8 @@ import {
   RecordColumnDef,
   AGGridViewOnlyProps,
   RecordField,
-} from '../../types/church-records-advanced.types';
-import { devLogStateChange } from '../../utils/devLogger';
+} from '@/types/church-records-advanced.types';
+import { devLogStateChange } from '@/utils/devLogger';
 
 // AG Grid CSS imports
 import 'ag-grid-community/styles/ag-grid.css';

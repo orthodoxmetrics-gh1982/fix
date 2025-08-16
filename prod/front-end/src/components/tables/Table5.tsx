@@ -15,7 +15,7 @@ import {
   AvatarGroup,
   Stack
 } from '@mui/material';
-import BlankCard from '../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 import { basicsTableData, TableType } from './tableData';
 
 const basics: TableType[] = basicsTableData;

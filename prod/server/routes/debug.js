@@ -1,2 +1,2 @@
 // Bridge route to src/api/debug.js
-module.exports = require('../src/api/debug');
+module.exports = require('@/src/api/debug');

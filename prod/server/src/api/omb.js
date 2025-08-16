@@ -202,7 +202,7 @@ router.post('/generate-code', async (req, res) => {
     }
     
     // Import the code generator
-    const { generateFromComponent } = require('../services/omb/generateFromComponent');
+    const { generateFromComponent } = require('@/src/services/omb/generateFromComponent');
     
     // Generate code
     const generatedFiles = await generateFromComponent(component, options);
@@ -235,7 +235,7 @@ router.post('/preview-code', async (req, res) => {
     }
     
     // Import the code generator
-    const { previewGeneratedCode } = require('../services/omb/generateFromComponent');
+    const { previewGeneratedCode } = require('@/src/services/omb/generateFromComponent');
     
     // Preview code
     const generatedFiles = await previewGeneratedCode(component);
@@ -268,7 +268,7 @@ router.post('/generate-and-commit', async (req, res) => {
     }
     
     // Import the code generator
-    const { generateAndCommit } = require('../services/omb/generateFromComponent');
+    const { generateAndCommit } = require('@/src/services/omb/generateFromComponent');
     
     // Generate and commit
     const generatedFiles = await generateAndCommit(component, user);

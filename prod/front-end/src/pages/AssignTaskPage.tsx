@@ -37,7 +37,7 @@ import {
   Email as EmailIcon,
   Schedule as ScheduleIcon
 } from '@mui/icons-material';
-import { omaiAPI, Task, TokenValidationResponse } from '../api/omai.api';
+import { omaiAPI, Task, TokenValidationResponse } from '@/src/api/omai.api';
 
 // Types
 interface FormTask extends Task {

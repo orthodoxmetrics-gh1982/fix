@@ -4,20 +4,20 @@ import React from 'react';
 import { Grid } from '@mui/material';
 import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import PageContainer from 'src/components/container/PageContainer';
-import YearlyBreakup from '../../../components/dashboards/modern/YearlyBreakup';
-import Projects from '../../../components/dashboards/modern/Projects';
-import Customers from '../../../components/dashboards/modern/Customers';
-import SalesTwo from '../../../components/dashboards/ecommerce/SalesTwo';
-import MonthlyEarnings from '../../../components/dashboards/ecommerce/MonthlyEarnings';
-import SalesOverview from '../../../components/dashboards/ecommerce/SalesOverview';
-import RevenueUpdates from '../../../components/dashboards/ecommerce/RevenueUpdates';
-import YearlySales from '../../../components/dashboards/ecommerce/YearlySales';
-import MostVisited from '../../../components/widgets/charts/MostVisited';
-import PageImpressions from '../../../components/widgets/charts/PageImpressions';
-import Followers from '../../../components/widgets/charts/Followers';
-import Views from '../../../components/widgets/charts/Views';
-import Earned from '../../../components/widgets/charts/Earned';
-import CurrentValue from '../../../components/widgets/charts/CurrentValue';
+import YearlyBreakup from '@/src/components/dashboards/modern/YearlyBreakup';
+import Projects from '@/src/components/dashboards/modern/Projects';
+import Customers from '@/src/components/dashboards/modern/Customers';
+import SalesTwo from '@/src/components/dashboards/ecommerce/SalesTwo';
+import MonthlyEarnings from '@/src/components/dashboards/ecommerce/MonthlyEarnings';
+import SalesOverview from '@/src/components/dashboards/ecommerce/SalesOverview';
+import RevenueUpdates from '@/src/components/dashboards/ecommerce/RevenueUpdates';
+import YearlySales from '@/src/components/dashboards/ecommerce/YearlySales';
+import MostVisited from '@/src/components/widgets/charts/MostVisited';
+import PageImpressions from '@/src/components/widgets/charts/PageImpressions';
+import Followers from '@/src/components/widgets/charts/Followers';
+import Views from '@/src/components/widgets/charts/Views';
+import Earned from '@/src/components/widgets/charts/Earned';
+import CurrentValue from '@/src/components/widgets/charts/CurrentValue';
 
 const BCrumb = [
   {

@@ -3,7 +3,7 @@ import { FormControl, FormGroup, FormLabel, type FormControlProps } from 'react-
 import Feedback from 'react-bootstrap/esm/Feedback';
 import { Controller, type FieldPath, type FieldValues, type PathValue } from 'react-hook-form';
 
-import IconifyIcon from '../wrappers/IconifyIcon';
+import IconifyIcon from '@/src/components/raydar/wrappers/IconifyIcon';
 
 interface FormInputProps<TFieldValues extends FieldValues = FieldValues> {
   name: FieldPath<TFieldValues>;

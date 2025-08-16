@@ -4,9 +4,9 @@ import * as yup from 'yup';
 import { Link } from 'react-router-dom';
 
 import { Box, Button, Stack, FormGroup, FormControlLabel, Typography } from '@mui/material';
-import CustomTextField from '../theme-elements/CustomTextField';
-import CustomFormLabel from '../theme-elements/CustomFormLabel';
-import CustomCheckbox from '../theme-elements/CustomCheckbox';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
+import CustomCheckbox from '@/src/components/forms/theme-elements/CustomCheckbox';
 
 const validationSchema = yup.object({
   firstName: yup

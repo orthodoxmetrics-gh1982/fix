@@ -40,7 +40,7 @@ import {
     IconHeart,
 } from '@tabler/icons-react';
 import { useQuery } from '@tanstack/react-query';
-import { aiService } from '../../services/aiService';
+import { aiService } from '@/src/services/aiService';
 import AIContentGenerator from './AIContentGenerator';
 import AIAnalyticsDashboard from './AIAnalyticsDashboard';
 import AITranslationAssistant from './AITranslationAssistant';

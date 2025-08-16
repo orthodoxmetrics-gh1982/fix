@@ -46,7 +46,7 @@ import {
     IconTerminal,
 } from '@tabler/icons-react';
 import { useMutation } from '@tanstack/react-query';
-import { aiService } from '../../services/aiService';
+import { aiService } from '@/src/services/aiService';
 
 interface DeploymentRequest {
     church_name: string;

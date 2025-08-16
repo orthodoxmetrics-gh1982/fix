@@ -1,4 +1,4 @@
-// Script to populate test data in omai_error_tracking_db
+// Script to populate test data in om_logging_db
 const mysql = require('mysql2/promise');
 
 async function populateErrorLogs() {
@@ -6,7 +6,7 @@ async function populateErrorLogs() {
     host: process.env.DB_HOST || 'localhost',
     user: process.env.DB_USER || 'root',
     password: process.env.DB_PASSWORD || '',
-    database: 'omai_error_tracking_db'
+    database: 'om_logging_db'
   });
 
   try {
@@ -94,7 +94,7 @@ async function populateErrorLogs() {
       const firstSeen = new Date(now.getTime() - Math.random() * 24 * 60 * 60 * 1000); // Random time in last 24 hours
       
       const [result] = await connection.execute(
-        `INSERT INTO errors (
+        `// MIGRATED: Use LogClient.captureError() instead of direct INSERT INTO errors
           hash, type, source, message, first_seen, last_seen,
           occurrences, status, severity, log_level, source_component
         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,

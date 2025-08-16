@@ -4,14 +4,14 @@ import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import PageContainer from 'src/components/container/PageContainer';
 
 import { Grid } from "@mui/material";
-import BasicPieChart from "src/components/muicharts/piecharts/BasicPieChart";
-import TwoLevelPieChart from "src/components/muicharts/piecharts/TwoLevelPieChart";
-import StraightAnglePieChart from "src/components/muicharts/piecharts/StraightAnglePieChart";
-import TwoSimplePieChart from "src/components/muicharts/piecharts/TwoSimplePieChart";
-import PieChartWithCustomizedLabel from "src/components/muicharts/piecharts/PieChartWithCustomizedLabel";
-import PieChartWithPaddingAngleChart from "src/components/muicharts/piecharts/PieChartWithPaddingAngleChart";
-import PieChartWithCenterLabelChart from "src/components/muicharts/piecharts/PieChartWithCenterLabelChart";
-import OnSeriesItemClickChart from "src/components/muicharts/piecharts/OnSeriesItemClickChart";
+import BasicPieChart from '@/dev/examples/components/muicharts/piecharts/BasicPieChart';
+import TwoLevelPieChart from '@/dev/examples/components/muicharts/piecharts/TwoLevelPieChart';
+import StraightAnglePieChart from '@/dev/examples/components/muicharts/piecharts/StraightAnglePieChart';
+import TwoSimplePieChart from '@/dev/examples/components/muicharts/piecharts/TwoSimplePieChart';
+import PieChartWithCustomizedLabel from '@/dev/examples/components/muicharts/piecharts/PieChartWithCustomizedLabel';
+import PieChartWithPaddingAngleChart from '@/dev/examples/components/muicharts/piecharts/PieChartWithPaddingAngleChart';
+import PieChartWithCenterLabelChart from '@/dev/examples/components/muicharts/piecharts/PieChartWithCenterLabelChart';
+import OnSeriesItemClickChart from '@/dev/examples/components/muicharts/piecharts/OnSeriesItemClickChart';
 
 const BCrumb = [
     {

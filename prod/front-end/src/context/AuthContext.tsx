@@ -5,8 +5,8 @@
  */
 
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
-import AuthService from '../services/authService';
-import type { User, UserRole } from '../types/orthodox-metrics.types';
+import AuthService from '@/src/services/authService';
+import type { User, UserRole } from '@/src/types/orthodox-metrics.types';
 import { 
   hasRole as checkRole, 
   hasAnyRole, 

@@ -37,7 +37,7 @@ import {
     CloudDownload as DownloadIcon,
     Publish as DeployIcon,
 } from '@mui/icons-material';
-import { useTemplates, useCloneTemplate, useDeployTemplate } from '../../../hooks/useClientManagement';
+import { useTemplates, useCloneTemplate, useDeployTemplate } from '@/src/hooks/useClientManagement';
 import PageContainer from 'src/components/container/PageContainer';
 import DashboardCard from 'src/components/shared/DashboardCard';
 

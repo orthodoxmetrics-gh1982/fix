@@ -1,6 +1,6 @@
 // React hook for real-time log streaming via WebSocket
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { LogEntry, LogFilters, UseLogStreamReturn, WebSocketLogMessage } from '../types/logging';
+import { LogEntry, LogFilters, UseLogStreamReturn, WebSocketLogMessage } from '@/src/types/logging';
 
 interface UseLogStreamOptions {
   maxLogs?: number;

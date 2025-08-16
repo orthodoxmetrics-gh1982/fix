@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const BigBookKanbanSync = require('../services/bigBookKanbanSync');
-const TaskDiscoveryService = require('../services/taskDiscoveryService');
-const KanbanIntegrationService = require('../services/kanbanIntegrationService');
-const logger = require('../utils/logger');
+const BigBookKanbanSync = require('@/src/services/bigBookKanbanSync');
+const TaskDiscoveryService = require('@/src/services/taskDiscoveryService');
+const KanbanIntegrationService = require('@/src/services/kanbanIntegrationService');
+const logger = require('@/src/utils/logger');
 
 // Initialize services
 let syncService = null;

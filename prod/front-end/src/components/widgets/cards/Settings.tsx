@@ -2,11 +2,11 @@
 // @ts-ignore
 import React from 'react';
 import { CardContent, Typography, Avatar, Divider, Button, Box, Stack } from '@mui/material';
-import ParentCard from '../../shared/ParentCard';
+import ParentCard from '@/src/components/shared/ParentCard';
 import { IconMessage, IconVolume } from '@tabler/icons-react';
 
-import CustomSlider from '../../forms/theme-elements/CustomSlider';
-import CustomSwitch from '../../forms/theme-elements/CustomSwitch';
+import CustomSlider from '@/src/components/forms/theme-elements/CustomSlider';
+import CustomSwitch from '@/src/components/forms/theme-elements/CustomSwitch';
 
 import SettingsCode from './code/SettingsCode';
 

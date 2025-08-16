@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Box, Stack, Typography, CardContent, Grid, Rating, Skeleton } from '@mui/material';
 import { Link } from 'react-router-dom';
-import BlankCard from '../../../shared/BlankCard';
+import BlankCard from '@/src/components/shared/BlankCard';
 import ProductsData from "src/api/eCommerce/ProductsData";
 
 const ProductRelated = () => {

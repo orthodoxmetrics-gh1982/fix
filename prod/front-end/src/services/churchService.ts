@@ -5,7 +5,7 @@
  */
 
 import axios from 'axios';
-import { withAuthRetry, createRetryKey, is401Error, handle401Error } from '../utils/authErrorHandler';
+import { withAuthRetry, createRetryKey, is401Error, handle401Error } from '@/src/utils/authErrorHandler';
 
 // Configure axios defaults
 axios.defaults.withCredentials = true;

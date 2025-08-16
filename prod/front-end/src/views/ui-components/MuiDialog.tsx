@@ -15,14 +15,14 @@ import MaxWidthDialog from 'src/components/material-ui/dialog/MaxWidthDialog';
 import ScrollContentDialog from 'src/components/material-ui/dialog/ScrollContentDialog';
 import ResponsiveDialog from 'src/components/material-ui/dialog/ResponsiveDialog';
 
-import SimpleCode from 'src/components/material-ui/dialog/code/SimpleCode';
-import AlertCode from 'src/components/material-ui/dialog/code/AlertCode';
-import TransitionCode from 'src/components/material-ui/dialog/code/TransitionCode';
-import FormCode from 'src/components/material-ui/dialog/code/FormCode';
-import FullScreenCode from 'src/components/material-ui/dialog/code/FullScreenCode';
-import MaxWidthCode from 'src/components/material-ui/dialog/code/MaxWidthCode';
-import ScrollingContentCode from 'src/components/material-ui/dialog/code/ScrollingContentCode';
-import ResponsiveFullscreenCode from 'src/components/material-ui/dialog/code/ResponsiveFullscreenCode';
+import SimpleCode from '@/dev/examples/components/material-ui/dialog/code/SimpleCode';
+import AlertCode from '@/dev/examples/components/material-ui/dialog/code/AlertCode';
+import TransitionCode from '@/dev/examples/components/material-ui/dialog/code/TransitionCode';
+import FormCode from '@/dev/examples/components/material-ui/dialog/code/FormCode';
+import FullScreenCode from '@/dev/examples/components/material-ui/dialog/code/FullScreenCode';
+import MaxWidthCode from '@/dev/examples/components/material-ui/dialog/code/MaxWidthCode';
+import ScrollingContentCode from '@/dev/examples/components/material-ui/dialog/code/ScrollingContentCode';
+import ResponsiveFullscreenCode from '@/dev/examples/components/material-ui/dialog/code/ResponsiveFullscreenCode';
 
 const BCrumb = [
   {

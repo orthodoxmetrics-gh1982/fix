@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const { promisePool } = require('../../config/db');
-const { requireRole } = require('../../middleware/auth');
+const { promisePool } = require('@/config/db');
+const { requireRole } = require('@/middleware/auth');
 
 // Get user's social permissions
 router.get('/user/:userId', requireRole(['super_admin', 'admin']), async (req, res) => {

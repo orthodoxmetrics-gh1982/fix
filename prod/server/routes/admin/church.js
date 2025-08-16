@@ -1,10 +1,10 @@
 // routes/admin/church.js
 const express = require('express');
 const router = express.Router();
-const controller = require('../../controllers/churchAdminController');
+const controller = require('@/controllers/churchAdminController');
 
 // Middleware to ensure admin authentication (add your auth middleware here)
-// const requireAuth = require('../../middleware/auth');
+// const requireAuth = require('@/middleware/auth');
 // router.use(requireAuth);
 
 /**

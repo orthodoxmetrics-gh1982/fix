@@ -27,7 +27,7 @@ import {
   Settings as SettingsIcon,
 } from '@mui/icons-material';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 import SSPPOCRecordsPage from './SSPPOCRecordsPage';
 
 interface Church {

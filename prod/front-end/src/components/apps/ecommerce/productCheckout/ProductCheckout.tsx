@@ -2,7 +2,7 @@
 import React, { useContext } from 'react';
 import { sum } from 'lodash';
 import { Box, Stack, Button } from '@mui/material';
-import AddToCart from '../productCart/AddToCart';
+import AddToCart from '@/src/components/apps/ecommerce/productCart/AddToCart';
 
 import { IconArrowBack } from '@tabler/icons-react';
 

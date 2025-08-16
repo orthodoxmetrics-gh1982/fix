@@ -1,2 +1,2 @@
 // Bridge to root middleware/logger.js
-module.exports = require('../../middleware/logger');
+module.exports = require('@/middleware/logger');

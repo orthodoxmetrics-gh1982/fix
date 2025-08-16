@@ -9,10 +9,10 @@ import {
   IconButton,
 } from '@mui/material';
 
-import CustomFormLabel from '../theme-elements/CustomFormLabel';
-import CustomTextField from '../theme-elements/CustomTextField';
-import CustomOutlinedInput from '../theme-elements/CustomOutlinedInput';
-import CustomSelect from '../theme-elements/CustomSelect';
+import CustomFormLabel from '@/src/components/forms/theme-elements/CustomFormLabel';
+import CustomTextField from '@/src/components/forms/theme-elements/CustomTextField';
+import CustomOutlinedInput from '@/src/components/forms/theme-elements/CustomOutlinedInput';
+import CustomSelect from '@/src/components/forms/theme-elements/CustomSelect';
 import { Stack } from '@mui/system';
 import { IconEye, IconEyeOff } from '@tabler/icons-react';
 import React from 'react';
