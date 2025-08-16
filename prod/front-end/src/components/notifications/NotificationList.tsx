@@ -63,7 +63,7 @@ import {
     ExpandLess,
     ExpandMore
 } from '@mui/icons-material';
-import { useNotifications, NotificationType } from '@/src/contexts/NotificationContext';
+import { useNotifications, NotificationType } from '@/src/context/NotificationContext';
 import { formatDistanceToNow } from 'date-fns';
 
 interface TabPanelProps {

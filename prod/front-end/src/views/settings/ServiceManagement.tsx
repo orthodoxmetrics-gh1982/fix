@@ -101,7 +101,7 @@ import {
     IconListDetails
 } from '@tabler/icons-react';
 import { useAuth } from '@/src/context/AuthContext';
-import { useNotifications } from '@/src/contexts/NotificationContext';
+import { useNotifications } from '@/src/context/NotificationContext';
 import { adminAPI } from '@/src/api/admin.api';
 
 // Import the BackendDetails component

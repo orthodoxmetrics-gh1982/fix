@@ -1,6 +1,6 @@
 import { useMemo, useState, useEffect } from 'react';
 import { useAuth } from '@/src/context/AuthContext';
-import { useMenuVisibility } from '@/src/contexts/MenuVisibilityContext';
+import { useMenuVisibility } from '@/src/context/MenuVisibilityContext';
 import { useDynamicMenuPermissions } from './useDynamicMenuPermissions';
 import createSSPPOCMenuItems from '@/src/layouts/full/vertical/sidebar/SSPPOCMenuItems';
 import { devLogDataShape, devLogMenuFilter } from '@/src/utils/devLogger';

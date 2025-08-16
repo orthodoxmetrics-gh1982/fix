@@ -34,7 +34,7 @@ import {
     Menu as MenuIcon,
     AdminPanelSettings as AdminIcon,
 } from '@mui/icons-material';
-import { useMenuVisibility } from '@/src/contexts/MenuVisibilityContext';
+import { useMenuVisibility } from '@/src/context/MenuVisibilityContext';
 import PageContainer from '@/src/components/container/PageContainer';
 import BlankCard from '@/src/components/shared/BlankCard';
 import Breadcrumb from '@/src/layouts/full/shared/breadcrumb/Breadcrumb';

@@ -5284,7 +5284,7 @@
       ],
       "props": [],
       "configurable": false,
-      "path": "contexts/NotificationContext.tsx",
+      "path": "context/NotificationContext.tsx",
       "usage": {
         "inMenu": false,
         "inRoutes": false,
@@ -9432,7 +9432,7 @@
         }
       ],
       "configurable": true,
-      "path": "contexts/DynamicMenuContext.tsx",
+      "path": "context/DynamicMenuContext.tsx",
       "usage": {
         "inMenu": false,
         "inRoutes": false,
@@ -11015,7 +11015,7 @@
         }
       ],
       "configurable": true,
-      "path": "contexts/MenuVisibilityContext.tsx",
+      "path": "context/MenuVisibilityContext.tsx",
       "usage": {
         "inMenu": false,
         "inRoutes": false,
