@@ -89,7 +89,6 @@ export const categoryLabels = {
 export const sourceLabels = {
   core: '🧩 Core Components',
   modernize: '🎯 Modernize Components',
-  raydar: '⚡ Raydar Components',
   custom: '🔮 Custom Components'
 };
 

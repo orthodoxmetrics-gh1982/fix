@@ -1553,7 +1553,6 @@
     │   │       │   │   └── faq
     │   │       │   │       ├── Questions.tsx
     │   │       │   │       └── StillQuestions.tsx
-    │   │       │   ├── raydar
     │   │       │   │   ├── ComponentContainerCard.tsx
     │   │       │   │   ├── form
     │   │       │   │   │   └── PasswordFormInput.tsx
@@ -1850,7 +1849,6 @@
     │   │       │       │   │   └── UserFormModal.tsx
     │   │       │       │   ├── index.ts
     │   │       │       │   ├── liturgical-calendar-modern.tsx
-    │   │       │       │   └── liturgical-calendar-raydar.tsx
     │   │       │       ├── index.ts
     │   │       │       ├── MIGRATION_LOG.md
     │   │       │       ├── README.md
@@ -2280,7 +2278,6 @@
     │   │       │   │   │   └── Pricing.tsx
     │   │       │   │   └── rollbaseCASL
     │   │       │   │       └── RollbaseCASL.tsx
-    │   │       │   ├── raydar
     │   │       │   │   ├── advanced
     │   │       │   │   │   └── Ratings.tsx
     │   │       │   │   ├── charts
@@ -3800,7 +3797,6 @@
     │   │   ├── front-end
     │   │   │   └── src
     │   │   │       └── views
-    │   │   │           └── raydar
     │   │   │               ├── charts
     │   │   │               ├── forms
     │   │   │               ├── icons
@@ -3810,12 +3806,10 @@
     │   │   │               └── widgets
     │   │   └── src
     │   │       ├── components
-    │   │       │   └── raydar
     │   │       │       ├── form
     │   │       │       ├── VectorMap
     │   │       │       └── wrappers
     │   │       └── views
-    │   │           └── raydar
     │   │               ├── advanced
     │   │               ├── charts
     │   │               ├── dashboard
@@ -5120,7 +5114,6 @@
     │   │   │   │   └── faq
     │   │   │   │       ├── Questions.tsx
     │   │   │   │       └── StillQuestions.tsx
-    │   │   │   ├── raydar
     │   │   │   │   ├── ComponentContainerCard.tsx
     │   │   │   │   ├── form
     │   │   │   │   │   └── PasswordFormInput.tsx
@@ -5417,7 +5410,6 @@
     │   │   │       │   │   └── UserFormModal.tsx
     │   │   │       │   ├── index.ts
     │   │   │       │   ├── liturgical-calendar-modern.tsx
-    │   │   │       │   └── liturgical-calendar-raydar.tsx
     │   │   │       ├── index.ts
     │   │   │       ├── MIGRATION_LOG.md
     │   │   │       ├── README.md
@@ -5847,7 +5839,6 @@
     │   │   │   │   │   └── Pricing.tsx
     │   │   │   │   └── rollbaseCASL
     │   │   │   │       └── RollbaseCASL.tsx
-    │   │   │   ├── raydar
     │   │   │   │   ├── advanced
     │   │   │   │   │   └── Ratings.tsx
     │   │   │   │   ├── charts

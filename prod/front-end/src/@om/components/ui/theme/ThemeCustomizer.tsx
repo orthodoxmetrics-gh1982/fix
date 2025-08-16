@@ -1,6 +1,5 @@
 /**
  * ThemeCustomizer - Enhanced theme customization component
- * Adapted from Raydar template with Material-UI integration
  */
 
 import React from 'react';

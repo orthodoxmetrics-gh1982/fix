@@ -8,7 +8,6 @@ This document tracks all components that have been extracted and reorganized int
 **Status**: In Progress  
 **Source Systems**: 
 - OrthodoxMetrics Frontend (`/src/components/`)
-- Raydar Template (`/misc/tasks/node/raydar/src/components/`)
 
 ## Extracted Components
 
@@ -16,7 +15,6 @@ This document tracks all components that have been extracted and reorganized int
 
 #### Forms
 - **TextFormInput** (`/ui/forms/TextFormInput.tsx`)
-  - **Source**: Raydar template (`/components/form/TextFormInput.tsx`)
   - **Changes**: 
     - Converted from React Bootstrap to Material-UI
     - Enhanced TypeScript interfaces
@@ -24,7 +22,6 @@ This document tracks all components that have been extracted and reorganized int
     - Improved error handling and validation display
 
 - **SelectFormInput** (`/ui/forms/SelectFormInput.tsx`)
-  - **Source**: Raydar template (`/components/form/SelectFormInput.tsx`) + OrthodoxMetrics patterns
   - **Changes**:
     - Unified Material-UI Select implementation
     - Support for both simple string arrays and option objects
@@ -32,7 +29,6 @@ This document tracks all components that have been extracted and reorganized int
     - Added comprehensive prop documentation
 
 - **PasswordFormInput** (`/ui/forms/PasswordFormInput.tsx`)
-  - **Source**: Raydar template (`/components/form/PasswordFormInput.tsx`)
   - **Changes**:
     - Converted from React Bootstrap to Material-UI
     - Enhanced password visibility toggle with proper ARIA labels
@@ -41,7 +37,6 @@ This document tracks all components that have been extracted and reorganized int
     - Better integration with react-hook-form
 
 - **TextAreaFormInput** (`/ui/forms/TextAreaFormInput.tsx`)
-  - **Source**: Raydar template (`/components/form/TextAreaFormInput.tsx`)
   - **Changes**:
     - Converted from React Bootstrap to Material-UI
     - Added auto-resize functionality with configurable min/max rows
@@ -50,7 +45,6 @@ This document tracks all components that have been extracted and reorganized int
     - Better integration with Material-UI multiline TextField
 
 - **DropzoneFormInput** (`/ui/forms/DropzoneFormInput.tsx`)
-  - **Source**: Raydar template (`/components/form/DropzoneFormInput.tsx`)
   - **Changes**:
     - Converted from React Bootstrap to Material-UI
     - Enhanced file preview with image thumbnails and file type icons
@@ -62,7 +56,6 @@ This document tracks all components that have been extracted and reorganized int
 
 #### Theme
 - **ThemeCustomizer** (`/ui/theme/ThemeCustomizer.tsx`)
-  - **Source**: Raydar template (`/components/ThemeCustomizer.tsx`)
   - **Changes**:
     - Converted from React Bootstrap Offcanvas to Material-UI Drawer
     - Enhanced TypeScript interfaces with proper theme settings type
@@ -121,8 +114,6 @@ This document tracks all components that have been extracted and reorganized int
 ## Design Decisions
 
 ### Component Priority
-1. **OrthodoxMetrics components take priority** when there's overlap with Raydar components
-2. **Raydar components used for enhancement** when they provide better structure or visual appeal
 3. **Material-UI consistency** - all components use Material-UI for consistency
 
 ### TypeScript Standards
@@ -151,7 +142,6 @@ This document tracks all components that have been extracted and reorganized int
 ## Next Steps
 
 ### Immediate (Phase 2)
-1. Extract remaining form components from Raydar (PasswordFormInput, TextAreaFormInput, etc.)
 2. Extract layout components (headers, sidebars, containers)
 3. Extract authentication components (AuthenticationComponent, ResetPasswordModal)
 

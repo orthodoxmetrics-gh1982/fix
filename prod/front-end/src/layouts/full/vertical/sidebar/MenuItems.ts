@@ -276,26 +276,22 @@ const Menuitems: MenuitemsType[] = [
   },
   {
     id: uniqueId(),
-    title: 'Raydar Components',
     icon: IconRocket,
     children: [
       {
         id: uniqueId(),
         title: 'Calendar Components',
         icon: IconCalendarEvent,
-        href: '/sandbox/component-preview/raydar/calendar',
       },
       {
         id: uniqueId(),
         title: 'Layout Components',
         icon: IconLayout,
-        href: '/sandbox/component-preview/raydar/layout',
       },
       {
         id: uniqueId(),
         title: 'Form Components',
         icon: IconForms,
-        href: '/sandbox/component-preview/raydar/forms',
       },
     ],
   },

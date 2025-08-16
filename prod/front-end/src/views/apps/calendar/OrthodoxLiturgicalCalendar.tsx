@@ -44,7 +44,6 @@ import {
   CalendarType 
 } from '@/types/orthodox-calendar.types';
 import ModernizeLiturgicalCalendar from '@/@om/components/features/liturgical-calendar-modern';
-import RaydarLiturgicalCalendar from '@/@om/components/features/liturgical-calendar-raydar';
 
 // Enhanced interface for view state
 interface CalendarViewState {
@@ -53,7 +52,6 @@ interface CalendarViewState {
   filter: 'all' | 'saints' | 'readings';
   language: CalendarLanguage;
   calendarType: CalendarType;
-  calendarVariant: 'orthodox' | 'modernize' | 'raydar';
 }
 
 const BCrumb = [
@@ -480,11 +478,9 @@ const OrthodoxLiturgicalCalendar: React.FC = () => {
                 <Select
                   value={viewState.calendarVariant}
                   label="Calendar Style"
-                  onChange={(e) => updateViewState({ calendarVariant: e.target.value as 'orthodox' | 'modernize' | 'raydar' })}
                 >
                   <MenuItem value="orthodox">Orthodox Default</MenuItem>
                   <MenuItem value="modernize">Modernize View</MenuItem>
-                  <MenuItem value="raydar">Raydar View</MenuItem>
                 </Select>
               </FormControl>
 
@@ -560,8 +556,6 @@ const OrthodoxLiturgicalCalendar: React.FC = () => {
             onDateSelect={(date) => console.log('Date selected:', date)}
             onEventSelect={(event) => console.log('Event selected:', event)}
           />
-        ) : viewState.calendarVariant === 'raydar' ? (
-          <RaydarLiturgicalCalendar
             language={viewState.language}
             calendarType={viewState.calendarType}
             height={600}

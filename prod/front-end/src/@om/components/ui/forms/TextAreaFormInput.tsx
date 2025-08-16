@@ -1,6 +1,5 @@
 /**
  * TextAreaFormInput - Enhanced textarea input component
- * Adapted from Raydar template with Material-UI integration
  */
 
 import React from 'react';

@@ -18,35 +18,20 @@ const ModernDash = Loadable(lazy(() => import('../views/dashboard/EnhancedModern
 const EcommerceDash = Loadable(lazy(() => import('../views/dashboard/Ecommerce')));
 const OrthodMetricsDash = Loadable(lazy(() => import('../views/dashboard/OrthodoxMetrics')));
 
-/* ****Raydar Components***** */
-const RaydarAnalytics = Loadable(lazy(() => import('../views/raydar/dashboard/Analytics')));
-const RaydarAlerts = Loadable(lazy(() => import('../views/raydar/ui/Alerts')));
-const RaydarButtons = Loadable(lazy(() => import('../views/raydar/ui/Buttons')));
-const RaydarCards = Loadable(lazy(() => import('../views/raydar/ui/Cards')));
-const RaydarBadges = Loadable(lazy(() => import('../views/raydar/ui/Badges')));
-const RaydarAvatars = Loadable(lazy(() => import('../views/raydar/ui/Avatars')));
-const RaydarRatings = Loadable(lazy(() => import('../views/raydar/advanced/Ratings')));
 
 // Charts
-const RaydarAreaCharts = Loadable(lazy(() => import('../views/raydar/charts/Area')));
 
 // Forms  
-const RaydarFormValidation = Loadable(lazy(() => import('../views/raydar/forms/Validation')));
 
 // Vector Maps
-const RaydarWorldMap = Loadable(lazy(() => import('../views/raydar/vector-maps/World')));
 
 // Pages
-const RaydarWelcome = Loadable(lazy(() => import('../views/raydar/pages/Welcome')));
 
 // Tables
-const RaydarAdvancedBasic = Loadable(lazy(() => import('../views/raydar/tables/Basic')));
 
 // Widgets
-const RaydarWidgets = Loadable(lazy(() => import('../views/raydar/widgets/index')));
 
 // Icons
-const RaydarBoxIcons = Loadable(lazy(() => import('../views/raydar/icons/BoxIcons')));
 
 /* ****Apps***** */
 // const Blog = Loadable(lazy(() => import('../views/apps/blog/Blog')));
@@ -354,123 +339,94 @@ const Router = [
           </ProtectedRoute>
         )
       },
-      // Raydar Dashboard Routes
               {
-          path: '/raydar/dashboard/analytics',
           element: (
             <ProtectedRoute>
-              <RaydarAnalytics />
             </ProtectedRoute>
           )
         },
         {
-          path: '/raydar/ui/alerts',
           element: (
             <ProtectedRoute>
-              <RaydarAlerts />
             </ProtectedRoute>
           )
         },
         {
-          path: '/raydar/ui/buttons',
           element: (
             <ProtectedRoute>
-              <RaydarButtons />
             </ProtectedRoute>
           )
         },
         {
-          path: '/raydar/ui/cards',
           element: (
             <ProtectedRoute>
-              <RaydarCards />
             </ProtectedRoute>
           )
         },
         {
-          path: '/raydar/ui/badges',
           element: (
             <ProtectedRoute>
-              <RaydarBadges />
             </ProtectedRoute>
           )
         },
         {
-          path: '/raydar/ui/avatars',
           element: (
             <ProtectedRoute>
-              <RaydarAvatars />
             </ProtectedRoute>
           )
         },
         {
-          path: '/raydar/advanced/ratings',
           element: (
             <ProtectedRoute>
-              <RaydarRatings />
             </ProtectedRoute>
           )
         },
         // Charts Routes
         {
-          path: '/raydar/charts/area',
           element: (
             <ProtectedRoute>
-              <RaydarAreaCharts />
             </ProtectedRoute>
           )
         },
         // Forms Routes
         {
-          path: '/raydar/forms/validation',
           element: (
             <ProtectedRoute>
-              <RaydarFormValidation />
             </ProtectedRoute>
           )
         },
         // Vector Maps Routes
         {
-          path: '/raydar/vector-maps/world',
           element: (
             <ProtectedRoute>
-              <RaydarWorldMap />
             </ProtectedRoute>
           )
         },
         // Pages Routes
         {
-          path: '/raydar/pages/welcome',
           element: (
             <ProtectedRoute>
-              <RaydarWelcome />
             </ProtectedRoute>
           )
         },
         // Tables Routes
         {
-          path: '/raydar/tables/basic',
           element: (
             <ProtectedRoute>
-              <RaydarAdvancedBasic />
             </ProtectedRoute>
           )
         },
         // Widgets Routes
         {
-          path: '/raydar/widgets',
           element: (
             <ProtectedRoute>
-              <RaydarWidgets />
             </ProtectedRoute>
           )
         },
         // Icons Routes
         {
-          path: '/raydar/icons/boxicons',
           element: (
             <ProtectedRoute>
-              <RaydarBoxIcons />
             </ProtectedRoute>
           )
         },

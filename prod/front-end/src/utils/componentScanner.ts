@@ -7,7 +7,6 @@ export interface ComponentInfo {
   name: string;
   path: string;
   category: 'forms' | 'layout' | 'features' | 'utilities' | 'charts' | 'data';
-  source: 'core' | 'modernize' | 'raydar';
   description?: string;
   tags?: string[];
   isInternal?: boolean;
@@ -162,56 +161,43 @@ export function scanModernizeComponents(): ComponentInfo[] {
 }
 
 /**
- * Scans for Raydar-based components (from task node templates)
  */
-export function scanRaydarComponents(): ComponentInfo[] {
   const components: ComponentInfo[] = [];
   
-  // Define key Raydar components based on template structure
-  const raydarComponents = [
     {
-      name: 'RaydarCalendar',
-      path: '/sandbox/component-preview/raydar-calendar-fullcalendar',
       category: 'features' as const,
-      description: 'FullCalendar implementation with Raydar styling',
       tags: ['calendar', 'fullcalendar', 'events']
     },
     {
       name: 'ComponentContainerCard',
-      path: '/sandbox/component-preview/raydar-layout-componentcontainer',
       category: 'layout' as const,
       description: 'Reusable container card for component demos',
       tags: ['layout', 'container', 'demo']
     },
     {
       name: 'PageBreadcrumb',
-      path: '/sandbox/component-preview/raydar-layout-pagebreadcrumb',
       category: 'layout' as const,
       description: 'Breadcrumb navigation component',
       tags: ['navigation', 'breadcrumb', 'layout']
     },
     {
       name: 'ThemeCustomizer',
-      path: '/sandbox/component-preview/raydar-theme-themecustomizer',
       category: 'utilities' as const,
       description: 'Advanced theme customization panel',
       tags: ['theme', 'customization', 'settings']
     },
     {
       name: 'FlatPicker',
-      path: '/sandbox/component-preview/raydar-forms-flatpicker',
       category: 'forms' as const,
       description: 'Date/time picker with multiple configurations',
       tags: ['forms', 'date', 'time', 'picker']
     }
   ];
 
-  raydarComponents.forEach(comp => {
     components.push({
       name: comp.name,
       path: comp.path,
       category: comp.category,
-      source: 'raydar',
       description: comp.description,
       tags: comp.tags
     });
@@ -301,14 +287,7 @@ export function scanAllComponents(registry?: ComponentRegistry): ComponentSource
     });
   }
 
-  // Scan Raydar components
-  const raydarComponents = scanRaydarComponents();
-  if (raydarComponents.length > 0) {
     sources.push({
-      name: 'raydar',
-      label: 'Raydar Components',
-      path: '/sandbox/component-preview/raydar',
-      categories: categorizeComponents(raydarComponents)
     });
   }
 

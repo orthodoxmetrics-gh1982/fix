@@ -1,6 +1,5 @@
 /**
  * PasswordFormInput - Enhanced password input with visibility toggle
- * Adapted from Raydar template with Material-UI integration
  */
 
 import React, { useState } from 'react';

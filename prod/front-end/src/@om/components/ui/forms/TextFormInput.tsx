@@ -1,6 +1,5 @@
 /**
  * TextFormInput - Enhanced text input component with form validation
- * Unified from Raydar template with Material-UI integration
  */
 
 import React from 'react';

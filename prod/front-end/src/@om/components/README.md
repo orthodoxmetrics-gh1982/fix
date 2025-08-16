@@ -1,6 +1,5 @@
 # @om/components - Orthodox Metrics Component Library
 
-A unified component library combining the best components from OrthodoxMetrics and Raydar templates.
 
 ## Directory Structure
 
@@ -74,7 +73,6 @@ import * as LayoutComponents from '@om/components/layout';
 
 Components have been extracted and unified from:
 - OrthodoxMetrics frontend (`/src/components/`)
-- Raydar template (`/src/components/`)
 
 See `MIGRATION_LOG.md` for detailed changes and component mappings.
 

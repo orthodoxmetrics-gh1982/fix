@@ -475,7 +475,6 @@ const MyForm = () => {
             🧩 @om/components Library
           </Typography>
           <Typography color="text.secondary" paragraph className="mobile-center">
-            A unified component library combining the best components from OrthodoxMetrics and Raydar templates.
             All components feature Material-UI integration, TypeScript support, and comprehensive documentation.
           </Typography>
           

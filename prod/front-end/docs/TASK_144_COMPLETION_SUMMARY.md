@@ -46,7 +46,6 @@ This task successfully implemented three high-impact enhancements to OrthodoxMet
 
 ### 🔍 **Filesystem Scanner**
 **File**: `front-end/src/utils/componentScanner.ts`
-- **Auto-discovery**: Scans `@om/components`, Modernize, and Raydar components
 - **Categorization**: Automatically organizes by type (forms, layout, features, utilities, charts, data)
 - **Dynamic Detection**: Uses `require.context()` for real-time component discovery
 
@@ -69,7 +68,6 @@ This task successfully implemented three high-impact enhancements to OrthodoxMet
 │   ├── 📅 Calendar Components
 │   ├── 🗄️ Data Components
 │   └── ⚡ Feature Components
-└── Raydar Components
     ├── 📅 Calendar Components
     ├── 🎨 Layout Components
     └── 📝 Form Components
@@ -97,23 +95,18 @@ This task successfully implemented three high-impact enhancements to OrthodoxMet
   - Event categorization (major feasts, minor feasts, fasting, commemorations)
 - **Design**: Modernize template styling with responsive layout
 
-### ⚡ **Raydar Calendar**
-**File**: `front-end/src/@om/components/features/liturgical-calendar-raydar.tsx`
-- **Technology**: FullCalendar with sleek Raydar styling
 - **Features**:
   - Multiple view modes (month, week, list)
   - Mini calendar navigation
   - Dark/light theme support
   - Advanced event styling with shadows
   - Interactive event popover details
-- **Design**: Raydar template aesthetic with modern interactions
 
 ### 🔄 **Calendar Variant Toggle**
 **Enhanced**: `front-end/src/views/apps/calendar/OrthodoxLiturgicalCalendar.tsx`
 - **Dropdown Selector**: "Calendar Style" with three options:
   - 🕍 **OrthodoxMetrics Default** (current grid/list implementation)
   - 🎯 **Modernize Calendar View** (React Big Calendar)
-  - ⚡ **Raydar Calendar View** (FullCalendar)
 - **Seamless Integration**: Maintains language and calendar type settings across variants
 - **Conditional UI**: Shows appropriate controls for each calendar type
 
@@ -127,7 +120,6 @@ This task successfully implemented three high-impact enhancements to OrthodoxMet
 3. `front-end/src/config/components.registry.ts` - Component metadata registry
 4. `front-end/src/pages/sandbox/component-preview.tsx` - Dynamic component browser
 5. `front-end/src/@om/components/features/liturgical-calendar-modern.tsx` - Modernize calendar
-6. `front-end/src/@om/components/features/liturgical-calendar-raydar.tsx` - Raydar calendar
 7. `front-end/MOBILE_AUDIT_LOG.md` - Mobile implementation documentation
 8. `front-end/TASK_144_COMPLETION_SUMMARY.md` - This completion summary
 

@@ -1,6 +1,5 @@
 /**
  * DropzoneFormInput - Enhanced file upload dropzone component
- * Adapted from Raydar template with Material-UI integration
  */
 
 import React, { useState, useCallback } from 'react';

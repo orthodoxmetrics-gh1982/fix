@@ -179,7 +179,6 @@
 
 1. **Complete Mobile Testing** - Test on actual devices
 2. **Site Components Menu** - Implement filesystem scanning for component organization
-3. **Calendar Variants** - Create Modernize and Raydar calendar implementations
 
 ## 📝 Known Issues / Future Improvements
 

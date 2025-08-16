@@ -9,7 +9,6 @@ export * from './ui';
 // Feature Components
 export * from './features';
 
-// TODO: Extract these component categories from OrthodoxMetrics and Raydar
 // Layout Components  
 // export * from './layout';
 

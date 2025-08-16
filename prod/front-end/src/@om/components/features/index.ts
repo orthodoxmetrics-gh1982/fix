@@ -7,7 +7,6 @@ export * from './auth';
 
 // Calendar components
 export { default as ModernizeLiturgicalCalendar } from './liturgical-calendar-modern';
-export { default as RaydarLiturgicalCalendar } from './liturgical-calendar-raydar';
 
 // TODO: Extract these component categories from OrthodoxMetrics
 // Church Management
