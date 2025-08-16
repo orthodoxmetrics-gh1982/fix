@@ -42,7 +42,8 @@ import {
     IconSearch,
     IconEdit,
     IconTrash,
-    IconCrown
+    IconEye,
+    IconEyeOff
 } from '@tabler/icons-react';
 
 import PageContainer from 'src/components/container/PageContainer';
@@ -51,23 +52,12 @@ import UserFormModal from 'src/components/UserFormModal';
 
 // contexts
 import { useAuth } from '@/src/context/AuthContext';
-import { User as AuthUser } from '@/src/types/orthodox-metrics.types';
 
 // services
 import userService, { User, Church, NewUser, UpdateUser, ResetPasswordData } from '@/src/services/userService';
 
 const UserManagement: React.FC = () => {
-    const { 
-        user, 
-        canCreateAdmins, 
-        canManageAllUsers, 
-        isSuperAdmin,
-        isRootSuperAdmin,
-        canManageUser,
-        canPerformDestructiveOperation,
-        canChangeRole
-    } = useAuth();
-    
+    const { user, canCreateAdmins, canManageAllUsers, isSuperAdmin } = useAuth();
     const [users, setUsers] = useState<User[]>([]);
     const [churches, setChurches] = useState<Church[]>([]);
     const [loading, setLoading] = useState(false);
@@ -107,20 +97,7 @@ const UserManagement: React.FC = () => {
     });
 
     // Check if user is admin
-    const isAdmin = user?.role === 'admin' || user?.role === 'super_admin' || user?.role === 'church_admin';
-
-    // Helper function to convert userService User to AuthUser for permission checks
-    const toAuthUser = (userData: User): AuthUser => ({
-        ...userData,
-        username: userData.email, // Use email as username since it's missing from userService User
-        role: userData.role as any, // Type assertion for role compatibility
-        preferred_language: (userData.preferred_language || 'en') as any,
-        timezone: userData.timezone || undefined,
-        church_id: userData.church_id || undefined // Convert null to undefined
-    });
-
-    // Root super admin email constant
-    const ROOT_SUPERADMIN_EMAIL = 'superadmin@orthodoxmetrics.com';
+    const isAdmin = user?.role === 'admin' || user?.role === 'super_admin';
 
     useEffect(() => {
         if (isAdmin) {
@@ -131,64 +108,29 @@ const UserManagement: React.FC = () => {
     const loadData = async () => {
         setLoading(true);
         try {
-            console.log('📊 Frontend: Loading data...');
             const [usersResponse, churchesResponse] = await Promise.all([
                 userService.getUsers(),
                 userService.getChurches()
             ]);
 
-            console.log('📊 Frontend: Users response:', usersResponse);
             if (usersResponse.success) {
-                console.log('📊 Frontend: Setting users to:', usersResponse.users?.length, 'users');
-                // Debug: Log each user's is_active status
-                usersResponse.users?.forEach((u, i) => {
-                    console.log(`👤 User ${i+1}: ${u.email} - is_active: ${u.is_active} (type: ${typeof u.is_active})`);
-                });
                 setUsers(usersResponse.users || []);
             } else {
                 setError(usersResponse.message || 'Failed to load users');
             }
 
             if (churchesResponse.success) {
-                console.log('✅ Churches loaded:', churchesResponse.churches);
-                console.log('🔍 Looking for Saints Peter and Paul:', 
-                    churchesResponse.churches?.find(ch => ch.name && ch.name.includes('Saints Peter and Paul')));
                 setChurches(churchesResponse.churches || []);
-            } else {
-                console.error('❌ Failed to load churches:', churchesResponse.message);
-                setError('Failed to load churches: ' + churchesResponse.message);
             }
         } catch (err) {
-            console.error('❌ Error loading data:', err);
             setError('Failed to load data');
+            console.error('Error loading data:', err);
         } finally {
             setLoading(false);
         }
     };
 
     const handleCreateUser = async () => {
-        // Validate required fields
-        if (!newUser.email.trim()) {
-            setError('Email is required');
-            return;
-        }
-        if (!newUser.first_name.trim()) {
-            setError('First name is required');
-            return;
-        }
-        if (!newUser.last_name.trim()) {
-            setError('Last name is required');
-            return;
-        }
-        if (!newUser.role) {
-            setError('Role is required');
-            return;
-        }
-        if (!newUser.church_id) {
-            setError('Church selection is required');
-            return;
-        }
-
         try {
             setLoading(true);
             const response = await userService.createUser(newUser);
@@ -218,20 +160,20 @@ const UserManagement: React.FC = () => {
         }
     };
 
-    const handleEditUser = (userData: User) => {
-        setSelectedUser(userData);
+    const handleEditUser = (user: User) => {
+        setSelectedUser(user);
         setModalMode('edit');
         setModalOpen(true);
     };
 
-    const handleResetPassword = (userData: User) => {
-        setSelectedUser(userData);
+    const handleResetPassword = (user: User) => {
+        setSelectedUser(user);
         setModalMode('reset-password');
         setModalOpen(true);
     };
 
-    const handleDeleteUser = (userData: User) => {
-        setSelectedUser(userData);
+    const handleDeleteUser = (user: User) => {
+        setSelectedUser(user);
         setModalMode('delete-confirm');
         setModalOpen(true);
     };
@@ -273,15 +215,11 @@ const UserManagement: React.FC = () => {
 
     const handleToggleUserStatus = async (userId: number, currentStatus: boolean) => {
         try {
-            console.log(`🔄 Frontend: Toggling user ${userId} from ${currentStatus} to ${!currentStatus}`);
             const response = await userService.toggleUserStatus(userId);
-            console.log('🔄 Frontend: Toggle response:', response);
 
             if (response.success) {
                 setSuccess(response.message || `User ${!currentStatus ? 'activated' : 'deactivated'} successfully`);
-                console.log('🔄 Frontend: Calling loadData to refresh users list...');
                 await loadData();
-                console.log('🔄 Frontend: loadData completed');
             } else {
                 setError(response.message || 'Failed to update user status');
             }
@@ -292,22 +230,22 @@ const UserManagement: React.FC = () => {
     };
 
     // Filter users based on search and filters
-    const filteredUsers = users.filter((userData: User) => {
+    const filteredUsers = users.filter(user => {
         const matchesSearch =
-            (userData.email || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
-            (userData.first_name || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
-            (userData.last_name || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
-            (userData.church_name && userData.church_name.toLowerCase().includes(searchTerm.toLowerCase()));
+            user.email.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            user.first_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            user.last_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            (user.church_name && user.church_name.toLowerCase().includes(searchTerm.toLowerCase()));
 
-        const matchesRole = roleFilter === 'all' || userData.role === roleFilter;
-        const matchesChurch = churchFilter === 'all' || (userData.church_id && userData.church_id.toString() === churchFilter);
+        const matchesRole = roleFilter === 'all' || user.role === roleFilter;
+        const matchesChurch = churchFilter === 'all' || (user.church_id && user.church_id.toString() === churchFilter);
         const matchesStatus = activeFilter === 'all' ||
-            (activeFilter === 'active' && userData.is_active) ||
-            (activeFilter === 'inactive' && !userData.is_active);
+            (activeFilter === 'active' && user.is_active) ||
+            (activeFilter === 'inactive' && !user.is_active);
 
         // Role-based access: Regular admins can't see super_admin or other admin users
         const hasRoleAccess = isSuperAdmin() ||
-            (userData.role !== 'super_admin' && userData.role !== 'admin' && userData.role !== 'church_admin');
+            (user.role !== 'super_admin' && user.role !== 'admin');
 
         return matchesSearch && matchesRole && matchesChurch && matchesStatus && hasRoleAccess;
     });
@@ -315,9 +253,32 @@ const UserManagement: React.FC = () => {
     // Paginate filtered users
     const paginatedUsers = filteredUsers.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage);
 
-    // Check if a user is the root super admin
-    const isUserRootSuperAdmin = (userData: User): boolean => {
-        return userData.email === ROOT_SUPERADMIN_EMAIL;
+    const canEditUser = (targetUser: User): boolean => {
+        if (targetUser.id === user?.id) return false; // Can't edit self
+        
+        if (isSuperAdmin()) {
+            return targetUser.role !== 'super_admin';
+        }
+        
+        if (user?.role === 'admin') {
+            return !['admin', 'super_admin'].includes(targetUser.role);
+        }
+        
+        return false;
+    };
+
+    const canDeleteUser = (targetUser: User): boolean => {
+        if (targetUser.id === user?.id) return false; // Can't delete self
+        
+        if (isSuperAdmin()) {
+            return targetUser.role !== 'super_admin';
+        }
+        
+        if (user?.role === 'admin') {
+            return !['admin', 'super_admin'].includes(targetUser.role);
+        }
+        
+        return false;
     };
 
     if (!isAdmin) {
@@ -400,6 +361,8 @@ const UserManagement: React.FC = () => {
                                                     <MenuItem value="super_admin">Super Admin</MenuItem>
                                                 </>
                                             )}
+                                            <MenuItem value="priest">Priest</MenuItem>
+                                            <MenuItem value="deacon">Deacon</MenuItem>
                                             <MenuItem value="manager">Manager</MenuItem>
                                             <MenuItem value="user">User</MenuItem>
                                             <MenuItem value="viewer">Viewer</MenuItem>
@@ -473,16 +436,9 @@ const UserManagement: React.FC = () => {
                                                                         {userData.first_name.charAt(0)}{userData.last_name.charAt(0)}
                                                                     </Avatar>
                                                                     <Box>
-                                                                        <Stack direction="row" spacing={1} alignItems="center">
-                                                                            <Typography variant="subtitle2">
-                                                                                {userData.first_name} {userData.last_name}
-                                                                            </Typography>
-                                                                            {isUserRootSuperAdmin(userData) && (
-                                                                                <Tooltip title="Root Super Admin">
-                                                                                    <IconCrown size={16} style={{ color: '#FFD700' }} />
-                                                                                </Tooltip>
-                                                                            )}
-                                                                        </Stack>
+                                                                        <Typography variant="subtitle2">
+                                                                            {userData.first_name} {userData.last_name}
+                                                                        </Typography>
                                                                         <Typography variant="body2" color="text.secondary">
                                                                             {userData.email}
                                                                         </Typography>
@@ -490,25 +446,11 @@ const UserManagement: React.FC = () => {
                                                                 </Stack>
                                                             </TableCell>
                                                             <TableCell>
-                                                                <Stack direction="row" spacing={1} alignItems="center">
-                                                                    <Chip
-                                                                        label={userData.role}
-                                                                        size="small"
-                                                                        color={userService.getRoleBadgeColor(userData.role)}
-                                                                    />
-                                                                    {isUserRootSuperAdmin(userData) && (
-                                                                        <Chip
-                                                                            label="ROOT"
-                                                                            size="small"
-                                                                            sx={{ 
-                                                                                bgcolor: '#FFD700', 
-                                                                                color: '#000',
-                                                                                fontWeight: 'bold',
-                                                                                fontSize: '0.7rem'
-                                                                            }}
-                                                                        />
-                                                                    )}
-                                                                </Stack>
+                                                                <Chip
+                                                                    label={userData.role}
+                                                                    size="small"
+                                                                    color={userService.getRoleBadgeColor(userData.role)}
+                                                                />
                                                             </TableCell>
                                                             <TableCell>
                                                                 {userData.church_name || 'No Church'}
@@ -519,7 +461,7 @@ const UserManagement: React.FC = () => {
                                                                         checked={userData.is_active}
                                                                         onChange={() => handleToggleUserStatus(userData.id, userData.is_active)}
                                                                         size="small"
-                                                                        disabled={!canPerformDestructiveOperation(toAuthUser(userData))}
+                                                                        disabled={!canEditUser(userData)}
                                                                     />
                                                                     <Chip
                                                                         label={userData.is_active ? 'Active' : 'Inactive'}
@@ -535,7 +477,7 @@ const UserManagement: React.FC = () => {
                                                             </TableCell>
                                                             <TableCell align="right">
                                                                 <Stack direction="row" spacing={1}>
-                                                                    {canManageUser(toAuthUser(userData)) && (
+                                                                    {canEditUser(userData) && (
                                                                         <Tooltip title="Edit User">
                                                                             <IconButton
                                                                                 size="small"
@@ -546,7 +488,7 @@ const UserManagement: React.FC = () => {
                                                                             </IconButton>
                                                                         </Tooltip>
                                                                     )}
-                                                                    {canManageUser(toAuthUser(userData)) && (
+                                                                    {canEditUser(userData) && (
                                                                         <Tooltip title="Reset Password">
                                                                             <IconButton
                                                                                 size="small"
@@ -557,7 +499,7 @@ const UserManagement: React.FC = () => {
                                                                             </IconButton>
                                                                         </Tooltip>
                                                                     )}
-                                                                    {canPerformDestructiveOperation(toAuthUser(userData)) && (
+                                                                    {canDeleteUser(userData) && (
                                                                         <Tooltip title="Delete User">
                                                                             <IconButton
                                                                                 size="small"
@@ -614,11 +556,6 @@ const UserManagement: React.FC = () => {
                 <DialogTitle>Create New User</DialogTitle>
                 <DialogContent>
                     <Stack spacing={3} sx={{ mt: 1 }}>
-                        {error && (
-                            <Alert severity="error" onClose={() => setError(null)}>
-                                {error}
-                            </Alert>
-                        )}
                         <Stack direction="row" spacing={2}>
                             <TextField
                                 fullWidth
@@ -650,24 +587,23 @@ const UserManagement: React.FC = () => {
                                 >
                                     <MenuItem value="user">User</MenuItem>
                                     <MenuItem value="viewer">Viewer</MenuItem>
+                                    <MenuItem value="priest">Priest</MenuItem>
+                                    <MenuItem value="deacon">Deacon</MenuItem>
                                     <MenuItem value="manager">Manager</MenuItem>
                                     {canCreateAdmins() && (
                                         <MenuItem value="admin">Admin</MenuItem>
                                     )}
-                                    {isRootSuperAdmin() && (
-                                        <MenuItem value="super_admin">Super Admin</MenuItem>
-                                    )}
                                 </Select>
                             </FormControl>
-                            <FormControl fullWidth required>
-                                <InputLabel>Church *</InputLabel>
+                            <FormControl fullWidth>
+                                <InputLabel>Church</InputLabel>
                                 <Select
                                     value={newUser.church_id}
                                     onChange={(e) => setNewUser({ ...newUser, church_id: e.target.value })}
-                                    label="Church *"
+                                    label="Church"
                                 >
-                                    <MenuItem value="">Select a church...</MenuItem>
-                                    {churches.sort((a, b) => a.name.localeCompare(b.name)).map((church) => (
+                                    <MenuItem value="">No Church</MenuItem>
+                                    {churches.map((church) => (
                                         <MenuItem key={church.id} value={church.id.toString()}>
                                             {church.name}
                                         </MenuItem>
