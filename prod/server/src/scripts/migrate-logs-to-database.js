@@ -4,7 +4,7 @@
 
 const fs = require('fs').promises;
 const path = require('path');
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 const { dbLogger } = require('@/utils/dbLogger');
 
 class LogMigration {

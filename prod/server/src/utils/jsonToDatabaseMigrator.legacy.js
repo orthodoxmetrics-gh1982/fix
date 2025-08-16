@@ -3,7 +3,7 @@
  * Migrates all JSON/file-based systems to database tables
  */
 
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 const fs = require('fs').promises;
 const path = require('path');
 

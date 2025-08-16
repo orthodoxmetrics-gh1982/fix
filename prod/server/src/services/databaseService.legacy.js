@@ -6,7 +6,7 @@
  * - Church-specific DBs: Only record data (baptism, marriage, funeral)
  */
 
-const { promisePool } = require('../../config/db'); // orthodoxmetrics_db connection
+const { promisePool } = require('../config/db'); // orthodoxmetrics_db connection
 const mysql = require('mysql2/promise');
 
 // Cache for church database connections

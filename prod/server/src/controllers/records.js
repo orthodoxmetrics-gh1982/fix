@@ -3,7 +3,7 @@
  * Business logic for church records CRUD operations
  */
 
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 const { v4: uuidv4 } = require('uuid');
 
 // Helper function to get table name based on record type

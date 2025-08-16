@@ -1,5 +1,5 @@
-// server/services/churchSetupService.js
-const { promisePool } = require('../../config/db');
+// server/src/services/churchSetupService.js
+const { promisePool } = require('../config/db');
 const { getChurchDbConnection } = require('@/utils/dbSwitcher');
 const templateService = require('./templateService');
 

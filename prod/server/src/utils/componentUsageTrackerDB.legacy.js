@@ -3,7 +3,7 @@
  * Replaces the JSON file approach to prevent race conditions and corruption
  */
 
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 const { formatTimestamp, formatTimestampUser } = require('./formatTimestamp');
 
 class ComponentUsageTrackerDB {

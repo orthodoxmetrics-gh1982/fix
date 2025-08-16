@@ -4,7 +4,7 @@ const fs = require('fs').promises;
 const path = require('path');
 
 // OMB components storage path
-const OMB_COMPONENTS_PATH = path.join(__dirname, '../../services/omb/layouts/omb-components.json');
+const OMB_COMPONENTS_PATH = path.join(__dirname, '../services/omb/layouts/omb-components.json');
 
 // Ensure directory exists
 const ensureDirectory = async () => {

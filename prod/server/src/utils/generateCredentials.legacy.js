@@ -3,7 +3,7 @@
 
 const bcrypt = require('bcrypt');
 const crypto = require('crypto');
-const db = require('../../config/db');
+const db = require('../config/db');
 const logger = require('./logger');
 
 const SALT_ROUNDS = 12;

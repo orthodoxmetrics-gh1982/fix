@@ -1,5 +1,5 @@
 // server/src/middleware/sessionValidation.js
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 
 /**
  * Middleware to validate OCR session

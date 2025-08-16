@@ -1,6 +1,6 @@
 // Centralized Database Logger
 // Replaces filesystem-based Winston and custom file logging
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 const mysql = require('mysql2/promise');
 const fs = require('fs').promises;
 const path = require('path');

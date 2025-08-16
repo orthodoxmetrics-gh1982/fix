@@ -1,5 +1,5 @@
 const { getAppPool } = require('@/config/db-compat');
-// server/services/templateService.js
+// server/src/services/templateService.js
 const fs = require('fs');
 const path = require('path');
 const { promisePool } = require('@/config/db-compat');

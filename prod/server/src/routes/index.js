@@ -6,7 +6,7 @@ const express = require('express');
 const router = express.Router();
 
 // Import middleware that might be needed globally
-const { clientContext, clientContextCleanup } = require('../../middleware/clientContext');
+const { clientContext, clientContextCleanup } = require('../middleware/clientContext');
 
 // ========================================
 // AUTHENTICATION ROUTES (No auth required)

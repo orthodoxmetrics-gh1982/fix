@@ -1,7 +1,7 @@
 // controllers/churchOcrController.js
 const { getChurchDbConnection } = require('@/src/utils/dbSwitcher');
 const { getOcrDbPool } = require('@/src/utils/dbConnections');
-const { promisePool } = require('../../config/db'); // central DB connection
+const { promisePool } = require('../config/db'); // central DB connection
 const ImagePreprocessor = require('@/src/utils/imagePreprocessor');
 const multer = require('multer');
 const path = require('path');

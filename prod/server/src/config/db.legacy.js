@@ -1,1 +1,1 @@
-const m = require('../../config/db'); module.exports = m;
+const m = require('../config/db'); module.exports = m;

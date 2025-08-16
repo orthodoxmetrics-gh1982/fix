@@ -2,7 +2,7 @@
 // Sends multilingual emails during the provisioning process
 
 const nodemailer = require('nodemailer');
-const db = require('../../config/db');
+const db = require('../config/db');
 const logger = require('./logger');
 
 // Email configuration

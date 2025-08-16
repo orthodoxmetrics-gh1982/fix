@@ -1,6 +1,6 @@
 // server/src/controllers/analyticsController.js
 
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 const { getChurchDbConnection } = require('@/src/utils/dbSwitcher');
 const mysql = require('mysql2/promise');
 

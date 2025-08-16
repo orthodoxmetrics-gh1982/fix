@@ -449,7 +449,7 @@ async function testAccessibility(page) {
 // Run comprehensive tests for all church sites
 async function testAllChurchSites() {
   try {
-    const db = require('../../config/db');
+    const db = require('../config/db');
     
     const [sites] = await db.execute(`
       SELECT site_slug, site_url, language_preference, church_name

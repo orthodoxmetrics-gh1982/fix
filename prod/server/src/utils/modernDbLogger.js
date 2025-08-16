@@ -1,7 +1,7 @@
 // Modernized Database Logger using centralized LogClient
 // Replaces legacy filesystem-based Winston and direct DB writes
 const { LogClient, createLogClient } = require('../src/lib/logger');
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 const mysql = require('mysql2/promise');
 const fs = require('fs').promises;
 const path = require('path');

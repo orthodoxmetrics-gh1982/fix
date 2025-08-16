@@ -1,6 +1,6 @@
-//const { promisePool } = require('../../config/db'); // central DB connection (orthodoxmetrics_db)controllers/churchAdminController.js
+//const { promisePool } = require('../config/db'); // central DB connection (orthodoxmetrics_db)controllers/churchAdminController.js
 const { getChurchDbConnection } = require('@/src/utils/dbSwitcher');
-const { promisePool } = require('../../config/db'); // central DB connection (orthodoxmetrics_db)
+const { promisePool } = require('../config/db'); // central DB connection (orthodoxmetrics_db)
 const bcrypt = require('bcrypt');
 
 /**

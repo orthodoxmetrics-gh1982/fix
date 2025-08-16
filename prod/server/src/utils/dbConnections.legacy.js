@@ -5,7 +5,7 @@
  */
 
 const mysql = require('mysql2/promise');
-const { promisePool: centralPool } = require('../../config/db');
+const { promisePool: centralPool } = require('../config/db');
 
 // Database Configuration
 const DB_CONFIG = {

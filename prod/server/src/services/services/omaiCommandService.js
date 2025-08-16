@@ -3,7 +3,7 @@
  * Replaces omai-commands.json with database queries
  */
 
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 
 class OmaiCommandService {
   constructor() {

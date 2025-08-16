@@ -1,5 +1,5 @@
 // services/churchRecordEntityExtractor.js
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 const { getChurchDbConnection } = require('../utils/dbSwitcher');
 
 /**

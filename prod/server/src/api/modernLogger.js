@@ -1,6 +1,6 @@
 const express = require('express');
 const { createLogClient, LogClient } = require('../lib/logger');
-const { promisePool } = require('../../../config/db');
+const { promisePool } = require('../config/db');
 const { body, validationResult } = require('express-validator');
 
 const router = express.Router();

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Database schema fix script
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 const fs = require('fs');
 const path = require('path');
 

@@ -11,7 +11,7 @@
  * 5. Log level filtering
  */
 
-const { promisePool: db } = require('../../config/db');
+const { promisePool: db } = require('../config/db');
 const fs = require('fs').promises;
 const path = require('path');
 

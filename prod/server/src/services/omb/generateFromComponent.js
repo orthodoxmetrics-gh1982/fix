@@ -1,4 +1,4 @@
-// 📁 server/services/omb/generateFromComponent.js
+// 📁 server/src/services/omb/generateFromComponent.js
 // OMB (Orthodox Metrics Builder) Component Generation Service
 
 const fs = require('fs');

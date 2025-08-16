@@ -81,7 +81,7 @@ async function testDatabaseLogging() {
     
     // Clean up test logs
     console.log('\n🧹 Cleaning up test logs...');
-    const { promisePool } = require('../../config/db');
+    const { promisePool } = require('../config/db');
     const [result] = await promisePool.execute(
       "DELETE FROM system_logs WHERE source = 'TestSuite' AND service = 'test-service'"
     );
@@ -118,7 +118,7 @@ async function performanceTest() {
   console.log(`   🚀 ~${logsPerSecond} logs/second`);
   
   // Clean up performance test logs
-  const { promisePool } = require('../../config/db');
+  const { promisePool } = require('../config/db');
   const [result] = await promisePool.execute(
     "DELETE FROM system_logs WHERE source = 'PerformanceTest' AND service = 'perf-test'"
   );
@@ -130,7 +130,7 @@ async function testDatabaseConnectivity() {
   console.log('🔗 Testing database connectivity...');
   
   try {
-    const { promisePool } = require('../../config/db');
+    const { promisePool } = require('../config/db');
     
     // Test basic connection
     const [rows] = await promisePool.execute('SELECT 1 as test');

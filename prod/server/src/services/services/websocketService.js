@@ -1,5 +1,5 @@
 const { Server } = require('socket.io');
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 const session = require('express-session');
 
 class WebSocketService {

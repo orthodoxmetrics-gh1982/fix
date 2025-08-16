@@ -1,4 +1,4 @@
-// server/services/testChurchDataGenerator.js
+// server/src/services/testChurchDataGenerator.js
 const bcrypt = require('bcrypt');
 
 /**

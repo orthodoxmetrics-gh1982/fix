@@ -3,7 +3,7 @@
 // Fix Database Permissions for Church Databases
 // Run with: node fix-church-permissions.js
 
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 
 console.log('🔧 Fixing Database Permissions for Church Databases\n');
 

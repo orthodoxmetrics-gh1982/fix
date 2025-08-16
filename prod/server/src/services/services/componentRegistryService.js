@@ -3,7 +3,7 @@
  * Replaces auto-discovered-components.json with database queries
  */
 
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 
 class ComponentRegistryService {
   constructor() {

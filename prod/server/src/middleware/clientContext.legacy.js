@@ -1,5 +1,5 @@
 // middleware/clientContext.js
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 
 const clientContext = async (req, res, next) => {
     const clientSlug = req.params.clientSlug || req.headers['x-client-slug'];

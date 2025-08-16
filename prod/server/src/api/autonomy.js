@@ -17,7 +17,7 @@ router.use(requireSuperAdmin);
 // Get autonomy status
 router.get('/status', async (req, res) => {
   try {
-    const statusFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-status.json');
+    const statusFile = path.join(__dirname, '../services/om-ai/memory/autonomy-status.json');
     const data = await fs.readFile(statusFile, 'utf-8');
     const status = JSON.parse(data);
     res.json(status);
@@ -30,7 +30,7 @@ router.get('/status', async (req, res) => {
 // Get all autonomy sessions
 router.get('/sessions', async (req, res) => {
   try {
-    const sessionsFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-sessions.json');
+    const sessionsFile = path.join(__dirname, '../services/om-ai/memory/autonomy-sessions.json');
     const data = await fs.readFile(sessionsFile, 'utf-8');
     const sessions = JSON.parse(data);
     res.json(sessions);
@@ -43,7 +43,7 @@ router.get('/sessions', async (req, res) => {
 // Get a specific autonomy session
 router.get('/sessions/:id', async (req, res) => {
   try {
-    const sessionsFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-sessions.json');
+    const sessionsFile = path.join(__dirname, '../services/om-ai/memory/autonomy-sessions.json');
     const data = await fs.readFile(sessionsFile, 'utf-8');
     const sessions = JSON.parse(data);
     const session = sessions.find(s => s.id === req.params.id);
@@ -84,14 +84,14 @@ router.post('/sessions/start', async (req, res) => {
       }
     };
 
-    const sessionsFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-sessions.json');
+    const sessionsFile = path.join(__dirname, '../services/om-ai/memory/autonomy-sessions.json');
     const data = await fs.readFile(sessionsFile, 'utf-8');
     const sessions = JSON.parse(data);
     sessions.push(newSession);
     await fs.writeFile(sessionsFile, JSON.stringify(sessions, null, 2));
 
     // Update status
-    const statusFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-status.json');
+    const statusFile = path.join(__dirname, '../services/om-ai/memory/autonomy-status.json');
     const status = {
       isActive: true,
       currentSession: newSession.id,
@@ -112,7 +112,7 @@ router.post('/sessions/start', async (req, res) => {
 // Pause an autonomy session
 router.post('/sessions/:id/pause', async (req, res) => {
   try {
-    const sessionsFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-sessions.json');
+    const sessionsFile = path.join(__dirname, '../services/om-ai/memory/autonomy-sessions.json');
     const data = await fs.readFile(sessionsFile, 'utf-8');
     const sessions = JSON.parse(data);
     const sessionIndex = sessions.findIndex(s => s.id === req.params.id);
@@ -125,7 +125,7 @@ router.post('/sessions/:id/pause', async (req, res) => {
     await fs.writeFile(sessionsFile, JSON.stringify(sessions, null, 2));
 
     // Update status
-    const statusFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-status.json');
+    const statusFile = path.join(__dirname, '../services/om-ai/memory/autonomy-status.json');
     const status = {
       isActive: false,
       currentSession: req.params.id,
@@ -146,7 +146,7 @@ router.post('/sessions/:id/pause', async (req, res) => {
 // Resume an autonomy session
 router.post('/sessions/:id/resume', async (req, res) => {
   try {
-    const sessionsFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-sessions.json');
+    const sessionsFile = path.join(__dirname, '../services/om-ai/memory/autonomy-sessions.json');
     const data = await fs.readFile(sessionsFile, 'utf-8');
     const sessions = JSON.parse(data);
     const sessionIndex = sessions.findIndex(s => s.id === req.params.id);
@@ -159,7 +159,7 @@ router.post('/sessions/:id/resume', async (req, res) => {
     await fs.writeFile(sessionsFile, JSON.stringify(sessions, null, 2));
 
     // Update status
-    const statusFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-status.json');
+    const statusFile = path.join(__dirname, '../services/om-ai/memory/autonomy-status.json');
     const status = {
       isActive: true,
       currentSession: req.params.id,
@@ -180,7 +180,7 @@ router.post('/sessions/:id/resume', async (req, res) => {
 // Stop an autonomy session
 router.post('/sessions/:id/stop', async (req, res) => {
   try {
-    const sessionsFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-sessions.json');
+    const sessionsFile = path.join(__dirname, '../services/om-ai/memory/autonomy-sessions.json');
     const data = await fs.readFile(sessionsFile, 'utf-8');
     const sessions = JSON.parse(data);
     const sessionIndex = sessions.findIndex(s => s.id === req.params.id);
@@ -194,7 +194,7 @@ router.post('/sessions/:id/stop', async (req, res) => {
     await fs.writeFile(sessionsFile, JSON.stringify(sessions, null, 2));
 
     // Update status
-    const statusFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-status.json');
+    const statusFile = path.join(__dirname, '../services/om-ai/memory/autonomy-status.json');
     const status = {
       isActive: false,
       lastActivity: new Date().toISOString(),
@@ -214,7 +214,7 @@ router.post('/sessions/:id/stop', async (req, res) => {
 // Execute autonomy cycle
 router.post('/sessions/:id/cycle', async (req, res) => {
   try {
-    const sessionsFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-sessions.json');
+    const sessionsFile = path.join(__dirname, '../services/om-ai/memory/autonomy-sessions.json');
     const data = await fs.readFile(sessionsFile, 'utf-8');
     const sessions = JSON.parse(data);
     const sessionIndex = sessions.findIndex(s => s.id === req.params.id);
@@ -266,7 +266,7 @@ router.post('/sessions/:id/cycle', async (req, res) => {
 // Get autonomy performance
 router.get('/sessions/:id/performance', async (req, res) => {
   try {
-    const sessionsFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-sessions.json');
+    const sessionsFile = path.join(__dirname, '../services/om-ai/memory/autonomy-sessions.json');
     const data = await fs.readFile(sessionsFile, 'utf-8');
     const sessions = JSON.parse(data);
     const session = sessions.find(s => s.id === req.params.id);
@@ -285,7 +285,7 @@ router.get('/sessions/:id/performance', async (req, res) => {
 // Generate autonomy report
 router.get('/sessions/:id/report', async (req, res) => {
   try {
-    const sessionsFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-sessions.json');
+    const sessionsFile = path.join(__dirname, '../services/om-ai/memory/autonomy-sessions.json');
     const data = await fs.readFile(sessionsFile, 'utf-8');
     const sessions = JSON.parse(data);
     const session = sessions.find(s => s.id === req.params.id);
@@ -364,7 +364,7 @@ router.get('/sessions/:id/report', async (req, res) => {
 // Get autonomy parameters
 router.get('/parameters', async (req, res) => {
   try {
-    const parametersFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-parameters.json');
+    const parametersFile = path.join(__dirname, '../services/om-ai/memory/autonomy-parameters.json');
     const data = await fs.readFile(parametersFile, 'utf-8');
     const parameters = JSON.parse(data);
     res.json(parameters);
@@ -387,7 +387,7 @@ router.get('/parameters', async (req, res) => {
 router.put('/parameters', async (req, res) => {
   try {
     const parameters = req.body;
-    const parametersFile = path.join(__dirname, '../../services/om-ai/memory/autonomy-parameters.json');
+    const parametersFile = path.join(__dirname, '../services/om-ai/memory/autonomy-parameters.json');
     await fs.writeFile(parametersFile, JSON.stringify(parameters, null, 2));
     res.json({ message: 'Autonomy parameters updated successfully' });
   } catch (error) {
@@ -399,7 +399,7 @@ router.put('/parameters', async (req, res) => {
 // Get autonomous decisions
 router.get('/decisions', async (req, res) => {
   try {
-    const decisionsFile = path.join(__dirname, '../../services/om-ai/memory/autonomous-decisions.json');
+    const decisionsFile = path.join(__dirname, '../services/om-ai/memory/autonomous-decisions.json');
     const data = await fs.readFile(decisionsFile, 'utf-8');
     const decisions = JSON.parse(data);
     res.json(decisions);
@@ -412,7 +412,7 @@ router.get('/decisions', async (req, res) => {
 // Get autonomous goals
 router.get('/goals', async (req, res) => {
   try {
-    const goalsFile = path.join(__dirname, '../../services/om-ai/memory/autonomous-goals.json');
+    const goalsFile = path.join(__dirname, '../services/om-ai/memory/autonomous-goals.json');
     const data = await fs.readFile(goalsFile, 'utf-8');
     const goals = JSON.parse(data);
     res.json(goals);
@@ -425,7 +425,7 @@ router.get('/goals', async (req, res) => {
 // Get improvement cycles
 router.get('/improvements', async (req, res) => {
   try {
-    const improvementsFile = path.join(__dirname, '../../services/om-ai/memory/improvement-cycles.json');
+    const improvementsFile = path.join(__dirname, '../services/om-ai/memory/improvement-cycles.json');
     const data = await fs.readFile(improvementsFile, 'utf-8');
     const improvements = JSON.parse(data);
     res.json(improvements);
@@ -438,7 +438,7 @@ router.get('/improvements', async (req, res) => {
 // Get meta-cognitive analysis
 router.get('/meta-analysis', async (req, res) => {
   try {
-    const metaFile = path.join(__dirname, '../../services/om-ai/memory/meta-cognitive-history.json');
+    const metaFile = path.join(__dirname, '../services/om-ai/memory/meta-cognitive-history.json');
     const data = await fs.readFile(metaFile, 'utf-8');
     const metaAnalysis = JSON.parse(data);
     res.json(metaAnalysis);

@@ -13,7 +13,7 @@ class OmaiSpinController {
     constructor() {
         this.activeOperations = new Map();
         this.eventEmitter = new EventEmitter();
-        this.spinScriptPath = path.join(__dirname, '../../../scripts/omai-spin/omai-spin.sh');
+        this.spinScriptPath = path.join(__dirname, '../scripts/omai-spin/omai-spin.sh');
     }
 
     /**

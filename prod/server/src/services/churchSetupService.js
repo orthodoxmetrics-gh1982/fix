@@ -1,5 +1,5 @@
 const { getAppPool } = require('@/config/db-compat');
-// server/services/churchSetupService.js
+// server/src/services/churchSetupService.js
 const { promisePool } = require('@/config/db-compat');
 const { getChurchDbConnection } = require('@/src/utils/dbSwitcher');
 const templateService = require('./templateService');

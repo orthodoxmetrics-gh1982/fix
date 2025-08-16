@@ -7,7 +7,7 @@
  * This addresses the menu_role_permissions table error and other potential missing tables.
  */
 
-const { promisePool } = require('../../config/db');
+const { promisePool } = require('../config/db');
 
 class DatabaseTableChecker {
   constructor() {
